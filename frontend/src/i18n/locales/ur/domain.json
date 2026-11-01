@@ -1,0 +1,199 @@
+{
+  "delta": {
+    "vsMandi": "منڈی کے مقابلے"
+  },
+  "proceeds": {
+    "netShort": "خالص",
+    "netToYou": "آپ کو خالص ملے گا",
+    "onQuantity": "{{quantity}} پر",
+    "saleValue": "فروخت کی رقم",
+    "kept": "آپ کے پاس {{pct}}% رہے گا",
+    "keptLabel": "آپ کا حصہ",
+    "barLabel": "فروخت کا {{pct}}% آپ کے پاس رہے گا: {{gross}} میں سے {{net}}",
+    "expectedAccepted": "اندازہ ہے کہ {{quantity}} میں سے تقریباً {{accepted}} خریدار کی معیار جانچ میں پاس ہوگا۔",
+    "showBreakdown": "ہر کٹوتی دیکھیں",
+    "hideBreakdown": "حساب چھپائیں",
+    "stillOpen_one": "{{count}} بات ابھی یہ رقم بدل سکتی ہے",
+    "stillOpen_other": "{{count}} باتیں ابھی یہ رقم بدل سکتی ہیں"
+  },
+  "breakdown": {
+    "item": "مد",
+    "certainty": "کتنا پکا",
+    "perKg": "فی کلو",
+    "amount": "رقم"
+  },
+  "compare": {
+    "label": "بیچنے کے طریقے",
+    "eyebrow": "آپ کے ہاتھ میں آنے والی رقم کی ترتیب سے",
+    "title": "{{quantity}} {{crop}}",
+    "minimum": "آپ کا کم از کم:",
+    "upliftTotal": "منڈی میں اکیلے بیچنے سے اس فصل پر تقریباً {{amount}} زیادہ۔",
+    "baselineAhead": "ابھی کی آفر سے زیادہ خالص کمائی منڈی میں اکیلے بیچنے پر ہو رہی ہے۔",
+    "bestNet": "سب سے زیادہ خالص",
+    "baselineEyebrow": "اگر آپ اکیلے منڈی میں بیچیں",
+    "baselineNote": "موازنے کے لیے اندازہ، کوئی آفر نہیں۔",
+    "price": "خریدار کا بھاؤ",
+    "payment": "ادائیگی",
+    "emptyTitle": "ابھی کوئی آفر نہیں",
+    "emptyBody": "جب خریدار اس فصل یا اس کے مشترکہ لاٹ پر آفر دیں گے، وہ یہاں آپ کی خالص کمائی کی ترتیب سے نظر آئیں گی۔",
+    "emptyWithBaseline": "ابھی خریداروں کی آفر نہیں آئیں۔ منڈی میں اکیلے بیچنے پر کتنا ملے گا، یہ یہاں ہے — تاکہ آفر آنے پر آپ موازنہ کر سکیں۔"
+  },
+  "buyer": {
+    "verified": "تصدیق شدہ خریدار",
+    "unverified": "تصدیق نہیں ہوئی",
+    "unverifiedHint": "MandiMate نے ابھی اس خریدار کے کاغذات نہیں جانچے ہیں۔ آپ سودا کر سکتے ہیں، لیکن لمبی ادائیگی مدت میں احتیاط رکھیں۔",
+    "reliability": "{{pct}} ادائیگیاں وقت پر",
+    "noHistory": "ابھی ادائیگی کا کوئی ریکارڈ نہیں"
+  },
+  "validity": {
+    "expiresIn": "{{time}} میں ختم"
+  },
+  "due": {
+    "in": "{{time}} میں کرنا ہے",
+    "overdueBy": "{{time}} کی دیر"
+  },
+  "offer": {
+    "price": "آفر کیا گیا بھاؤ",
+    "maxRejection": "{{pct}} تک ریجیکشن",
+    "handling": "ہینڈلنگ",
+    "commission": "{{pct}} کمیشن",
+    "noCommission": "کوئی کمیشن نہیں"
+  },
+  "negotiation": {
+    "label": "مول بھاؤ کا ریکارڈ",
+    "empty": "ابھی کوئی مول بھاؤ نہیں۔",
+    "system": "MandiMate",
+    "you": "آپ"
+  },
+  "consent": {
+    "title": "کسانوں کی رضامندی",
+    "you": "آپ",
+    "progressLabel": "{{total}} میں سے {{accepted}} کسان رضامند — {{totalKg}} میں سے {{acceptedKg}}",
+    "agreed_one": "{{count}} رضامند · {{kg}}",
+    "agreed_other": "{{count}} رضامند · {{kg}}",
+    "waiting_one": "{{count}} کا انتظار · {{kg}}",
+    "waiting_other": "{{count}} کا انتظار · {{kg}}",
+    "declined_one": "{{count}} نے انکار کیا · {{kg}}",
+    "declined_other": "{{count}} نے انکار کیا · {{kg}}",
+    "empty": "ابھی پوچھنے کے لیے کوئی کسان نہیں۔"
+  },
+  "journey": {
+    "label": "سودے کی پیش رفت",
+    "progress": "{{total}} میں سے مرحلہ {{step}} · {{label}}",
+    "complete": "آٹھوں مرحلے مکمل"
+  },
+  "lot": {
+    "solo": "ایک کسان کا لاٹ",
+    "ofTarget": "{{target}} ہدف میں سے",
+    "fillLabel": "ہدف کے مقابلے لاٹ کتنا بھرا",
+    "fillValue": "{{target}} میں سے {{total}}",
+    "collectionPoint": "جمع کرنے کی جگہ"
+  },
+  "members": {
+    "label": "اس لاٹ کے کسان",
+    "consent": "رضامندی",
+    "delivered": "پہنچایا",
+    "accepted": "قبول",
+    "rejected": "مسترد",
+    "total_one": "{{count}} کسان",
+    "total_other": "{{count}} کسان",
+    "emptyTitle": "ابھی کوئی کسان نہیں",
+    "emptyBody": "اس لاٹ سے جڑنے والے کسان یہاں نظر آئیں گے۔"
+  },
+  "supply": {
+    "pooled_one": "مشترکہ لاٹ · {{count}} کسان",
+    "pooled_other": "مشترکہ لاٹ · {{count}} کسان",
+    "single": "ایک فصل",
+    "away": "{{km}} کلومیٹر دور",
+    "window": "{{from}} سے تیار – {{to}} تک بیچنا ہے",
+    "pickup": "{{date}} کو پک اپ",
+    "offers_one": "اب تک {{count}} آفر",
+    "offers_other": "اب تک {{count}} آفر",
+    "yourOffer": "آپ کی آفر:"
+  },
+  "route": {
+    "destination": "منزل",
+    "distanceUnknown": "فاصلہ ابھی معلوم نہیں",
+    "stopNumber": "پڑاؤ {{number}}:",
+    "summary_one": "پک اپ کا راستہ: {{count}} پڑاؤ، پھر {{destination}} ({{distance}})",
+    "summary_other": "پک اپ کا راستہ: {{count}} پڑاؤ، پھر {{destination}} ({{distance}})"
+  },
+  "transport": {
+    "filled": "ٹرک بھرا",
+    "utilisationLabel": "گاڑی {{pct}} بھری",
+    "capacity": "{{quantity}} گنجائش",
+    "estimatedCost": "اندازاً خرچ",
+    "forLoad": "{{quantity}} کے لیے",
+    "perKg": "فی کلو ڈھلائی",
+    "sharedByWeight": "وزن کے حساب سے بٹا"
+  },
+  "ai": {
+    "eyebrow": "سودا مددگار",
+    "title": "آپ کے لیے اس کا مطلب",
+    "regenerate": "پھر سے سمجھائیں",
+    "thinking": "حساب دیکھ رہے ہیں…",
+    "empty": "ابھی کوئی وضاحت نہیں۔",
+    "sourceAiHint": "{{model}} نے MandiMate کے حساب کیے گئے اعداد سے لکھا۔",
+    "sourceRulesHint": "MandiMate کے طے شدہ اصولوں نے حساب کیے گئے اعداد سے لکھا۔",
+    "unknownModel": "ایک AI ماڈل",
+    "liveTitle": "AI وضاحت چالو ہے",
+    "mockTitle": "ڈیمو موڈ: وضاحت MandiMate کے اصولوں سے"
+  },
+  "voice": {
+    "speakIn": "{{language}} میں بولیں",
+    "example": "“میرے پاس 400 کلو ٹماٹر ہیں، کل صبح پک اپ کے لیے تیار۔”",
+    "transcriptLabel": "ہم نے جو سنا — ضرورت ہو تو بدلیں",
+    "typeLabel": "اپنی فصل کے بارے میں لکھیں",
+    "transcriptPlaceholder": "بولتے ہی آپ کے الفاظ یہاں نظر آئیں گے۔",
+    "reviewHint": "کچھ بھی درج ہونے سے پہلے اگلی اسکرین پر فصل، مقدار اور تاریخیں جانچی جائیں گی۔",
+    "clear": "پھر سے شروع کریں",
+    "submit": "آگے بڑھیں"
+  },
+  "photos": {
+    "title": "اپنی پیداوار کی فوٹو جوڑیں",
+    "hint_one": "فوٹو یہاں چھوڑیں یا چنیں — JPEG، PNG یا WebP، 8 MB تک۔",
+    "hint_other": "فوٹو یہاں چھوڑیں یا چنیں — {{count}} تک، JPEG، PNG یا WebP، ہر ایک 8 MB تک۔",
+    "limit_one": "آپ {{count}} فوٹو جوڑ سکتے ہیں۔",
+    "limit_other": "آپ {{count}} فوٹو تک جوڑ سکتے ہیں۔",
+    "uploading": "{{name}} اپ لوڈ ہو رہی ہے",
+    "previewAlt": "{{name}} کی جھلک",
+    "savedAlt": "فصل کی فوٹو {{number}}",
+    "remove": "فوٹو {{number}} ہٹائیں",
+    "observations": "فوٹو میں کیا نظر آتا ہے",
+    "noAnalysis": "اس فوٹو کا ابتدائی جائزہ نہیں ہے۔"
+  },
+  "actions": {
+    "emptyTitle": "سب کام نمٹ گئے",
+    "emptyBody": "جن رضامندیوں، آفر، پک اپ اور ادائیگیوں میں آپ کی ضرورت ہوگی، وہ یہاں نظر آئیں گی۔"
+  },
+  "activity": {
+    "label": "حالیہ سرگرمی",
+    "emptyTitle": "ابھی کوئی سرگرمی نہیں",
+    "emptyBody": "آفر، پک اپ اور ادائیگیاں ہوتے ہی یہاں نظر آئیں گی۔"
+  },
+  "table": {
+    "sortBy": "اس کالم سے ترتیب دیں",
+    "actions": "کام"
+  },
+  "filters": {
+    "searchPlaceholder": "تلاش کریں…",
+    "clearSearch": "تلاش صاف کریں"
+  },
+  "query": {
+    "errorTitle": "یہ لوڈ نہیں ہو سکا"
+  },
+  "demo": {
+    "prices": {
+      "label": "مثال کے بھاؤ",
+      "body": "یہ منڈی بھاؤ ڈیمو کے لیے ڈالے گئے ہیں، اصل بازار بھاؤ نہیں۔"
+    },
+    "stats": {
+      "label": "ڈیمو اعداد",
+      "body": "یہ اعداد پائلٹ کے نمونہ ڈیٹا سے ہیں، اصل لین دین سے نہیں۔"
+    },
+    "data": {
+      "label": "مثال کا ڈیٹا",
+      "body": "یہ معلومات دکھانے کے لیے نمونہ ڈیٹا ہے۔"
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "delta": {
+    "vsMandi": "मंडी के मुकाबले"
+  },
+  "proceeds": {
+    "netShort": "शुद्ध",
+    "netToYou": "आपको शुद्ध मिलेगा",
+    "onQuantity": "{{quantity}} पर",
+    "saleValue": "बिक्री मूल्य",
+    "kept": "आपके पास {{pct}}% रहेगा",
+    "keptLabel": "आपका हिस्सा",
+    "barLabel": "बिक्री का {{pct}}% आपके पास रहेगा: {{gross}} में से {{net}}",
+    "expectedAccepted": "अनुमान है कि {{quantity}} में से लगभग {{accepted}} खरीदार की गुणवत्ता जाँच में पास होगा।",
+    "showBreakdown": "हर कटौती देखें",
+    "hideBreakdown": "हिसाब छिपाएँ",
+    "stillOpen_one": "{{count}} बात अभी यह रकम बदल सकती है",
+    "stillOpen_other": "{{count}} बातें अभी यह रकम बदल सकती हैं"
+  },
+  "breakdown": {
+    "item": "मद",
+    "certainty": "कितना पक्का",
+    "perKg": "प्रति किलो",
+    "amount": "रकम"
+  },
+  "compare": {
+    "label": "बेचने के विकल्प",
+    "eyebrow": "आपके हाथ में आने वाली रकम के क्रम में",
+    "title": "{{quantity}} {{crop}}",
+    "minimum": "आपका न्यूनतम:",
+    "upliftTotal": "मंडी में अकेले बेचने से इस फ़सल पर लगभग {{amount}} ज़्यादा।",
+    "baselineAhead": "अभी के ऑफ़र से ज़्यादा शुद्ध कमाई मंडी में अकेले बेचने पर हो रही है।",
+    "bestNet": "सबसे ज़्यादा शुद्ध",
+    "baselineEyebrow": "अगर आप अकेले मंडी में बेचें",
+    "baselineNote": "तुलना के लिए अनुमान, कोई ऑफ़र नहीं।",
+    "price": "खरीदार का भाव",
+    "payment": "भुगतान",
+    "emptyTitle": "अभी कोई ऑफ़र नहीं",
+    "emptyBody": "जब खरीदार इस फ़सल या इसके साझा लॉट पर ऑफ़र देंगे, वे यहाँ आपकी शुद्ध कमाई के क्रम में दिखेंगे।",
+    "emptyWithBaseline": "अभी खरीदारों के ऑफ़र नहीं आए। मंडी में अकेले बेचने पर कितना मिलेगा, यह यहाँ है — ताकि ऑफ़र आने पर आप तुलना कर सकें।"
+  },
+  "buyer": {
+    "verified": "सत्यापित खरीदार",
+    "unverified": "सत्यापित नहीं",
+    "unverifiedHint": "MandiMate ने अभी इस खरीदार के दस्तावेज़ नहीं जाँचे हैं। आप सौदा कर सकते हैं, पर लंबी भुगतान अवधि में सावधानी रखें।",
+    "reliability": "{{pct}} भुगतान समय पर",
+    "noHistory": "अभी भुगतान का कोई रिकॉर्ड नहीं"
+  },
+  "validity": {
+    "expiresIn": "{{time}} में ख़त्म"
+  },
+  "due": {
+    "in": "{{time}} में करना है",
+    "overdueBy": "{{time}} की देरी"
+  },
+  "offer": {
+    "price": "ऑफ़र किया गया भाव",
+    "maxRejection": "{{pct}} तक माल वापसी",
+    "handling": "हैंडलिंग",
+    "commission": "{{pct}} कमीशन",
+    "noCommission": "कोई कमीशन नहीं"
+  },
+  "negotiation": {
+    "label": "मोलभाव का इतिहास",
+    "empty": "अभी कोई मोलभाव नहीं।",
+    "system": "MandiMate",
+    "you": "आप"
+  },
+  "consent": {
+    "title": "किसानों की सहमति",
+    "you": "आप",
+    "progressLabel": "{{total}} में से {{accepted}} किसान सहमत — {{totalKg}} में से {{acceptedKg}}",
+    "agreed_one": "{{count}} सहमत · {{kg}}",
+    "agreed_other": "{{count}} सहमत · {{kg}}",
+    "waiting_one": "{{count}} का इंतज़ार · {{kg}}",
+    "waiting_other": "{{count}} का इंतज़ार · {{kg}}",
+    "declined_one": "{{count}} ने मना किया · {{kg}}",
+    "declined_other": "{{count}} ने मना किया · {{kg}}",
+    "empty": "अभी पूछने के लिए कोई किसान नहीं।"
+  },
+  "journey": {
+    "label": "सौदे की प्रगति",
+    "progress": "{{total}} में से चरण {{step}} · {{label}}",
+    "complete": "आठों चरण पूरे"
+  },
+  "lot": {
+    "solo": "एक किसान का लॉट",
+    "ofTarget": "{{target}} लक्ष्य में से",
+    "fillLabel": "लक्ष्य के मुकाबले लॉट कितना भरा",
+    "fillValue": "{{target}} में से {{total}}",
+    "collectionPoint": "संग्रह स्थल"
+  },
+  "members": {
+    "label": "इस लॉट के किसान",
+    "consent": "सहमति",
+    "delivered": "पहुँचाया",
+    "accepted": "स्वीकार",
+    "rejected": "अस्वीकार",
+    "total_one": "{{count}} किसान",
+    "total_other": "{{count}} किसान",
+    "emptyTitle": "अभी कोई किसान नहीं",
+    "emptyBody": "इस लॉट से जुड़ने वाले किसान यहाँ दिखेंगे।"
+  },
+  "supply": {
+    "pooled_one": "साझा लॉट · {{count}} किसान",
+    "pooled_other": "साझा लॉट · {{count}} किसान",
+    "single": "एक फ़सल",
+    "away": "{{km}} किमी दूर",
+    "window": "{{from}} से तैयार – {{to}} तक बेचना है",
+    "pickup": "{{date}} को उठान",
+    "offers_one": "अब तक {{count}} ऑफ़र",
+    "offers_other": "अब तक {{count}} ऑफ़र",
+    "yourOffer": "आपका ऑफ़र:"
+  },
+  "route": {
+    "destination": "मंज़िल",
+    "distanceUnknown": "दूरी अभी पता नहीं",
+    "stopNumber": "पड़ाव {{number}}:",
+    "summary_one": "उठान का रास्ता: {{count}} पड़ाव, फिर {{destination}} ({{distance}})",
+    "summary_other": "उठान का रास्ता: {{count}} पड़ाव, फिर {{destination}} ({{distance}})"
+  },
+  "transport": {
+    "filled": "गाड़ी भरी",
+    "utilisationLabel": "गाड़ी {{pct}} भरी",
+    "capacity": "{{quantity}} क्षमता",
+    "estimatedCost": "अनुमानित ख़र्च",
+    "forLoad": "{{quantity}} के लिए",
+    "perKg": "प्रति किलो ढुलाई",
+    "sharedByWeight": "वज़न के हिसाब से बँटा"
+  },
+  "ai": {
+    "eyebrow": "सौदा सहायक",
+    "title": "आपके लिए इसका मतलब",
+    "regenerate": "फिर से समझाएँ",
+    "thinking": "हिसाब देख रहे हैं…",
+    "empty": "अभी कोई व्याख्या नहीं।",
+    "sourceAiHint": "{{model}} ने MandiMate के गणना किए आँकड़ों से लिखा।",
+    "sourceRulesHint": "MandiMate के तय नियमों ने गणना किए आँकड़ों से लिखा।",
+    "unknownModel": "एक AI मॉडल",
+    "liveTitle": "AI व्याख्या चालू है",
+    "mockTitle": "डेमो मोड: व्याख्या MandiMate के नियमों से"
+  },
+  "voice": {
+    "speakIn": "{{language}} में बोलें",
+    "example": "“मेरे पास 400 किलो टमाटर हैं, कल सुबह उठान के लिए तैयार।”",
+    "transcriptLabel": "हमने जो सुना — ज़रूरत हो तो बदलें",
+    "typeLabel": "अपनी फ़सल के बारे में लिखें",
+    "transcriptPlaceholder": "बोलते ही आपके शब्द यहाँ दिखेंगे।",
+    "reviewHint": "कुछ भी लिस्ट होने से पहले अगली स्क्रीन पर फ़सल, मात्रा और तारीख़ें जाँची जाएँगी।",
+    "clear": "फिर से शुरू करें",
+    "submit": "आगे बढ़ें"
+  },
+  "photos": {
+    "title": "अपनी उपज की फ़ोटो जोड़ें",
+    "hint_one": "फ़ोटो यहाँ छोड़ें या चुनें — JPEG, PNG या WebP, 8 MB तक।",
+    "hint_other": "फ़ोटो यहाँ छोड़ें या चुनें — {{count}} तक, JPEG, PNG या WebP, हर एक 8 MB तक।",
+    "limit_one": "आप {{count}} फ़ोटो जोड़ सकते हैं।",
+    "limit_other": "आप {{count}} फ़ोटो तक जोड़ सकते हैं।",
+    "uploading": "{{name}} अपलोड हो रही है",
+    "previewAlt": "{{name}} की झलक",
+    "savedAlt": "फ़सल की फ़ोटो {{number}}",
+    "remove": "फ़ोटो {{number}} हटाएँ",
+    "observations": "फ़ोटो में क्या दिखता है",
+    "noAnalysis": "इस फ़ोटो का शुरुआती विश्लेषण नहीं है।"
+  },
+  "actions": {
+    "emptyTitle": "सब काम निपट गए",
+    "emptyBody": "जिन सहमतियों, ऑफ़र, उठान और भुगतानों में आपकी ज़रूरत होगी, वे यहाँ दिखेंगे।"
+  },
+  "activity": {
+    "label": "हाल की गतिविधि",
+    "emptyTitle": "अभी कोई गतिविधि नहीं",
+    "emptyBody": "ऑफ़र, उठान और भुगतान होते ही यहाँ दिखेंगे।"
+  },
+  "table": {
+    "sortBy": "इस कॉलम से क्रम लगाएँ",
+    "actions": "कार्य"
+  },
+  "filters": {
+    "searchPlaceholder": "खोजें…",
+    "clearSearch": "खोज साफ़ करें"
+  },
+  "query": {
+    "errorTitle": "यह लोड नहीं हो सका"
+  },
+  "demo": {
+    "prices": {
+      "label": "उदाहरण के भाव",
+      "body": "ये मंडी भाव डेमो के लिए डाले गए हैं, असली बाज़ार भाव नहीं।"
+    },
+    "stats": {
+      "label": "डेमो आँकड़े",
+      "body": "ये आँकड़े पायलट के नमूना डेटा से हैं, असली लेन-देन से नहीं।"
+    },
+    "data": {
+      "label": "उदाहरण डेटा",
+      "body": "यह जानकारी प्रदर्शन के लिए नमूना डेटा है।"
+    }
+  }
+}

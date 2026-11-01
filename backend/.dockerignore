@@ -1,0 +1,25 @@
+# Keep the API build context to what the image needs: pyproject.toml, uv.lock,
+# .python-version, alembic.ini, alembic/ and app/.
+
+.venv/
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+tests/
+
+# Secrets and local state never enter an image.
+.env
+.env.*
+media/
+
+.DS_Store
+*.log
+Dockerfile
+.dockerignore

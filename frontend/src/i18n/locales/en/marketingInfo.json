@@ -1,0 +1,434 @@
+{
+  "about": {
+    "crumb": "About",
+    "hero": {
+      "eyebrow": "Our mission",
+      "lead": "MandiMate pools small harvests into lots buyers want, and shows every farmer, in rupees, whether the pooled sale beats selling alone. Then we prove it, sale by sale.",
+      "howItWorks": "How it works",
+      "talkToTeam": "Talk to the team",
+      "title": "Maximise what farmers <em>take home</em>, not the price they are quoted."
+    },
+    "problem": {
+      "eyebrow": "Why we exist",
+      "farmer": "A smallholder with a few crates of tomato has few choices. Hire a vehicle alone, pay for loading, hand over a commission, lose a share to rejection, then wait for payment. The rate on the board looks fine; the money in hand often does not.",
+      "buyer": "Buyers face the mirror image: they want consistent volume and grade, and cannot afford to negotiate with dozens of tiny sellers. The harvest exists. The deal does not.",
+      "answer": "MandiMate turns fragmented harvests into viable commercial deals — and makes the farmer’s net the number that decides whether a deal is worth doing.",
+      "title": "A good price can still be a <em>bad sale</em>."
+    },
+    "principles": {
+      "eyebrow": "Principles",
+      "title": "Six commitments we design around.",
+      "lead": "They decide what we build, what we refuse to build, and how we measure ourselves.",
+      "items": {
+        "net": {
+          "title": "Net, not quoted",
+          "body": "A price per kg is a promise; what reaches the farmer is a fact. We compare every offer on what is left after transport, handling, commission, rejection and the wait for payment."
+        },
+        "consent": {
+          "title": "Consent before commerce",
+          "body": "No harvest joins a sale until its farmer has seen their own number and said yes. If the deal changes, we ask again. A coordinator can help, but never decides."
+        },
+        "honest": {
+          "title": "Honest when alone is better",
+          "body": "If the mandi would pay a farmer more today, we say so. A marketplace that hides a better option has stopped working for the people it was built for."
+        },
+        "certainty": {
+          "title": "Every number carries its certainty",
+          "body": "Confirmed, estimated or quoted — each figure is marked for what it is. Farmers should never have to guess which numbers they can count on."
+        },
+        "proof": {
+          "title": "Proof over promises",
+          "body": "We record each pooled sale against what selling alone would have paid, and publish the results, including the sales where pooling did not help."
+        },
+        "field": {
+          "title": "Built for the field",
+          "body": "Voice notes, local languages, low bandwidth, shared phones and a coordinator nearby. Software should fit the way villages already work."
+        }
+      }
+    },
+    "cluster": {
+      "tag": "Pilot cluster",
+      "lead": "Madanapalle, in Andhra Pradesh’s Annamayya district, is a tomato town. It is the hardest and most useful place to test whether pooling actually leaves farmers with more money.",
+      "note": "We begin with tomato and nearby vegetable crops, then widen only once the numbers hold up.",
+      "title": "Why we start in <em>Madanapalle</em>.",
+      "reasons": {
+        "volatile": "One of India’s busiest tomato markets, with prices that can swing sharply within a single week.",
+        "smallLoads": "Many smallholders bring a few dozen crates at a time — too little to fill a truck or meet a large buyer’s minimum.",
+        "costs": "Transport, loading, commission and rejected crates take a visible share of each sale, so the gap between quoted and net is real.",
+        "routes": "Villages sit close enough together that one planned route can collect from several farms in a morning."
+      }
+    },
+    "bharat": {
+      "eyebrow": "Built for Build Your Bharat",
+      "lead": "MandiMate is being built for Build Your Bharat: practical technology for the smallholders who grow most of India's fruit and vegetables, measured by whether their incomes rise.",
+      "successTitle": "What success looks like",
+      "seeHowWeMeasure": "See how we measure",
+      "readFaq": "Read the FAQ",
+      "title": "Infrastructure for the farms that <em>feed</em> the country.",
+      "success": {
+        "net": "Higher net earnings per kg than selling alone, on recorded sales.",
+        "transport": "Lower transport cost per kg through shared, planned routes.",
+        "payment": "Fewer days between delivery and payment.",
+        "return": "Farmers who come back because the numbers were true."
+      }
+    }
+  },
+  "faq": {
+    "crumb": "FAQ",
+    "hero": {
+      "eyebrow": "Frequently asked questions",
+      "title": "Straight answers, before you agree to anything.",
+      "lead": "{{total}} questions farmers, buyers and coordinators ask us most — about net earnings, consent, transport, quality, payment and how we use AI."
+    },
+    "topicsLabel": "FAQ topics",
+    "topics": "Topics",
+    "groupCount": "{{total}} questions",
+    "more": {
+      "title": "Still have a question?",
+      "lead": "Ask us directly, or work out your own numbers with the net earnings calculator.",
+      "contact": "Contact us",
+      "calculator": "Try the calculator"
+    }
+  },
+  "faqs": {
+    "selling": {
+      "title": "Selling and earnings",
+      "lead": "What pooling is, and how we decide whether it is worth it for you.",
+      "items": {
+        "what-is-mandimate": {
+          "question": "What does MandiMate actually do?",
+          "answer": "MandiMate pools small harvests from nearby farmers into one buyer-ready lot, finds buyers for it, and shows each farmer exactly what they would take home from the pooled sale compared with selling alone at the mandi. If you agree, we coordinate pickup, record delivery and quality, and track payment until the money reaches you."
+        },
+        "net-vs-quoted": {
+          "question": "Why do you show net earnings instead of the price per kg?",
+          "answer": "A high quoted price can still leave you with less money once transport, loading, commission, rejected crates and late payment are taken out. Net earnings is the amount that actually reaches your hand, so it is the only fair way to compare a pooled sale with selling on your own."
+        },
+        "how-calculated": {
+          "question": "How is my net earning calculated?",
+          "answer": "We start from the gross value of your share of the lot and subtract your share of transport (split by weight), handling and loading, any commission or platform fee, expected rejection for your grade, and the cost of waiting for payment. Every line is shown separately, with a marker telling you whether the number is confirmed, estimated or still a quote."
+        },
+        "small-quantity": {
+          "question": "Is my harvest too small to take part?",
+          "answer": "No. Pooling exists for small harvests. A few crates on their own rarely justify a truck or interest a large buyer, but combined with your neighbours they can fill a vehicle and meet a buyer’s minimum order."
+        },
+        "fees": {
+          "question": "What does it cost a farmer?",
+          "answer": "Joining is free. If a sale carries a platform fee or any other deduction, it appears as its own line in your breakdown before you are asked to agree, so you never discover a cost after the sale."
+        }
+      }
+    },
+    "consent": {
+      "title": "Consent and control",
+      "lead": "Nothing is sold in your name without a clear yes from you.",
+      "items": {
+        "consent-required": {
+          "question": "Can MandiMate sell my crop without my permission?",
+          "answer": "No. Your produce joins a sale only after you review the offer, see your own net amount beside the gross, and give consent. If the terms change materially after you agree, you are asked again."
+        },
+        "withdraw": {
+          "question": "Can I change my mind after agreeing?",
+          "answer": "Yes, until pickup is scheduled you can withdraw from a lot. Once a truck has been booked for your share, withdrawing may affect your neighbours, so the coordinator will talk it through with you first."
+        },
+        "sell-alone": {
+          "question": "What if selling alone is better for me?",
+          "answer": "Then we tell you. When the comparison shows the mandi would pay you more after costs, MandiMate says so plainly and you are free to sell on your own. Recommending a worse deal would defeat the purpose."
+        }
+      }
+    },
+    "operations": {
+      "title": "Transport, quality and payment",
+      "lead": "What happens between your field and your bank account.",
+      "items": {
+        "transport": {
+          "question": "Who arranges transport and how is the cost shared?",
+          "answer": "MandiMate plans a route that collects every member’s share, and verified transporters quote for the trip. The accepted cost is split by weight, so each farmer pays only for the space their produce uses."
+        },
+        "quality": {
+          "question": "What happens if the buyer rejects part of the lot?",
+          "answer": "Quality is recorded at pickup and again at delivery, per farmer where possible, with photos. Rejection is attributed to the share it came from rather than spread across everyone, and disputed checks are reviewed against those records."
+        },
+        "payment": {
+          "question": "When and how do I get paid?",
+          "answer": "The expected payment date is part of the offer you agree to, and the cost of waiting is already counted in your net amount. After delivery you can follow settlement step by step until the payment reaches your account."
+        },
+        "smartphone": {
+          "question": "Do I need a smartphone?",
+          "answer": "It helps but is not required. A coordinator from your FPO or village cluster can register your harvest, read the offer to you in your language and record your consent on your behalf, with a confirmation sent to your phone."
+        }
+      }
+    },
+    "data": {
+      "title": "Data, AI and the pilot",
+      "lead": "How we use information and software, and where we are today.",
+      "items": {
+        "ai": {
+          "question": "How does MandiMate use AI?",
+          "answer": "AI helps with routine work such as reading voice notes, suggesting quality grades from photos and drafting offer summaries. It never gives consent for you, never sets your price on its own, and every AI suggestion is labelled so a person can check it."
+        },
+        "data-sharing": {
+          "question": "Who can see my information?",
+          "answer": "Buyers see the lot, its grade and its total quantity, not your phone number or bank details. Your personal data is used to run your sales and to measure whether farmers earn more. We do not sell it."
+        },
+        "where": {
+          "question": "Where is MandiMate available?",
+          "answer": "We are piloting in the Madanapalle tomato cluster in Andhra Pradesh, starting with tomato and nearby vegetable crops. If you are an FPO, buyer or transporter elsewhere, write to us and we will tell you when we can reach your area."
+        },
+        "proof": {
+          "question": "How will you know whether farmers really earn more?",
+          "answer": "Every pooled sale is recorded against what the same farmer would have received selling alone that day. We publish the results, including the sales where pooling did not help, so the claim can be checked rather than taken on trust."
+        }
+      }
+    }
+  },
+  "contact": {
+    "crumb": "Contact",
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let’s talk about your harvest, your lots or your route.",
+      "lead": "Tell us who you are and what you need. A person on the MandiMate team reads every message."
+    },
+    "details": {
+      "clusterLabel": "Pilot cluster",
+      "cluster": "Madanapalle, Annamayya district, Andhra Pradesh",
+      "responseLabel": "Response time",
+      "response": "Usually within two working days, in English, Telugu or Hindi"
+    },
+    "form": {
+      "title": "Send us a message",
+      "required": "Fields marked with an asterisk are required."
+    },
+    "reasons": {
+      "farmers": {
+        "title": "Farmers and FPOs",
+        "body": "Bring your village cluster into the pilot, or ask how pooling would work for your crop."
+      },
+      "buyers": {
+        "title": "Buyers",
+        "body": "Source graded, consistent lots from the Madanapalle cluster with clear quality records."
+      },
+      "transporters": {
+        "title": "Transporters",
+        "body": "Quote for planned multi-farm pickups with known loads and routes."
+      },
+      "partners": {
+        "title": "Partners",
+        "body": "Government, NGO and research teams interested in measured farmer income outcomes."
+      }
+    }
+  },
+  "contactForm": {
+    "toast": {
+      "sent": "Message sent",
+      "sentDescription": "We usually reply within two working days.",
+      "notSent": "Message not sent"
+    },
+    "errors": {
+      "checkFields": "Please check the highlighted fields.",
+      "network": "We could not send your message. Check your connection and try again.",
+      "nameRequired": "Please tell us your name.",
+      "nameTooLong": "Keep the name under 120 characters.",
+      "emailRequired": "We need an email address to reply.",
+      "emailTooLong": "That email address is too long.",
+      "emailInvalid": "Enter a valid email address, like name@example.com.",
+      "organizationTooLong": "Keep this under 160 characters.",
+      "messageTooShort": "A little more detail helps — at least 20 characters.",
+      "messageTooLong": "Keep the message under 4,000 characters."
+    },
+    "success": {
+      "title": "Thank you — it has reached us.",
+      "sendAnother": "Send another message",
+      "body": "A member of the MandiMate team will reply to <strong>{{email}}</strong>, usually within two working days. If you are a farmer in the pilot cluster, your coordinator may call you first."
+    },
+    "name": {
+      "label": "Your name",
+      "placeholder": "Lakshmi Reddy"
+    },
+    "email": {
+      "label": "Email"
+    },
+    "organization": {
+      "label": "Organisation",
+      "placeholder": "FPO, company or village"
+    },
+    "role": {
+      "label": "I am a",
+      "placeholder": "Choose one"
+    },
+    "message": {
+      "label": "How can we help?",
+      "hint": "Tell us your crop, location and rough volumes if you have them."
+    },
+    "submit": "Send message",
+    "privacy": "We use these details only to reply to you. See our <policy>privacy policy</policy>.",
+    "roles": {
+      "farmer": "Farmer",
+      "fpo": "FPO or cluster coordinator",
+      "buyer": "Buyer or processor",
+      "transporter": "Transporter",
+      "partner": "Government, NGO or research partner",
+      "other": "Something else"
+    }
+  },
+  "impact": {
+    "crumb": "Impact",
+    "hero": {
+      "eyebrow": "Impact",
+      "lead": "MandiMate exists to raise what farmers take home. So we measure exactly that — net income against a credible alternative, from real transaction records — and publish what we find, including when it does not work.",
+      "join": "Join the pilot",
+      "partner": "Partner with us",
+      "footnote": "Pilot targets, not results",
+      "title": "We will prove it <em>in rupees per kilo.</em>"
+    },
+    "metrics": {
+      "eyebrow": "Metrics framework",
+      "lead": "One question leads: did the farmer earn more? The other five tell us whether that gain is real, repeatable and worth the cost of delivering it.",
+      "northStar": "North star",
+      "measuredFrom": "Measured from",
+      "unit": "₹ per kg, after every cost",
+      "measuredFromLabel": "Measured from: ",
+      "note": "Every metric is computed from recorded transactions — listings, offers, consent, weights, inspections and payments — never from estimates alone.",
+      "title": "Six numbers that <em>keep us honest.</em>",
+      "items": {
+        "netIncome": {
+          "name": "Additional net income per kg",
+          "definition": "What a farmer took home per kilo through MandiMate, minus what a credible alternative — usually selling alone at the local mandi — would have paid after the same costs.",
+          "how": "Settled sale records against a same-day mandi baseline, net of transport, commission, rejection and payment delay."
+        },
+        "sellThrough": {
+          "name": "Share of listed produce sold",
+          "definition": "Kilos sold as a share of kilos listed.",
+          "how": "Listings matched to delivered, accepted quantities."
+        },
+        "timeToBuyer": {
+          "name": "Time from listing to confirmed buyer",
+          "definition": "Hours between a harvest being listed and a deal the farmer has consented to.",
+          "how": "Timestamps from listing, offer and consent records."
+        },
+        "transportCost": {
+          "name": "Transport cost per kg",
+          "definition": "What it cost to move each kilo, against hauling alone.",
+          "how": "Accepted transporter quotes divided by delivered weight."
+        },
+        "failures": {
+          "name": "Payment delays, rejections & failed deals",
+          "definition": "Days paid late, kilos rejected at inspection and deals that did not complete.",
+          "how": "Settlement, quality and dispute records."
+        },
+        "repeat": {
+          "name": "Repeat usage",
+          "definition": "Farmers, buyers and transporters who come back for another season.",
+          "how": "Returning participants across consecutive harvests."
+        }
+      }
+    },
+    "pilot": {
+      "eyebrow": "Pilot plan",
+      "lead": "A narrow pilot makes the evidence trustworthy. We begin with one of everything, and widen only when the numbers hold.",
+      "note": "These are pilot targets, not claims of current scale.",
+      "title": "Start small enough to <em>see clearly.</em>",
+      "scope": {
+        "location": {
+          "label": "Location",
+          "value": "One village cluster"
+        },
+        "crop": {
+          "label": "Crop",
+          "value": "One crop"
+        },
+        "buyers": {
+          "label": "Buyers",
+          "value": "One buyer segment"
+        },
+        "problem": {
+          "label": "Problem",
+          "value": "One measurable problem"
+        },
+        "workflow": {
+          "label": "Workflow",
+          "value": "One complete workflow"
+        }
+      },
+      "targets": {
+        "farmers": {
+          "value": "10–20",
+          "label": "farmers in the first cluster"
+        },
+        "buyers": {
+          "value": "A few",
+          "label": "verified buyers"
+        },
+        "transporters": {
+          "value": "1–2",
+          "label": "transport partners"
+        }
+      }
+    },
+    "phases": {
+      "eyebrow": "Phases",
+      "lead": "Each phase begins only when the one before it shows farmers are better off.",
+      "title": "Earn the right to <em>grow.</em>",
+      "steps": {
+        "prototype": {
+          "title": "Prototype",
+          "body": "Listings, offers, lot grouping, net-return comparison, consent and a simulated deal confirmation."
+        },
+        "pilot": {
+          "title": "Real pilot",
+          "body": "Verified buyers, real transport quotes, field agents, quality checks, delivery confirmation and payment tracking."
+        },
+        "growth": {
+          "title": "Growing business",
+          "body": "More crops, repeat-order matching, demand insights, logistics planning, more languages and FPO partnerships."
+        },
+        "scale": {
+          "title": "Scale",
+          "body": "More districts and buyer categories, deeper analytics, and integrations with agri-commerce and logistics networks."
+        }
+      }
+    },
+    "risks": {
+      "eyebrow": "Risks & mitigations",
+      "lead": "Naming the risks is part of the plan. Each one has a guardrail built into how MandiMate works.",
+      "caption": "Risks and how MandiMate mitigates them",
+      "riskHeader": "Risk",
+      "mitigationHeader": "Mitigation",
+      "title": "What could go wrong, <em>and what we do about it.</em>",
+      "items": {
+        "buyers": {
+          "risk": "Not enough buyers",
+          "mitigation": "Validate buyer demand before recruiting many farmers."
+        },
+        "quality": {
+          "risk": "Quality is inconsistent",
+          "mitigation": "Pool only produce that meets the agreed specification."
+        },
+        "transport": {
+          "risk": "Transport eats the margin",
+          "mitigation": "Calculate logistics before recommending any deal."
+        },
+        "trust": {
+          "risk": "Farmers distrust the platform",
+          "mitigation": "Show every fee and deduction, and keep the right to decline."
+        },
+        "payment": {
+          "risk": "Buyers do not pay",
+          "mitigation": "Verify counterparties, record payment terms, run a clear dispute process."
+        },
+        "operations": {
+          "risk": "Operations cost too much",
+          "mitigation": "Start with assisted coordination, measure cost per completed sale, automate later."
+        }
+      }
+    },
+    "publish": {
+      "eyebrow": "Our commitment",
+      "lead": "At the end of the pilot we will share net uplift per kg, sell-through, transport cost, payment delays and repeat usage, with the method behind each. If farmers did not earn more, you will read that here too.",
+      "title": "We will publish the results — <em>good or bad.</em>"
+    },
+    "cta": {
+      "eyebrow": "Be part of the evidence",
+      "lead": "Farmers, buyers, transporters and FPOs in our pilot cluster can join today.",
+      "title": "Help us prove it <em>works.</em>"
+    }
+  }
+}

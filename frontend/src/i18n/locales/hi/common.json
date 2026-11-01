@@ -1,0 +1,734 @@
+{
+  "brand": {
+    "name": "MandiMate",
+    "tagline": "बेहतर सौदे। साझा ढुलाई। किसानों के लिए ज़्यादा कमाई।",
+    "shortTagline": "किसानों के लिए ज़्यादा कमाई"
+  },
+  "a11y": {
+    "skipToContent": "मुख्य सामग्री पर जाएँ",
+    "mainNavigation": "मुख्य नेविगेशन",
+    "footerNavigation": "फ़ुटर नेविगेशन",
+    "openMenu": "मेनू खोलें",
+    "closeMenu": "मेनू बंद करें",
+    "toggleSidebar": "साइडबार दिखाएँ या छिपाएँ",
+    "userMenu": "खाता मेनू",
+    "notifications": "सूचनाएँ",
+    "unreadNotifications_one": "{{count}} नई सूचना",
+    "unreadNotifications_other": "{{count}} नई सूचनाएँ",
+    "languageSwitcher": "भाषा बदलें",
+    "close": "बंद करें",
+    "loading": "लोड हो रहा है",
+    "required": "ज़रूरी",
+    "optional": "वैकल्पिक",
+    "opensInNewTab": "नए टैब में खुलता है",
+    "breadcrumb": "आप यहाँ हैं",
+    "pagination": "पेज",
+    "previousPage": "पिछला पेज",
+    "nextPage": "अगला पेज",
+    "showPassword": "पासवर्ड दिखाएँ",
+    "hidePassword": "पासवर्ड छिपाएँ",
+    "sortAscending": "बढ़ते क्रम में",
+    "sortDescending": "घटते क्रम में"
+  },
+  "nav": {
+    "groups": {
+      "overview": "सारांश",
+      "selling": "बिक्री",
+      "sourcing": "ख़रीद",
+      "logistics": "ढुलाई",
+      "operations": "संचालन",
+      "money": "पैसा",
+      "administration": "प्रशासन",
+      "account": "खाता",
+      "product": "प्रोडक्ट",
+      "solutions": "किसके लिए",
+      "company": "कंपनी",
+      "legal": "क़ानूनी"
+    },
+    "public": {
+      "home": "होम",
+      "howItWorks": "यह कैसे काम करता है",
+      "farmers": "किसानों के लिए",
+      "buyers": "ख़रीदारों के लिए",
+      "transporters": "ट्रांसपोर्टरों के लिए",
+      "fpos": "FPO के लिए",
+      "calculator": "कमाई कैलकुलेटर",
+      "pricing": "शुल्क",
+      "impact": "असर",
+      "about": "हमारे बारे में",
+      "faq": "अक्सर पूछे जाने वाले सवाल",
+      "contact": "संपर्क",
+      "privacy": "गोपनीयता",
+      "terms": "नियम और शर्तें",
+      "login": "साइन इन करें",
+      "signup": "खाता बनाएँ",
+      "getStarted": "शुरू करें",
+      "openApp": "MandiMate खोलें"
+    },
+    "shared": {
+      "dashboard": "डैशबोर्ड",
+      "notifications": "सूचनाएँ",
+      "settings": "सेटिंग्स",
+      "disputes": "विवाद",
+      "verification": "सत्यापन",
+      "profile": "प्रोफ़ाइल",
+      "signOut": "साइन आउट करें"
+    },
+    "farmer": {
+      "home": "होम",
+      "harvests": "मेरी फ़सलें",
+      "newHarvest": "फ़सल दर्ज करें",
+      "offers": "ऑफ़र",
+      "lots": "साझा लॉट",
+      "sales": "बिक्री",
+      "earnings": "कमाई",
+      "demand": "ख़रीदारों की माँग",
+      "more": "और",
+      "voiceListing": "बोलकर दर्ज करें"
+    },
+    "buyer": {
+      "home": "सारांश",
+      "demands": "ज़रूरतें",
+      "newDemand": "ज़रूरत दर्ज करें",
+      "supply": "उपलब्ध माल",
+      "offers": "ऑफ़र",
+      "newOffer": "ऑफ़र दें",
+      "orders": "ऑर्डर",
+      "payments": "भुगतान"
+    },
+    "transporter": {
+      "home": "सारांश",
+      "requests": "पिकअप अनुरोध",
+      "trips": "यात्राएँ",
+      "vehicles": "गाड़ियाँ"
+    },
+    "coordinator": {
+      "home": "संचालन",
+      "farmers": "किसान",
+      "registerFarmer": "किसान को जोड़ें",
+      "harvests": "फ़सलें",
+      "assistedListing": "मदद से लिस्टिंग",
+      "lotBuilder": "लॉट बनाएँ",
+      "lots": "लॉट",
+      "transport": "ढुलाई",
+      "settlements": "हिसाब-किताब",
+      "disputes": "विवाद",
+      "insights": "जानकारी",
+      "verifications": "सत्यापन"
+    },
+    "admin": {
+      "home": "एडमिन सारांश",
+      "users": "उपयोगकर्ता",
+      "audit": "ऑडिट लॉग"
+    }
+  },
+  "actions": {
+    "save": "सहेजें",
+    "saveChanges": "बदलाव सहेजें",
+    "cancel": "रद्द करें",
+    "close": "बंद करें",
+    "confirm": "पक्का करें",
+    "continue": "आगे बढ़ें",
+    "back": "पीछे",
+    "goBack": "वापस जाएँ",
+    "next": "अगला",
+    "submit": "भेजें",
+    "edit": "बदलें",
+    "delete": "मिटाएँ",
+    "remove": "हटाएँ",
+    "add": "जोड़ें",
+    "create": "बनाएँ",
+    "search": "खोजें",
+    "filter": "छाँटें",
+    "clearFilters": "फ़िल्टर हटाएँ",
+    "reset": "फिर से शुरू करें",
+    "retry": "दोबारा कोशिश करें",
+    "tryAgain": "फिर से कोशिश करें",
+    "reload": "पेज दोबारा लोड करें",
+    "refresh": "ताज़ा करें",
+    "viewAll": "सब देखें",
+    "viewDetails": "विवरण देखें",
+    "showMore": "और दिखाएँ",
+    "showLess": "कम दिखाएँ",
+    "download": "डाउनलोड करें",
+    "upload": "अपलोड करें",
+    "uploadPhoto": "फ़ोटो अपलोड करें",
+    "takePhoto": "फ़ोटो लें",
+    "copy": "कॉपी करें",
+    "copied": "कॉपी हो गया",
+    "share": "शेयर करें",
+    "signIn": "साइन इन करें",
+    "signOut": "साइन आउट करें",
+    "signUp": "खाता बनाएँ",
+    "getStarted": "शुरू करें",
+    "learnMore": "और जानें",
+    "contactUs": "हमसे संपर्क करें",
+    "backToHome": "होम पर लौटें",
+    "goToDashboard": "डैशबोर्ड पर जाएँ",
+    "accept": "स्वीकार करें",
+    "reject": "अस्वीकार करें",
+    "decline": "मना करें",
+    "counter": "जवाबी भाव दें",
+    "counterOffer": "जवाबी ऑफ़र दें",
+    "withdraw": "वापस लें",
+    "giveConsent": "सहमति दें",
+    "join": "जुड़ें",
+    "joinLot": "इस लॉट से जुड़ें",
+    "listHarvest": "फ़सल दर्ज करें",
+    "makeOffer": "ऑफ़र दें",
+    "postRequirement": "ज़रूरत दर्ज करें",
+    "submitQuote": "भाव भेजें",
+    "acceptQuote": "यह भाव बुक करें",
+    "confirmPickup": "पिकअप पक्का करें",
+    "completeTrip": "यात्रा पूरी करें",
+    "recordDelivery": "डिलीवरी दर्ज करें",
+    "recordPayment": "भुगतान दर्ज करें",
+    "markPaid": "भुगतान हो गया",
+    "raiseDispute": "शिकायत दर्ज करें",
+    "resolve": "सुलझाएँ",
+    "verify": "सत्यापित करें",
+    "approve": "मंज़ूर करें",
+    "openForOffers": "ऑफ़र के लिए खोलें",
+    "compare": "तुलना करें",
+    "startSpeaking": "बोलना शुरू करें",
+    "stopListening": "सुनना बंद करें",
+    "typeInstead": "टाइप करें",
+    "markAllRead": "सभी को पढ़ा हुआ करें",
+    "markRead": "पढ़ा हुआ करें",
+    "apply": "लागू करें",
+    "done": "हो गया",
+    "select": "चुनें",
+    "change": "बदलें",
+    "view": "देखें"
+  },
+  "enums": {
+    "role": {
+      "farmer": "किसान",
+      "buyer": "ख़रीदार",
+      "transporter": "ट्रांसपोर्टर",
+      "coordinator": "समन्वयक",
+      "admin": "एडमिन"
+    },
+    "verificationStatus": {
+      "unverified": "सत्यापित नहीं",
+      "pending": "सत्यापन बाकी",
+      "verified": "सत्यापित",
+      "rejected": "सत्यापन अस्वीकृत"
+    },
+    "grade": {
+      "A": "ग्रेड A",
+      "B": "ग्रेड B",
+      "C": "ग्रेड C",
+      "ungraded": "ग्रेड तय नहीं"
+    },
+    "cropCategory": {
+      "vegetable": "सब्ज़ी",
+      "fruit": "फल",
+      "grain": "अनाज",
+      "pulse": "दाल",
+      "spice": "मसाला",
+      "oilseed": "तिलहन"
+    },
+    "certainty": {
+      "confirmed": "पक्का",
+      "estimated": "अनुमान",
+      "unresolved": "अभी तय नहीं"
+    },
+    "harvestStatus": {
+      "draft": "ड्राफ़्ट",
+      "listed": "बिक्री के लिए दर्ज",
+      "pooled": "साझा लॉट में",
+      "committed": "सौदा तय",
+      "picked_up": "उठा लिया गया",
+      "delivered": "पहुँच गया",
+      "settled": "हिसाब पूरा",
+      "cancelled": "रद्द",
+      "expired": "समय निकल गया"
+    },
+    "qualityStatus": {
+      "self_reported": "किसान द्वारा बताई गई",
+      "pending_inspection": "जाँच बाकी",
+      "inspected": "जाँच हो चुकी"
+    },
+    "listingSource": {
+      "manual": "टाइप करके",
+      "voice": "बोलकर",
+      "assisted": "समन्वयक की मदद से"
+    },
+    "demandStatus": {
+      "open": "खुली",
+      "matched": "माल मिल गया",
+      "fulfilled": "पूरी हुई",
+      "cancelled": "रद्द",
+      "expired": "समय निकल गया"
+    },
+    "lotStatus": {
+      "forming": "बन रहा है",
+      "awaiting_consent": "सहमति का इंतज़ार",
+      "open_for_offers": "ऑफ़र के लिए खुला",
+      "offer_accepted": "ऑफ़र स्वीकार",
+      "transport_booked": "गाड़ी बुक",
+      "in_transit": "रास्ते में",
+      "delivered": "पहुँच गया",
+      "settled": "हिसाब पूरा",
+      "cancelled": "रद्द"
+    },
+    "consentDecision": {
+      "pending": "फ़ैसला बाकी",
+      "accepted": "सहमत",
+      "declined": "मना किया"
+    },
+    "offerStatus": {
+      "pending": "नया ऑफ़र",
+      "countered": "जवाबी भाव दिया",
+      "proposed": "किसानों की सहमति का इंतज़ार",
+      "accepted": "स्वीकार",
+      "rejected": "अस्वीकार",
+      "withdrawn": "वापस लिया",
+      "expired": "समय निकल गया"
+    },
+    "offerTargetType": {
+      "lot": "साझा लॉट",
+      "harvest": "एक फ़सल"
+    },
+    "awaiting": {
+      "buyer": "ख़रीदार के जवाब का इंतज़ार",
+      "seller": "विक्रेता के जवाब का इंतज़ार",
+      "farmers": "किसानों की सहमति का इंतज़ार"
+    },
+    "pickupTerms": {
+      "buyer_pickup": "ख़रीदार ख़ुद उठाएगा",
+      "mandimate_delivery": "MandiMate पहुँचाएगा"
+    },
+    "negotiationAction": {
+      "offer": "ऑफ़र दिया",
+      "counter": "जवाबी भाव दिया",
+      "accept": "स्वीकार किया",
+      "reject": "अस्वीकार किया",
+      "withdraw": "वापस लिया",
+      "propose": "किसानों के सामने रखा",
+      "consent": "सहमति दी",
+      "note": "टिप्पणी"
+    },
+    "vehicleType": {
+      "mini_truck": "छोटा ट्रक",
+      "pickup": "पिकअप",
+      "light_truck": "हल्का ट्रक",
+      "medium_truck": "मध्यम ट्रक",
+      "reefer_truck": "ठंडा (रेफ़्रिजरेटेड) ट्रक"
+    },
+    "transportRequestStatus": {
+      "open": "भाव के लिए खुला",
+      "quoted": "भाव मिले",
+      "booked": "बुक",
+      "in_progress": "जारी",
+      "completed": "पूरा",
+      "cancelled": "रद्द"
+    },
+    "quoteStatus": {
+      "submitted": "भेजा गया",
+      "accepted": "बुक",
+      "rejected": "नहीं चुना गया",
+      "withdrawn": "वापस लिया"
+    },
+    "stopStatus": {
+      "pending": "बाकी",
+      "picked_up": "उठा लिया",
+      "skipped": "छोड़ दिया"
+    },
+    "paymentStatus": {
+      "pending": "भुगतान बाकी",
+      "partially_paid": "आंशिक भुगतान",
+      "paid": "भुगतान हो गया",
+      "overdue": "देरी से",
+      "disputed": "विवाद में"
+    },
+    "payoutStatus": {
+      "pending": "भुगतान बाकी",
+      "paid": "भुगतान हो गया"
+    },
+    "disputeCategory": {
+      "quantity": "मात्रा",
+      "quality": "गुणवत्ता",
+      "payment": "भुगतान",
+      "transport": "ढुलाई",
+      "other": "अन्य"
+    },
+    "disputeStatus": {
+      "open": "खुला",
+      "under_review": "जाँच जारी",
+      "resolved": "सुलझ गया",
+      "rejected": "अस्वीकार"
+    },
+    "notificationType": {
+      "offer": "ऑफ़र",
+      "consent": "सहमति",
+      "lot": "साझा लॉट",
+      "pickup": "पिकअप",
+      "delivery": "डिलीवरी",
+      "payment": "भुगतान",
+      "harvest_deadline": "बिक्री की आख़िरी तारीख़",
+      "dispute": "विवाद",
+      "verification": "सत्यापन",
+      "system": "MandiMate"
+    },
+    "journeyKey": {
+      "listed": "दर्ज",
+      "grouped": "लॉट बना",
+      "offers": "ऑफ़र मिले",
+      "compared": "ऑफ़र की तुलना",
+      "consent": "सौदा तय",
+      "transport": "पिकअप",
+      "delivered": "पहुँच गया",
+      "settled": "हिसाब पूरा"
+    },
+    "journeyStepStatus": {
+      "complete": "पूरा",
+      "current": "जारी",
+      "upcoming": "आगे",
+      "skipped": "ज़रूरत नहीं"
+    },
+    "aiSource": {
+      "ai": "AI",
+      "rules": "नियम"
+    },
+    "aiMode": {
+      "live": "AI · चालू",
+      "mock": "AI · डेमो मोड"
+    },
+    "actionKind": {
+      "consent": "सहमति चाहिए",
+      "offer": "ऑफ़र",
+      "pickup": "पिकअप",
+      "payment": "भुगतान",
+      "deadline": "आख़िरी तारीख़",
+      "verification": "सत्यापन",
+      "quote": "भाव",
+      "delivery": "डिलीवरी",
+      "dispute": "विवाद",
+      "lot": "लॉट"
+    },
+    "priority": {
+      "high": "ज़रूरी",
+      "normal": "सामान्य"
+    },
+    "breakdownKey": {
+      "gross": "बिक्री की रक़म",
+      "rejection": "अनुमानित रिजेक्शन",
+      "transport": "ढुलाई",
+      "handling": "लदाई और हैंडलिंग",
+      "commission": "कमीशन",
+      "payment_wait": "भुगतान के इंतज़ार की लागत",
+      "platform_fee": "MandiMate शुल्क"
+    },
+    "sellingOptionSource": {
+      "direct_offer": "सीधा ऑफ़र",
+      "pooled_offer": "साझा बिक्री",
+      "baseline": "मंडी में अकेले बेचना"
+    },
+    "marketSignal": {
+      "surplus": "ज़्यादा माल",
+      "balanced": "संतुलित",
+      "shortage": "माल की कमी"
+    }
+  },
+  "certainty": {
+    "legend": "यह आँकड़ा कितना पक्का है?",
+    "confirmed": {
+      "label": "पक्का",
+      "description": "लिखित में तय या डिलीवरी के बाद दर्ज।"
+    },
+    "estimated": {
+      "label": "अनुमान",
+      "description": "मौजूदा दरों से निकाला गया; थोड़ा बदल सकता है।"
+    },
+    "unresolved": {
+      "label": "अभी तय नहीं",
+      "description": "अभी खुला है — इससे आख़िरी रक़म बदल सकती है।"
+    }
+  },
+  "money": {
+    "net": "शुद्ध",
+    "gross": "कुल",
+    "netEarnings": "शुद्ध कमाई",
+    "youTakeHome": "आपके हाथ में",
+    "perKg": "प्रति किलो",
+    "netPerKg": "शुद्ध प्रति किलो",
+    "totalDeductions": "कुल कटौती",
+    "deductions": "कटौतियाँ",
+    "breakdown": "पूरा हिसाब",
+    "uplift": "अकेले बेचने से ज़्यादा",
+    "upliftValue": "मंडी से {{value}} प्रति किलो ज़्यादा",
+    "best": "सबसे अच्छा विकल्प",
+    "meetsMinimum": "आपके न्यूनतम भाव से ऊपर",
+    "belowMinimum": "आपके न्यूनतम भाव से कम",
+    "minimumPrice": "आपका न्यूनतम भाव",
+    "minimumPriceHint": "निजी: इसे सिर्फ़ आप और आपके समन्वयक देख सकते हैं।",
+    "paymentIn_one": "{{count}} दिन में भुगतान",
+    "paymentIn_other": "{{count}} दिन में भुगतान",
+    "illustrative": "उदाहरण के लिए भाव"
+  },
+  "labels": {
+    "crop": "फ़सल",
+    "variety": "किस्म",
+    "quantity": "मात्रा",
+    "available": "उपलब्ध",
+    "grade": "ग्रेड",
+    "quality": "गुणवत्ता",
+    "qualityNotes": "गुणवत्ता के बारे में",
+    "harvestDate": "कटाई की तारीख़",
+    "availableFrom": "कब से तैयार",
+    "sellBy": "कब तक बेचना है",
+    "pickupDate": "पिकअप की तारीख़",
+    "neededBy": "कब तक चाहिए",
+    "location": "जगह",
+    "village": "गाँव",
+    "district": "ज़िला",
+    "state": "राज्य",
+    "distance": "दूरी",
+    "price": "भाव",
+    "pricePerKg": "प्रति किलो भाव",
+    "amount": "रक़म",
+    "total": "कुल",
+    "status": "स्थिति",
+    "date": "तारीख़",
+    "notes": "टिप्पणी",
+    "buyer": "ख़रीदार",
+    "farmer": "किसान",
+    "farmers": "किसान",
+    "transporter": "ट्रांसपोर्टर",
+    "coordinator": "समन्वयक",
+    "members": "सदस्य",
+    "offers": "ऑफ़र",
+    "lot": "लॉट",
+    "deliveryLocation": "डिलीवरी की जगह",
+    "paymentTerms": "भुगतान की शर्तें",
+    "validUntil": "कब तक मान्य",
+    "reference": "रेफ़रेंस",
+    "name": "नाम",
+    "fullName": "पूरा नाम",
+    "phone": "फ़ोन नंबर",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "organisation": "संस्था",
+    "language": "भाषा",
+    "role": "भूमिका",
+    "vehicle": "गाड़ी",
+    "capacity": "क्षमता",
+    "route": "रास्ता",
+    "stops": "पड़ाव",
+    "createdAt": "बनाया गया",
+    "updatedAt": "अपडेट किया गया"
+  },
+  "units": {
+    "kg": "किलो",
+    "kgValue": "{{value}} किलो",
+    "quintal": "क्विंटल",
+    "tonne": "टन",
+    "tonneShort": "टन",
+    "perKg": "/किलो",
+    "perKgValue": "{{value}}/किलो",
+    "km": "किमी",
+    "kmValue": "{{value}} किमी",
+    "percent": "%",
+    "days_one": "{{count}} दिन",
+    "days_other": "{{count}} दिन",
+    "hours_one": "{{count}} घंटा",
+    "hours_other": "{{count}} घंटे",
+    "farmers_one": "{{count}} किसान",
+    "farmers_other": "{{count}} किसान",
+    "trips_one": "{{count}} चक्कर",
+    "trips_other": "{{count}} चक्कर",
+    "stops_one": "{{count}} पड़ाव",
+    "stops_other": "{{count}} पड़ाव"
+  },
+  "time": {
+    "now": "अभी",
+    "justNow": "अभी-अभी",
+    "today": "आज",
+    "tomorrow": "कल",
+    "yesterday": "बीता कल",
+    "dayAfterTomorrow": "परसों",
+    "thisWeek": "इस हफ़्ते",
+    "thisMonth": "इस महीने",
+    "thisSeason": "इस सीज़न",
+    "morning": "सुबह",
+    "afternoon": "दोपहर",
+    "evening": "शाम",
+    "ago": "{{time}} पहले",
+    "in": "{{time}} में",
+    "dueIn": "{{time}} में देय",
+    "dueToday": "आज देय",
+    "overdue": "समय निकल चुका",
+    "expiresIn": "{{time}} में ख़त्म",
+    "expired": "ख़त्म हो गया",
+    "updated": "{{time}} अपडेट हुआ",
+    "minutes_one": "{{count}} मिनट",
+    "minutes_other": "{{count}} मिनट",
+    "hours_one": "{{count}} घंटा",
+    "hours_other": "{{count}} घंटे",
+    "days_one": "{{count}} दिन",
+    "days_other": "{{count}} दिन",
+    "weeks_one": "{{count}} हफ़्ता",
+    "weeks_other": "{{count}} हफ़्ते",
+    "months_one": "{{count}} महीना",
+    "months_other": "{{count}} महीने"
+  },
+  "states": {
+    "loading": "लोड हो रहा है…",
+    "saving": "सहेजा जा रहा है…",
+    "saved": "सहेज लिया",
+    "sending": "भेजा जा रहा है…",
+    "processing": "काम जारी है…",
+    "listening": "सुन रहे हैं…",
+    "empty": {
+      "title": "अभी यहाँ कुछ नहीं है",
+      "body": "जैसे ही कुछ दिखाने लायक होगा, यहाँ दिखेगा।"
+    },
+    "noResults": {
+      "title": "कुछ नहीं मिला",
+      "body": "कुछ और खोजें या फ़िल्टर हटाएँ।"
+    },
+    "noNotifications": {
+      "title": "कोई नई सूचना नहीं",
+      "body": "नए ऑफ़र, सहमति, पिकअप और भुगतान की सूचनाएँ यहाँ दिखेंगी।"
+    },
+    "noDisputes": {
+      "title": "कोई विवाद नहीं",
+      "body": "डिलीवरी या भुगतान में कोई गड़बड़ी हो तो आप यहाँ शिकायत दर्ज कर सकते हैं।"
+    },
+    "offline": {
+      "title": "आप ऑफ़लाइन हैं",
+      "body": "अपना इंटरनेट कनेक्शन जाँचें। कनेक्शन लौटते ही पेज फिर से लोड होगा।"
+    }
+  },
+  "errors": {
+    "generic": "कुछ गड़बड़ हो गई। कृपया फिर से कोशिश करें।",
+    "network": "MandiMate से जुड़ नहीं पाए। इंटरनेट कनेक्शन जाँचकर फिर से कोशिश करें।",
+    "server": "हमारी तरफ़ से कुछ गड़बड़ हुई। थोड़ी देर बाद फिर से कोशिश करें।",
+    "notFound": "आप जो ढूँढ रहे थे, वह नहीं मिला।",
+    "forbidden": "आपको यह करने की अनुमति नहीं है।",
+    "unauthorized": "आगे बढ़ने के लिए साइन इन करें।",
+    "sessionExpired": "आपका सत्र ख़त्म हो गया है। कृपया फिर से साइन इन करें।",
+    "conflict": "अब यह संभव नहीं है — जानकारी बदल चुकी है। पेज ताज़ा करके फिर से कोशिश करें।",
+    "validation": "कृपया चिह्नित जानकारी जाँचें।",
+    "tooManyRequests": "बहुत ज़्यादा कोशिशें हो गईं। कुछ मिनट रुककर फिर से कोशिश करें।",
+    "fileTooLarge": "फ़ाइल बहुत बड़ी है। 8 MB से छोटी फ़ाइल चुनें।",
+    "unsupportedFile": "कृपया JPEG, PNG या WebP फ़ोटो चुनें।",
+    "required": "यह जानकारी ज़रूरी है।",
+    "invalidEmail": "सही ईमेल पता लिखें।",
+    "invalidPhone": "सही 10 अंकों का मोबाइल नंबर लिखें।",
+    "boundary": {
+      "eyebrow": "अचानक गड़बड़ी",
+      "title": "यह पेज नहीं दिखाया जा सका",
+      "body": "यह पेज दिखाते समय कुछ गड़बड़ हो गई। आपका डेटा सुरक्षित है — फिर से कोशिश करें या होम पर लौटें।",
+      "updatedEyebrow": "MandiMate अपडेट हुआ है",
+      "updatedTitle": "नया संस्करण तैयार है",
+      "updatedBody": "यह पेज खुला रहते हुए हमने एक सुधार जारी किया। नए संस्करण के लिए पेज दोबारा लोड करें।"
+    }
+  },
+  "speech": {
+    "tapToSpeak": "दबाएँ और बोलें",
+    "listening": "सुन रहे हैं… आराम से बोलें",
+    "heard": "हमने सुना",
+    "notSupported": "इस ब्राउज़र में बोलकर लिखने की सुविधा नहीं है। आप टाइप कर सकते हैं।",
+    "errors": {
+      "unsupported": "इस ब्राउज़र में बोलकर लिखने की सुविधा नहीं है। आप टाइप कर सकते हैं।",
+      "not-allowed": "माइक्रोफ़ोन की अनुमति बंद है। ब्राउज़र सेटिंग्स में अनुमति दें या टाइप करें।",
+      "service-not-allowed": "इस ब्राउज़र में आवाज़ से लिखना बंद है। आप टाइप कर सकते हैं।",
+      "no-speech": "हमें कुछ सुनाई नहीं दिया। फ़ोन के थोड़ा पास आकर फिर से बोलें।",
+      "audio-capture": "इस डिवाइस पर माइक्रोफ़ोन नहीं मिला।",
+      "network": "आवाज़ पहचानने के लिए इंटरनेट चाहिए। फिर से कोशिश करें या टाइप करें।",
+      "aborted": "सुनना बंद हो गया।",
+      "language-not-supported": "इस डिवाइस पर इस भाषा में बोलकर लिखना उपलब्ध नहीं है।",
+      "bad-grammar": "हम समझ नहीं पाए। कृपया फिर से बोलें।"
+    }
+  },
+  "languages": {
+    "label": "भाषा",
+    "choose": "अपनी भाषा चुनें",
+    "en": "अंग्रेज़ी",
+    "hi": "हिन्दी",
+    "te": "तेलुगु",
+    "kn": "कन्नड़",
+    "ur": "उर्दू"
+  },
+  "notFound": {
+    "eyebrow": "त्रुटि 404",
+    "title": "पेज नहीं मिला",
+    "description": "आप जो पेज ढूँढ रहे थे, वह मौजूद नहीं है या कहीं और चला गया है।",
+    "headingStart": "यह रास्ता कहीं",
+    "headingEmphasis": "नहीं जाता।",
+    "body": "आप जो पेज ढूँढ रहे थे, वह मौजूद नहीं है या कहीं और चला गया है। चलिए, आपको जाने-पहचाने रास्ते पर ले चलते हैं।",
+    "suggestions": "लोकप्रिय पेज"
+  },
+  "layout": {
+    "site": {
+      "homeLink": "MandiMate होम",
+      "calculator": "कैलकुलेटर",
+      "calculatorEyebrow": "शुद्ध कमाई कैलकुलेटर",
+      "calculatorTitleStart": "आपकी फ़सल असल में",
+      "calculatorTitleEmphasis": "कितना",
+      "calculatorTitleEnd": "कमाएगी?",
+      "calculatorCta": "कैलकुलेटर आज़माएँ"
+    },
+    "solutions": {
+      "farmers": "अपनी फ़सल दूसरों के साथ जोड़ें, असली शुद्ध कमाई की तुलना करें और समय पर भुगतान पाएँ।",
+      "buyers": "संगठित किसान समूहों से एक-जैसी गुणवत्ता वाले, जाँचे हुए लॉट।",
+      "transporters": "तय पिकअप रास्तों पर भरी हुई गाड़ियाँ, आपके अपने भाव पर।",
+      "fpos": "एकत्रीकरण, सहमति, ढुलाई और हिसाब-किताब — सब एक जगह।"
+    },
+    "auth": {
+      "eyebrow": "किसान-प्रथम बाज़ार",
+      "headlineStart": "हर फ़सल का दाम, उसकी",
+      "headlineEmphasis": "असली कमाई के हिसाब से।",
+      "promise": "बीस छोटी फ़सलें एक लॉट बनकर साथ जा सकती हैं। जोड़ने, काग़ज़ी काम और हिसाब का ज़िम्मा MandiMate का — फ़ैसला आपका।",
+      "promiseCaption": "MandiMate का वादा",
+      "proof": {
+        "net": {
+          "title": "बताया गया भाव नहीं, शुद्ध कमाई",
+          "body": "हामी भरने से पहले ढुलाई, कमीशन, रिजेक्शन और भुगतान का इंतज़ार — सब दिखाया जाता है।"
+        },
+        "pool": {
+          "title": "पड़ोसियों के साथ मिलकर बेचें",
+          "body": "छोटी फ़सलें मिलकर ख़रीदार के लायक लॉट बनती हैं, एक ही पिकअप में।"
+        },
+        "consent": {
+          "title": "आपकी हाँ के बिना कुछ नहीं बिकता",
+          "body": "हर सौदा आपकी सहमति का इंतज़ार करता है — और हर शुल्क लिखित में होता है।"
+        }
+      }
+    },
+    "footer": {
+      "eyebrow": "भारत के किसानों के लिए",
+      "statementStart": "बेहतर सौदे। साझा ढुलाई।",
+      "statementEmphasis": "किसानों के लिए",
+      "statementEnd": "ज़्यादा कमाई।",
+      "summary": "MandiMate छोटी फ़सलों को ख़रीदार के लायक लॉट में जोड़ता है, मंडी तक की ढुलाई साझा करता है और हर किसान को हाँ कहने से पहले बताता है कि असल में उसके हाथ में कितना आएगा।",
+      "about": "साझा फ़सल, साझा ढुलाई और ईमानदार शुद्ध कमाई के लिए किसान-प्रथम बाज़ार।",
+      "languages": "उपलब्ध भाषाएँ:",
+      "and": "और",
+      "madeFor": "भारत के किसानों के लिए बना"
+    },
+    "nav": {
+      "trust": "भरोसा और सुरक्षा"
+    },
+    "tabs": {
+      "label": "जल्दी पहुँचें",
+      "home": "होम",
+      "harvests": "फ़सलें",
+      "offers": "ऑफ़र",
+      "sales": "बिक्री"
+    },
+    "breadcrumb": {
+      "details": "विवरण"
+    },
+    "shell": {
+      "home": "MandiMate — वर्कस्पेस होम"
+    },
+    "ai": {
+      "liveHint": "व्याख्या {{model}} द्वारा। भाव, लागत और कमाई हमेशा MandiMate की गणना से आते हैं।",
+      "mockHint": "कोई AI कुंजी सेट नहीं है, इसलिए व्याख्या MandiMate के अपने नियमों से होती है। सभी आँकड़े वही रहते हैं।"
+    }
+  }
+}

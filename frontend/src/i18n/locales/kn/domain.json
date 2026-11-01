@@ -1,0 +1,199 @@
+{
+  "delta": {
+    "vsMandi": "ಮಂಡಿಗೆ ಹೋಲಿಸಿದರೆ"
+  },
+  "proceeds": {
+    "netShort": "ನಿವ್ವಳ",
+    "netToYou": "ನಿಮಗೆ ನಿವ್ವಳ",
+    "onQuantity": "{{quantity}} ಮೇಲೆ",
+    "saleValue": "ಮಾರಾಟ ಮೊತ್ತ",
+    "kept": "ನಿಮಗೆ {{pct}}% ಉಳಿಯುತ್ತದೆ",
+    "keptLabel": "ನಿಮಗೆ ಉಳಿಯುವ ಪಾಲು",
+    "barLabel": "ಮಾರಾಟದ {{pct}}% ನಿಮಗೆ ಉಳಿಯುತ್ತದೆ: {{gross}} ರಲ್ಲಿ {{net}}",
+    "expectedAccepted": "{{quantity}} ರಲ್ಲಿ ಸುಮಾರು {{accepted}} ಖರೀದಿದಾರರ ಗುಣಮಟ್ಟ ಪರಿಶೀಲನೆಯಲ್ಲಿ ಪಾಸ್ ಆಗುವ ನಿರೀಕ್ಷೆ ಇದೆ.",
+    "showBreakdown": "ಪ್ರತಿ ಕಡಿತ ತೋರಿಸಿ",
+    "hideBreakdown": "ಲೆಕ್ಕ ಮರೆಮಾಡಿ",
+    "stillOpen_one": "ಇನ್ನೂ {{count}} ವಿಷಯದಿಂದ ಇದು ಬದಲಾಗಬಹುದು",
+    "stillOpen_other": "ಇನ್ನೂ {{count}} ವಿಷಯಗಳಿಂದ ಇದು ಬದಲಾಗಬಹುದು"
+  },
+  "breakdown": {
+    "item": "ವಿವರ",
+    "certainty": "ಎಷ್ಟು ಖಚಿತ",
+    "perKg": "ಕೆಜಿಗೆ",
+    "amount": "ಮೊತ್ತ"
+  },
+  "compare": {
+    "label": "ಮಾರಾಟದ ಆಯ್ಕೆಗಳು",
+    "eyebrow": "ಕೈಗೆ ಸಿಗುವ ಹಣದ ಪ್ರಕಾರ ಕ್ರಮ",
+    "title": "{{quantity}} {{crop}}",
+    "minimum": "ನಿಮ್ಮ ಕನಿಷ್ಠ:",
+    "upliftTotal": "ಮಂಡಿಯಲ್ಲಿ ಒಬ್ಬರೇ ಮಾರುವುದಕ್ಕಿಂತ ಈ ಫಸಲಿನಲ್ಲಿ ಸುಮಾರು {{amount}} ಹೆಚ್ಚು.",
+    "baselineAhead": "ಸದ್ಯ ನಿಮಗಿರುವ ಆಫರ್‌ಗಳಿಗಿಂತ ಮಂಡಿಯಲ್ಲಿ ಒಬ್ಬರೇ ಮಾರಿದರೆ ಹೆಚ್ಚು ಸಿಗುತ್ತದೆ.",
+    "bestNet": "ಅತ್ಯುತ್ತಮ ನಿವ್ವಳ",
+    "baselineEyebrow": "ಮಂಡಿಯಲ್ಲಿ ಒಬ್ಬರೇ ಮಾರಿದರೆ",
+    "baselineNote": "ಹೋಲಿಕೆಗಾಗಿ ಅಂದಾಜು, ಆಫರ್ ಅಲ್ಲ.",
+    "price": "ಖರೀದಿದಾರರ ಬೆಲೆ",
+    "payment": "ಪಾವತಿ",
+    "emptyTitle": "ಇನ್ನೂ ಆಫರ್ ಬಂದಿಲ್ಲ",
+    "emptyBody": "ಈ ಫಸಲಿಗೆ ಅಥವಾ ಅದರ ಜಂಟಿ ಲಾಟ್‌ಗೆ ಖರೀದಿದಾರರು ಆಫರ್ ಕೊಟ್ಟಾಗ, ಕೈಗೆ ಸಿಗುವ ಹಣದ ಪ್ರಕಾರ ಕ್ರಮವಾಗಿ ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ.",
+    "emptyWithBaseline": "ಇನ್ನೂ ಖರೀದಿದಾರರ ಆಫರ್ ಇಲ್ಲ. ಮಂಡಿಯಲ್ಲಿ ಒಬ್ಬರೇ ಮಾರಿದರೆ ಎಷ್ಟು ಸಿಗುತ್ತದೆ ಎಂದು ಇಲ್ಲಿದೆ — ಆಫರ್‌ಗಳು ಬಂದಾಗ ಹೋಲಿಸಿ ನೋಡಬಹುದು."
+  },
+  "buyer": {
+    "verified": "ಪರಿಶೀಲಿತ ಖರೀದಿದಾರ",
+    "unverified": "ಪರಿಶೀಲಿಸಿಲ್ಲ",
+    "unverifiedHint": "MandiMate ಈ ಖರೀದಿದಾರರ ದಾಖಲೆಗಳನ್ನು ಇನ್ನೂ ಪರಿಶೀಲಿಸಿಲ್ಲ. ನೀವು ವ್ಯವಹಾರ ಮಾಡಬಹುದು, ಆದರೆ ದೀರ್ಘ ಪಾವತಿ ಅವಧಿಯ ಬಗ್ಗೆ ಎಚ್ಚರವಾಗಿರಿ.",
+    "reliability": "{{pct}} ಪಾವತಿಗಳು ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ",
+    "noHistory": "ಇನ್ನೂ ಪಾವತಿ ಇತಿಹಾಸ ಇಲ್ಲ"
+  },
+  "validity": {
+    "expiresIn": "ಇನ್ನು {{time}} ಮಾತ್ರ"
+  },
+  "due": {
+    "in": "{{time}} ಒಳಗೆ ಮಾಡಬೇಕು",
+    "overdueBy": "{{time}} ತಡವಾಗಿದೆ"
+  },
+  "offer": {
+    "price": "ಆಫರ್ ಬೆಲೆ",
+    "maxRejection": "{{pct}} ವರೆಗೆ ತಿರಸ್ಕಾರ",
+    "handling": "ಹಮಾಲಿ",
+    "commission": "{{pct}} ಕಮಿಷನ್",
+    "noCommission": "ಕಮಿಷನ್ ಇಲ್ಲ"
+  },
+  "negotiation": {
+    "label": "ಮಾತುಕತೆಯ ವಿವರ",
+    "empty": "ಇನ್ನೂ ಮಾತುಕತೆ ಆಗಿಲ್ಲ.",
+    "system": "MandiMate",
+    "you": "ನೀವು"
+  },
+  "consent": {
+    "title": "ರೈತರ ಒಪ್ಪಿಗೆ",
+    "you": "ನೀವು",
+    "progressLabel": "{{total}} ರೈತರಲ್ಲಿ {{accepted}} ಒಪ್ಪಿದ್ದಾರೆ — {{totalKg}} ರಲ್ಲಿ {{acceptedKg}}",
+    "agreed_one": "{{count}} ಒಪ್ಪಿದ್ದಾರೆ · {{kg}}",
+    "agreed_other": "{{count}} ಒಪ್ಪಿದ್ದಾರೆ · {{kg}}",
+    "waiting_one": "{{count}} ಉತ್ತರ ಬಾಕಿ · {{kg}}",
+    "waiting_other": "{{count}} ಉತ್ತರ ಬಾಕಿ · {{kg}}",
+    "declined_one": "{{count}} ಬೇಡ ಎಂದಿದ್ದಾರೆ · {{kg}}",
+    "declined_other": "{{count}} ಬೇಡ ಎಂದಿದ್ದಾರೆ · {{kg}}",
+    "empty": "ಕೇಳಲು ಇನ್ನೂ ರೈತರು ಇಲ್ಲ."
+  },
+  "journey": {
+    "label": "ವ್ಯವಹಾರದ ಪ್ರಗತಿ",
+    "progress": "ಹಂತ {{step}} / {{total}} · {{label}}",
+    "complete": "ಎಲ್ಲಾ ಎಂಟು ಹಂತಗಳು ಮುಗಿದಿವೆ"
+  },
+  "lot": {
+    "solo": "ಒಬ್ಬ ರೈತರ ಲಾಟ್",
+    "ofTarget": "{{target}} ಗುರಿಯಲ್ಲಿ",
+    "fillLabel": "ಗುರಿಗೆ ಹೋಲಿಸಿದರೆ ಲಾಟ್ ಎಷ್ಟು ತುಂಬಿದೆ",
+    "fillValue": "{{target}} ರಲ್ಲಿ {{total}}",
+    "collectionPoint": "ಸಂಗ್ರಹ ಸ್ಥಳ"
+  },
+  "members": {
+    "label": "ಈ ಲಾಟ್‌ನ ರೈತರು",
+    "consent": "ಒಪ್ಪಿಗೆ",
+    "delivered": "ತಲುಪಿದ್ದು",
+    "accepted": "ಒಪ್ಪಿದ್ದು",
+    "rejected": "ತಿರಸ್ಕೃತ",
+    "total_one": "{{count}} ರೈತ",
+    "total_other": "{{count}} ರೈತರು",
+    "emptyTitle": "ಇನ್ನೂ ರೈತರಿಲ್ಲ",
+    "emptyBody": "ಈ ಲಾಟ್‌ಗೆ ಸೇರುವ ರೈತರು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತಾರೆ."
+  },
+  "supply": {
+    "pooled_one": "ಜಂಟಿ ಲಾಟ್ · {{count}} ರೈತ",
+    "pooled_other": "ಜಂಟಿ ಲಾಟ್ · {{count}} ರೈತರು",
+    "single": "ಒಂದೇ ಫಸಲು",
+    "away": "{{km}} ಕಿಮೀ ದೂರ",
+    "window": "{{from}} ರಿಂದ ಸಿದ್ಧ – {{to}} ಒಳಗೆ ಮಾರಾಟ",
+    "pickup": "{{date}} ರಂದು ಪಿಕಪ್",
+    "offers_one": "ಇಲ್ಲಿಯವರೆಗೆ {{count}} ಆಫರ್",
+    "offers_other": "ಇಲ್ಲಿಯವರೆಗೆ {{count}} ಆಫರ್‌ಗಳು",
+    "yourOffer": "ನಿಮ್ಮ ಆಫರ್:"
+  },
+  "route": {
+    "destination": "ತಲುಪುವ ಸ್ಥಳ",
+    "distanceUnknown": "ದೂರ ಇನ್ನೂ ಗೊತ್ತಿಲ್ಲ",
+    "stopNumber": "ನಿಲುಗಡೆ {{number}}:",
+    "summary_one": "ಪಿಕಪ್ ಮಾರ್ಗ: {{count}} ನಿಲುಗಡೆ, ನಂತರ {{destination}} ({{distance}})",
+    "summary_other": "ಪಿಕಪ್ ಮಾರ್ಗ: {{count}} ನಿಲುಗಡೆಗಳು, ನಂತರ {{destination}} ({{distance}})"
+  },
+  "transport": {
+    "filled": "ಲಾರಿ ತುಂಬಿದೆ",
+    "utilisationLabel": "ವಾಹನ {{pct}} ತುಂಬಿದೆ",
+    "capacity": "{{quantity}} ಸಾಮರ್ಥ್ಯ",
+    "estimatedCost": "ಅಂದಾಜು ವೆಚ್ಚ",
+    "forLoad": "{{quantity}} ಲೋಡ್‌ಗೆ",
+    "perKg": "ಕೆಜಿಗೆ ಸಾಗಣೆ ವೆಚ್ಚ",
+    "sharedByWeight": "ತೂಕದ ಪ್ರಕಾರ ಹಂಚಿಕೆ"
+  },
+  "ai": {
+    "eyebrow": "ವ್ಯವಹಾರ ಸಹಾಯಕ",
+    "title": "ಇದರ ಅರ್ಥ ನಿಮಗೆ ಏನು",
+    "regenerate": "ಮತ್ತೆ ವಿವರಿಸಿ",
+    "thinking": "ಲೆಕ್ಕ ಹಾಕುತ್ತಿದ್ದೇವೆ…",
+    "empty": "ಇನ್ನೂ ವಿವರಣೆ ಇಲ್ಲ.",
+    "sourceAiHint": "MandiMate ಲೆಕ್ಕ ಹಾಕಿದ ಸಂಖ್ಯೆಗಳಿಂದ {{model}} ಬರೆದಿದೆ.",
+    "sourceRulesHint": "ಲೆಕ್ಕ ಹಾಕಿದ ಸಂಖ್ಯೆಗಳಿಂದ MandiMateನ ಒಳಗಿನ ನಿಯಮಗಳು ಬರೆದಿವೆ.",
+    "unknownModel": "ಒಂದು AI ಮಾದರಿ",
+    "liveTitle": "AI ವಿವರಣೆಗಳು ಆನ್ ಆಗಿವೆ",
+    "mockTitle": "ಡೆಮೊ ಮೋಡ್: ವಿವರಣೆಗಳು MandiMateನ ನಿಯಮಗಳನ್ನು ಬಳಸುತ್ತವೆ"
+  },
+  "voice": {
+    "speakIn": "{{language}} ಭಾಷೆಯಲ್ಲಿ ಮಾತನಾಡಿ",
+    "example": "“ನಾಳೆ ಬೆಳಿಗ್ಗೆ ಪಿಕಪ್‌ಗೆ 400 ಕೆಜಿ ಟೊಮೆಟೊ ಸಿದ್ಧವಿದೆ.”",
+    "transcriptLabel": "ನಮಗೆ ಕೇಳಿಸಿದ್ದು — ಬೇಕಾದರೆ ಬದಲಿಸಿ",
+    "typeLabel": "ನಿಮ್ಮ ಫಸಲಿನ ಬಗ್ಗೆ ಬರೆಯಿರಿ",
+    "transcriptPlaceholder": "ನೀವು ಮಾತನಾಡುತ್ತಿದ್ದಂತೆ ನಿಮ್ಮ ಮಾತುಗಳು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ.",
+    "reviewHint": "ಮಾರಾಟಕ್ಕಿಡುವ ಮೊದಲು ಬೆಳೆ, ಪ್ರಮಾಣ ಮತ್ತು ದಿನಾಂಕಗಳನ್ನು ಮುಂದಿನ ಪುಟದಲ್ಲಿ ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ.",
+    "clear": "ಮತ್ತೆ ಶುರು ಮಾಡಿ",
+    "submit": "ಮುಂದುವರಿಸಿ"
+  },
+  "photos": {
+    "title": "ನಿಮ್ಮ ಫಸಲಿನ ಫೋಟೋ ಸೇರಿಸಿ",
+    "hint_one": "ಫೋಟೋವನ್ನು ಇಲ್ಲಿ ಹಾಕಿ ಅಥವಾ ಆರಿಸಿ — JPEG, PNG ಅಥವಾ WebP, 8 MB ವರೆಗೆ.",
+    "hint_other": "ಫೋಟೋಗಳನ್ನು ಇಲ್ಲಿ ಹಾಕಿ ಅಥವಾ ಆರಿಸಿ — {{count}} ವರೆಗೆ, JPEG, PNG ಅಥವಾ WebP, ಪ್ರತಿಯೊಂದೂ 8 MB ವರೆಗೆ.",
+    "limit_one": "ನೀವು {{count}} ಫೋಟೋ ಸೇರಿಸಬಹುದು.",
+    "limit_other": "ನೀವು {{count}} ಫೋಟೋಗಳವರೆಗೆ ಸೇರಿಸಬಹುದು.",
+    "uploading": "{{name}} ಅಪ್‌ಲೋಡ್ ಆಗುತ್ತಿದೆ",
+    "previewAlt": "{{name}} ಮುನ್ನೋಟ",
+    "savedAlt": "ಫಸಲಿನ ಫೋಟೋ {{number}}",
+    "remove": "ಫೋಟೋ {{number}} ತೆಗೆಯಿರಿ",
+    "observations": "ಫೋಟೋದಲ್ಲಿ ಕಾಣುವುದು",
+    "noAnalysis": "ಈ ಫೋಟೋಗೆ ಪ್ರಾಥಮಿಕ ವಿಶ್ಲೇಷಣೆ ಇಲ್ಲ."
+  },
+  "actions": {
+    "emptyTitle": "ಎಲ್ಲವೂ ಮುಗಿದಿದೆ",
+    "emptyBody": "ನಿಮ್ಮ ಗಮನ ಬೇಕಿರುವ ಒಪ್ಪಿಗೆ, ಆಫರ್, ಪಿಕಪ್ ಮತ್ತು ಪಾವತಿಗಳು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ."
+  },
+  "activity": {
+    "label": "ಇತ್ತೀಚಿನ ಚಟುವಟಿಕೆ",
+    "emptyTitle": "ಇನ್ನೂ ಚಟುವಟಿಕೆ ಇಲ್ಲ",
+    "emptyBody": "ಆಫರ್, ಪಿಕಪ್ ಮತ್ತು ಪಾವತಿಗಳು ನಡೆದಂತೆ ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ."
+  },
+  "table": {
+    "sortBy": "ಈ ಕಾಲಮ್ ಪ್ರಕಾರ ವಿಂಗಡಿಸಿ",
+    "actions": "ಕ್ರಮಗಳು"
+  },
+  "filters": {
+    "searchPlaceholder": "ಹುಡುಕಿ…",
+    "clearSearch": "ಹುಡುಕಾಟ ತೆಗೆಯಿರಿ"
+  },
+  "query": {
+    "errorTitle": "ಇದನ್ನು ಲೋಡ್ ಮಾಡಲು ಆಗಲಿಲ್ಲ"
+  },
+  "demo": {
+    "prices": {
+      "label": "ಉದಾಹರಣೆ ಬೆಲೆಗಳು",
+      "body": "ಈ ಮಂಡಿ ಬೆಲೆಗಳನ್ನು ಡೆಮೊಗಾಗಿ ಹಾಕಲಾಗಿದೆ, ಇವು ನೇರ ಮಾರುಕಟ್ಟೆ ಮಾಹಿತಿ ಅಲ್ಲ."
+    },
+    "stats": {
+      "label": "ಡೆಮೊ ಡೇಟಾ",
+      "body": "ಈ ಅಂಕಿಗಳು ಪೈಲಟ್‌ನ ಮಾದರಿ ಡೇಟಾದಿಂದ ಬಂದಿವೆ, ನಿಜವಾದ ವ್ಯವಹಾರಗಳಿಂದ ಅಲ್ಲ."
+    },
+    "data": {
+      "label": "ಉದಾಹರಣೆ ಡೇಟಾ",
+      "body": "ಈ ಮಾಹಿತಿ ತೋರಿಸುವುದಕ್ಕಾಗಿ ಇರುವ ಮಾದರಿ ಡೇಟಾ."
+    }
+  }
+}

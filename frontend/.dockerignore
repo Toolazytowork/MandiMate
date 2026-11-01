@@ -1,0 +1,19 @@
+# Keep the web build context to sources and manifests; dependencies are installed with npm ci
+# inside the image and build output is produced there.
+
+node_modules/
+dist/
+coverage/
+.vite/
+.vitest/
+*.tsbuildinfo
+*.log
+
+# Local environment overrides never enter an image; build-time values arrive as build args.
+.env
+.env.local
+.env.*.local
+
+.DS_Store
+Dockerfile
+.dockerignore

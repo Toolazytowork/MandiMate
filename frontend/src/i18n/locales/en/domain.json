@@ -1,0 +1,199 @@
+{
+  "delta": {
+    "vsMandi": "vs mandi"
+  },
+  "proceeds": {
+    "netShort": "net",
+    "netToYou": "Net to you",
+    "onQuantity": "on {{quantity}}",
+    "saleValue": "Sale value",
+    "kept": "You keep {{pct}}%",
+    "keptLabel": "Share you keep",
+    "barLabel": "You keep {{pct}}% of the sale: {{net}} of {{gross}}",
+    "expectedAccepted": "About {{accepted}} of {{quantity}} is expected to pass the buyer’s quality check.",
+    "showBreakdown": "Show every deduction",
+    "hideBreakdown": "Hide the breakdown",
+    "stillOpen_one": "{{count}} thing could still change this",
+    "stillOpen_other": "{{count}} things could still change this"
+  },
+  "breakdown": {
+    "item": "Item",
+    "certainty": "How sure",
+    "perKg": "Per kg",
+    "amount": "Amount"
+  },
+  "compare": {
+    "label": "Selling options",
+    "eyebrow": "Ranked by what you take home",
+    "title": "{{quantity}} of {{crop}}",
+    "minimum": "Your minimum:",
+    "upliftTotal": "About {{amount}} more on this harvest than selling alone at the mandi.",
+    "baselineAhead": "Selling alone at the mandi currently nets more than the offers you have.",
+    "bestNet": "Best net",
+    "baselineEyebrow": "If you sell alone at the mandi",
+    "baselineNote": "An estimate for comparison, not an offer.",
+    "price": "Buyer’s price",
+    "payment": "Payment",
+    "emptyTitle": "No offers yet",
+    "emptyBody": "When buyers make offers on this harvest or its pooled lot, they will appear here ranked by what you take home.",
+    "emptyWithBaseline": "No buyer offers yet. Here is what selling alone at the mandi would earn, so you can judge offers as they come in."
+  },
+  "buyer": {
+    "verified": "Verified buyer",
+    "unverified": "Not verified",
+    "unverifiedHint": "MandiMate has not yet checked this buyer’s documents. You can still deal with them, but be careful with long payment terms.",
+    "reliability": "{{pct}} of payments on time",
+    "noHistory": "No payment history yet"
+  },
+  "validity": {
+    "expiresIn": "Expires in {{time}}"
+  },
+  "due": {
+    "in": "Due in {{time}}",
+    "overdueBy": "Overdue by {{time}}"
+  },
+  "offer": {
+    "price": "Offered price",
+    "maxRejection": "Up to {{pct}} rejection",
+    "handling": "Handling",
+    "commission": "{{pct}} commission",
+    "noCommission": "No commission"
+  },
+  "negotiation": {
+    "label": "Negotiation history",
+    "empty": "No negotiation yet.",
+    "system": "MandiMate",
+    "you": "You"
+  },
+  "consent": {
+    "title": "Farmer consent",
+    "you": "You",
+    "progressLabel": "{{accepted}} of {{total}} farmers agreed — {{acceptedKg}} of {{totalKg}}",
+    "agreed_one": "{{count}} agreed · {{kg}}",
+    "agreed_other": "{{count}} agreed · {{kg}}",
+    "waiting_one": "{{count}} waiting · {{kg}}",
+    "waiting_other": "{{count}} waiting · {{kg}}",
+    "declined_one": "{{count}} declined · {{kg}}",
+    "declined_other": "{{count}} declined · {{kg}}",
+    "empty": "No farmers to ask yet."
+  },
+  "journey": {
+    "label": "Deal progress",
+    "progress": "Step {{step}} of {{total}} · {{label}}",
+    "complete": "All eight steps complete"
+  },
+  "lot": {
+    "solo": "Single-farmer lot",
+    "ofTarget": "of {{target}} target",
+    "fillLabel": "Lot filled against its target",
+    "fillValue": "{{total}} of {{target}}",
+    "collectionPoint": "Collection point"
+  },
+  "members": {
+    "label": "Farmers in this lot",
+    "consent": "Consent",
+    "delivered": "Delivered",
+    "accepted": "Accepted",
+    "rejected": "Rejected",
+    "total_one": "{{count}} farmer",
+    "total_other": "{{count}} farmers",
+    "emptyTitle": "No farmers yet",
+    "emptyBody": "Farmers who join this lot will be listed here."
+  },
+  "supply": {
+    "pooled_one": "Pooled lot · {{count}} farmer",
+    "pooled_other": "Pooled lot · {{count}} farmers",
+    "single": "Single harvest",
+    "away": "{{km}} km away",
+    "window": "Ready {{from}} – sell by {{to}}",
+    "pickup": "Pickup on {{date}}",
+    "offers_one": "{{count}} offer so far",
+    "offers_other": "{{count}} offers so far",
+    "yourOffer": "Your offer:"
+  },
+  "route": {
+    "destination": "Destination",
+    "distanceUnknown": "distance not yet known",
+    "stopNumber": "Stop {{number}}:",
+    "summary_one": "Pickup route: {{count}} stop, then {{destination}} ({{distance}})",
+    "summary_other": "Pickup route: {{count}} stops, then {{destination}} ({{distance}})"
+  },
+  "transport": {
+    "filled": "of the truck filled",
+    "utilisationLabel": "Vehicle {{pct}} full",
+    "capacity": "{{quantity}} capacity",
+    "estimatedCost": "Estimated cost",
+    "forLoad": "for {{quantity}}",
+    "perKg": "Transport per kg",
+    "sharedByWeight": "Shared by weight"
+  },
+  "ai": {
+    "eyebrow": "Deal assistant",
+    "title": "What this means for you",
+    "regenerate": "Explain again",
+    "thinking": "Working through the numbers…",
+    "empty": "No explanation yet.",
+    "sourceAiHint": "Written by {{model}} from MandiMate’s calculated numbers.",
+    "sourceRulesHint": "Written by MandiMate’s built-in rules from the calculated numbers.",
+    "unknownModel": "an AI model",
+    "liveTitle": "AI explanations are on",
+    "mockTitle": "Demo mode: explanations use MandiMate’s rules"
+  },
+  "voice": {
+    "speakIn": "Speak in {{language}}",
+    "example": "“I have 400 kilos of tomatoes ready for pickup tomorrow morning.”",
+    "transcriptLabel": "What we heard — edit if needed",
+    "typeLabel": "Describe your harvest",
+    "transcriptPlaceholder": "Your words will appear here as you speak.",
+    "reviewHint": "Crop, quantity and dates are checked on the next screen before anything is listed.",
+    "clear": "Start over",
+    "submit": "Continue"
+  },
+  "photos": {
+    "title": "Add photos of your produce",
+    "hint_one": "Drop a photo here or choose one — JPEG, PNG or WebP up to 8 MB.",
+    "hint_other": "Drop photos here or choose them — up to {{count}}, JPEG, PNG or WebP, 8 MB each.",
+    "limit_one": "You can add {{count}} photo.",
+    "limit_other": "You can add up to {{count}} photos.",
+    "uploading": "Uploading {{name}}",
+    "previewAlt": "Preview of {{name}}",
+    "savedAlt": "Harvest photo {{number}}",
+    "remove": "Remove photo {{number}}",
+    "observations": "What the photo shows",
+    "noAnalysis": "No preliminary analysis for this photo."
+  },
+  "actions": {
+    "emptyTitle": "You are all caught up",
+    "emptyBody": "Consents, offers, pickups and payments that need you will appear here."
+  },
+  "activity": {
+    "label": "Recent activity",
+    "emptyTitle": "No activity yet",
+    "emptyBody": "Offers, pickups and payments will show up here as they happen."
+  },
+  "table": {
+    "sortBy": "Sort by this column",
+    "actions": "Actions"
+  },
+  "filters": {
+    "searchPlaceholder": "Search…",
+    "clearSearch": "Clear search"
+  },
+  "query": {
+    "errorTitle": "This could not be loaded"
+  },
+  "demo": {
+    "prices": {
+      "label": "Illustrative prices",
+      "body": "These mandi prices are seeded for the demo, not live market data."
+    },
+    "stats": {
+      "label": "Demo data",
+      "body": "These figures come from the seeded pilot dataset, not real transactions."
+    },
+    "data": {
+      "label": "Illustrative data",
+      "body": "This information is sample data for demonstration."
+    }
+  }
+}

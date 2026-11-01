@@ -1,0 +1,560 @@
+{
+  "journey": {
+    "register-harvest": {
+      "title": "Register a harvest",
+      "short": "Crop, quantity, quality, location and sell-by date — typed, spoken or photographed.",
+      "detail": "A farmer lists what is ready: crop, quantity, expected quality, location, harvest date and the last day it can be sold. They can type it, speak it in their own language, add a photo, or ask a field coordinator to list it for them. A private minimum net price stays visible only to the farmer.",
+      "who": "Farmer, or a field coordinator on their behalf",
+      "sees": {
+        "0": "A draft listing built from a voice note, checked before saving",
+        "1": "A private minimum net price only they can see"
+      },
+      "safeguard": "The assistant asks for missing details instead of guessing them."
+    },
+    "group-harvests": {
+      "title": "Check and group harvests",
+      "short": "Compatible harvests are pooled by crop, grade, place, quantity and timing.",
+      "detail": "MandiMate looks across neighbouring farms for harvests that belong together: the same crop and grade, close enough to share a vehicle, ready inside the same window, and together large enough for a real buyer order. Explicit rules decide what can be pooled, so incompatible produce is never mixed.",
+      "who": "MandiMate matching rules, reviewed by coordinators",
+      "sees": {
+        "0": "Why a group of harvests is a promising match",
+        "1": "What information is still missing before a lot is buyer-ready"
+      },
+      "safeguard": "AI explains a match; it never silently combines incompatible produce or invents supply."
+    },
+    "buyer-offers": {
+      "title": "Buyers submit offers",
+      "short": "Price, quantity, quality standards, pickup terms and payment conditions — in writing.",
+      "detail": "Verified retailers, wholesalers, processors, hotels and institutional kitchens make written offers on pooled lots: price per kilogram, quantity, quality specification, pickup terms and when they will pay. Offers can be countered and negotiated inside a single thread.",
+      "who": "Verified buyers",
+      "sees": {
+        "0": "Every term in one written offer",
+        "1": "Counter-offers and replies in one thread"
+      },
+      "safeguard": "Only verified buyers can make offers on a lot."
+    },
+    "compare-earnings": {
+      "title": "Compare real earnings",
+      "short": "Each offer becomes net money per farmer — after transport, handling, commission and waiting.",
+      "detail": "For every farmer in the lot, MandiMate turns each offer into estimated net proceeds: gross value minus expected rejection, their share of transport, handling, commission and the cost of waiting for payment. It sets that beside what they would net selling alone at the local mandi.",
+      "who": "MandiMate net-proceeds engine",
+      "sees": {
+        "0": "Net beside gross, per kilogram and in total",
+        "1": "Which figures are confirmed, estimated or still unresolved"
+      },
+      "safeguard": "Prices and costs come from offers, quotes and published rates — never from an AI guess."
+    },
+    "farmer-consent": {
+      "title": "Farmers review and decide",
+      "short": "Each farmer sees the best feasible deal and accepts or declines. No sale without consent.",
+      "detail": "Every farmer in the pool reviews the proposed deal in plain language — what they would take home, what is confirmed and what is still an estimate — and accepts or declines. A farmer who declines simply leaves the lot; nobody can sell their produce for them.",
+      "who": "Each farmer, individually",
+      "sees": {
+        "0": "A plain-language deal explanation",
+        "1": "Accept or decline, with the reason recorded"
+      },
+      "safeguard": "No sale goes ahead without each farmer’s explicit consent."
+    },
+    "transport-pickup": {
+      "title": "Coordinate transport and pickup",
+      "short": "One vehicle, a planned route and a pickup sequence across the pooled farms.",
+      "detail": "MandiMate plans collection points, picks a vehicle that fits the lot, orders the pickups along one route and invites transporters to quote. Transport is shared by weight, so a 200 kg harvest pays for 200 kg of the truck — not the whole trip.",
+      "who": "Transporters and field coordinators",
+      "sees": {
+        "0": "Pickup time and collection point",
+        "1": "Your share of transport, split by weight"
+      },
+      "safeguard": "Logistics are costed before a deal is recommended, so transport cannot quietly eat the margin."
+    },
+    "delivery-quality": {
+      "title": "Deliver and check quality",
+      "short": "Delivered weight, grade, shortages and rejections are recorded against each farmer.",
+      "detail": "At delivery the buyer records what arrived: weight, quality and grade, any shortage and any rejection — attributed to the farmer whose produce it was. Discrepancies are raised there and then, with photos and notes, rather than discovered at payment time.",
+      "who": "Buyer, with the coordinator and transporter",
+      "sees": {
+        "0": "Accepted and rejected quantity for your share",
+        "1": "Any discrepancy, with evidence"
+      },
+      "safeguard": "Final acceptance follows physical inspection, not a photo."
+    },
+    "settlement-results": {
+      "title": "Settle and track results",
+      "short": "Payment status, deductions and earnings versus selling alone — recorded for every sale.",
+      "detail": "MandiMate tracks the settlement to each farmer: sale amount, every deduction, payment status and date. It then records what the farmer actually earned against what selling alone would have paid, so every harvest adds evidence about what really works.",
+      "who": "Buyer, coordinators and MandiMate",
+      "sees": {
+        "0": "Payment status until the money arrives",
+        "1": "Actual earnings versus the alternative"
+      },
+      "safeguard": "Every fee and deduction is shown; disputes have a clear, recorded process."
+    }
+  },
+  "sale": {
+    "mandiLabel": "Sell alone at local mandi",
+    "pooledLabel": "Pooled with MandiMate",
+    "commissionNote": "No commission on MandiMate deals",
+    "transportQuotePending": "Transport quote pending",
+    "trips_one": "{{count}} trip",
+    "trips_other": "{{count}} trips",
+    "mandiGrossNote": "{{quantity}} kg × {{price}}/kg mandi price",
+    "mandiTransportNote": "{{vehicle}} hired alone, {{distance}} km to the mandi",
+    "mandiTransportNoteTrips": "{{vehicle}} hired alone, {{trips}}, {{distance}} km to the mandi",
+    "mandiHandlingNote": "Hamali / unloading at the mandi, {{rate}}/kg",
+    "mandiRejectionNote": "Expected {{pct}}% rejection, sold ungraded",
+    "mandiCommissionNote": "Commission agent at {{pct}}%",
+    "pooledGrossNoteOffer": "{{quantity}} kg × {{price}}/kg buyer’s written offer",
+    "pooledGrossNoteEntered": "{{quantity}} kg × {{price}}/kg offer price you entered",
+    "pooledTransportNote": "Shared by weight: your {{quantity}} of {{lotKg}} kg on one {{vehicle}}, {{distance}} km route",
+    "pooledTransportNoteTrips": "Shared by weight: your {{quantity}} of {{lotKg}} kg on one {{vehicle}}, {{trips}}, {{distance}} km route",
+    "pooledHandlingNote": "Loading & crates at the collection point, {{rate}}/kg",
+    "pooledRejectionNote": "Expected {{pct}}% rejection, inspected and graded",
+    "paidOnDelivery": "Paid on delivery",
+    "paymentWaitNote_one": "Cost of waiting {{count}} day at {{rate}}%/yr",
+    "paymentWaitNote_other": "Cost of waiting {{count}} days at {{rate}}%/yr",
+    "platformFeeNote": "MandiMate charges buyers, not farmers"
+  },
+  "journeySection": {
+    "eyebrow": "The whole journey",
+    "title": "From harvest to <em>payment</em>, in eight steps.",
+    "lead": "A listing app stops once a buyer is found. MandiMate keeps going — through consent, pickup, delivery and quality checks — until the money reaches the farmer and the result is recorded.",
+    "link": "Every step in detail",
+    "marketplacesStop": "Where most marketplaces stop",
+    "mandimateContinues": "Where MandiMate keeps going"
+  },
+  "howItWorks": {
+    "crumb": "How it works",
+    "hero": {
+      "eyebrow": "How MandiMate works",
+      "title": "From harvest to <em>payment</em>, in eight steps.",
+      "lead": "MandiMate connects the whole sale into one workflow — pooling, offers, net-earnings comparison, consent, shared transport, delivery checks and settlement — and keeps going until the money reaches the farmer.",
+      "primary": "List your harvest — free",
+      "secondary": "Calculate your net earnings"
+    },
+    "phases": {
+      "eyebrow": "Three phases, one record",
+      "stepRange": "Steps {{from}}–{{to}}",
+      "stepSingle": "Steps {{n}}",
+      "before": {
+        "label": "Before the deal",
+        "tone": "Listing, pooling, offers and the net comparison."
+      },
+      "decision": {
+        "label": "The decision",
+        "tone": "Each farmer accepts or declines."
+      },
+      "after": {
+        "label": "After the deal",
+        "tone": "Pickup, delivery, quality and payment."
+      }
+    },
+    "promises": {
+      "0": "Free for farmers — MandiMate charges buyers",
+      "1": "No sale without each farmer’s consent",
+      "2": "Net earnings shown before any decision",
+      "3": "Every fee and deduction on the screen"
+    },
+    "steps": {
+      "navLabel": "Journey steps",
+      "navEyebrow": "The journey",
+      "eyebrow": "Step by step",
+      "title": "What happens, who acts, and what <em>protects</em> the farmer.",
+      "lead": "Each step has an owner, a clear output and a rule that keeps the farmer in control. Nothing moves forward on a guess.",
+      "whatYouSee": "What you see",
+      "safeguard": "Safeguard"
+    },
+    "stop": {
+      "eyebrow": "Why all eight matter",
+      "title": "Most platforms stop at step three. The farmer’s money is made in the <em>other five</em>.",
+      "lead": "Rejections at the gate, a half-empty truck, an unpaid invoice — that is where small farmers lose what a better price promised. MandiMate is built to carry the deal through to settlement and record what the farmer actually earned.",
+      "primary": "See the net difference",
+      "secondary": "Read the FAQ"
+    }
+  },
+  "calculator": {
+    "crumb": "Net earnings calculator",
+    "hero": {
+      "eyebrow": "Net earnings calculator",
+      "title": "What will you <em>actually</em> take home?",
+      "lead": "Compare selling your harvest alone at the mandi with a pooled sale through MandiMate — after rejection, transport, handling, commission and the wait for payment. Change any number; the answer updates instantly."
+    },
+    "method": {
+      "eyebrow": "How the calculation works",
+      "title": "Six lines between the price and your <em>pocket</em>.",
+      "lead": "Every figure comes from one published formula — the same one farmers see inside MandiMate. Where a real distance is unknown, we assume {{km}} km to the nearest mandi. Each line is rounded to the paisa and the net is their sum.",
+      "items": {
+        "gross": {
+          "title": "Gross sale value",
+          "body": "Quantity × the price per kilogram. This is the number most apps stop at — and the one that tells you least about what you will take home."
+        },
+        "rejection": {
+          "title": "Expected rejection",
+          "body": "Produce refused at the gate or sold as waste is never paid for. Selling alone, ungraded produce is often rejected more; in a pooled lot, harvests are inspected and graded before pickup."
+        },
+        "transport": {
+          "title": "Transport",
+          "body": "Selling alone, you hire a whole vehicle for your harvest. Pooled, one vehicle collects the lot along a planned route and the cost is split by weight. Estimates use published vehicle rates; a real deal uses the transporter’s quote."
+        },
+        "handling": {
+          "title": "Handling & loading",
+          "body": "Hamali and unloading at a mandi is estimated at {{mandiRate}}. At a MandiMate collection point, loading and crates are estimated at {{loadingRate}}."
+        },
+        "commission": {
+          "title": "Commission",
+          "body": "A commission agent at the mandi typically takes about {{pct}}% of the accepted value. MandiMate deals carry no commission for farmers — MandiMate charges buyers."
+        },
+        "paymentWait": {
+          "title": "Cost of waiting for payment",
+          "body": "Money that arrives in three weeks is worth less than money tomorrow. We price the wait at an informal credit rate of {{rate}}% a year, so a faster-paying buyer is properly rewarded."
+        }
+      }
+    },
+    "vehicles": {
+      "title": "Vehicle rates used for estimates",
+      "note": "The smallest vehicle that fits the load is chosen; larger loads take more trips.",
+      "vehicle": "Vehicle",
+      "capacity": "Capacity",
+      "baseCharge": "Base charge",
+      "perKm": "Per km"
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Net earnings, <em>explained</em>.",
+      "items": {
+        "0": {
+          "question": "What is net earnings, and why does it matter more than price?",
+          "answer": "Net earnings is what reaches the farmer after expected rejection, transport, handling, commission and the cost of waiting for payment. A buyer who quotes ₹2 more per kilogram can still leave a farmer with less if their transport, deductions or payment terms are worse."
+        },
+        "1": {
+          "question": "How accurate is this calculator?",
+          "answer": "It uses the same net-proceeds formula MandiMate uses inside the app, with published estimates for transport, handling and commission. Your real figures depend on the actual offer, transporter quote and quality inspection, which MandiMate marks as confirmed, estimated or unresolved in every deal."
+        },
+        "2": {
+          "question": "Does MandiMate charge farmers a fee?",
+          "answer": "No. MandiMate charges buyers a coordination fee per successfully sourced lot. The MandiMate fee line is ₹0 for farmers."
+        },
+        "3": {
+          "question": "How is pooled transport shared between farmers?",
+          "answer": "By weight. If your harvest is 400 kg of a 1,000 kg lot, you pay 40% of the vehicle cost for that route — not the whole trip."
+        },
+        "4": {
+          "question": "What if selling alone pays more?",
+          "answer": "Then MandiMate shows you that. A pooled deal is only worth taking when your net is better, and no sale goes ahead without your consent."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Ready when your harvest is",
+      "title": "Put real offers behind <em>these</em> numbers.",
+      "lead": "List your harvest and MandiMate will look for neighbours to pool with, invite verified buyers and show your net for every offer — confirmed, estimated and open items clearly marked.",
+      "secondary": "See how it works"
+    }
+  },
+  "netCalculator": {
+    "inputs": {
+      "quantityKg": {
+        "label": "Your harvest",
+        "hint": "How much is ready to sell"
+      },
+      "mandiPrice": {
+        "label": "Mandi price",
+        "hint": "What a local trader or the mandi pays"
+      },
+      "offerPrice": {
+        "label": "Pooled offer price",
+        "hint": "A buyer’s price for the pooled lot"
+      },
+      "mandiDistanceKm": {
+        "label": "Distance to the mandi",
+        "hint": "Farm to market, by road"
+      },
+      "mandiRejectionPct": {
+        "label": "Rejection selling alone",
+        "hint": "Share usually refused or sold as waste"
+      },
+      "paymentDays": {
+        "label": "Buyer pays after",
+        "hint": "The pooled buyer’s payment terms"
+      },
+      "lotKg": {
+        "label": "Pooled lot size",
+        "hint": "All farmers’ harvests on one truck"
+      },
+      "routeKm": {
+        "label": "Pickup route to the buyer",
+        "hint": "Across the farms, then to the buyer"
+      },
+      "pooledRejectionPct": {
+        "label": "Rejection when pooled",
+        "hint": "Graded, inspected produce"
+      }
+    },
+    "units": {
+      "kg": "kg",
+      "rupeesPerKg": "₹/kg",
+      "km": "km",
+      "percent": "%",
+      "days": "days"
+    },
+    "rangeError": "Enter a number from {{min}} to {{max}}.",
+    "youTakeHome": "You take home",
+    "netFromGross": "{{net}} net · from {{gross}} gross",
+    "compare": {
+      "perKg": "Per kg",
+      "alone": "Alone",
+      "pooled": "Pooled",
+      "quotedPrice": "Quoted price"
+    },
+    "formLabel": "Your harvest and prices",
+    "yourNumbers": "Your numbers",
+    "reset": "Reset example",
+    "startsWith": "Starts with the worked example: 400 kg of tomatoes.",
+    "mainLegend": "Your harvest and the two prices",
+    "poolAssumptions": "Pooled lot assumptions",
+    "lotSummary": "{{lot}} · {{km}} km",
+    "lotTooSmall": "The lot can’t be smaller than your harvest, so it is counted as {{quantity}}.",
+    "resultsTitle": "Your estimated net earnings",
+    "eyebrowBetter": "Pooling with MandiMate could add",
+    "eyebrowWorse": "With these numbers",
+    "upliftMore": "more in your pocket · <num>{{perKg}}</num> more per kg",
+    "upliftLess": "less than selling alone · <num>{{perKg}}</num> less per kg",
+    "explainBetter": "A {{priceGap}} difference in the quoted price becomes {{uplift}} in what you keep, once rejection, transport, handling, commission and the wait for payment are counted.",
+    "explainWorse": "Selling alone nets more here — and MandiMate would tell you so. A pooled deal is only worth it when the net is better, which is why we compare net, never just the price.",
+    "liveSummary": "Selling alone: {{mandi}} net. Pooled with MandiMate: {{pooled}} net. Difference: {{difference}}.",
+    "mandiCaption": "Own vehicle · {{transport}} transport · paid next day",
+    "pooledCaption_one": "Shared truck · no commission · paid in {{count}} day",
+    "pooledCaption_other": "Shared truck · no commission · paid in {{count}} days",
+    "openItems": "Open in the pooled estimate: {{items}}. In a real deal these are resolved before you are asked to decide.",
+    "error": "These numbers can’t be calculated. Check that each value is within its range."
+  },
+  "pricing": {
+    "crumb": "Pricing",
+    "hero": {
+      "eyebrow": "Pricing",
+      "title": "Free for farmers. <em>Fair for everyone else.</em>",
+      "lead": "Farmers never pay. Buyers pay a coordination fee only on lots they actually source, FPOs can subscribe for aggregation and settlement tools, and logistics coordination is always its own visible line.",
+      "footnote": "Pilot pricing — subject to validation"
+    },
+    "plansTitle": "Plans by role",
+    "plansNote": "Indicative amounts for the pilot. Final fees will be set from real transaction data and published here before they apply.",
+    "tagAlways": "Always",
+    "tagPilot": "Pilot",
+    "plans": {
+      "farmers": {
+        "audience": "Farmers",
+        "name": "Free, always",
+        "price": "₹0",
+        "unit": "to list, pool and sell",
+        "summary": "No barrier for the people who grow the food. Farmers never pay MandiMate.",
+        "includes": {
+          "0": "Voice, photo and assisted listing",
+          "1": "Private minimum net price",
+          "2": "Offer comparison by net earnings",
+          "3": "Consent on every sale",
+          "4": "Delivery, deduction and payment tracking"
+        },
+        "cta": "Join as a farmer"
+      },
+      "buyers": {
+        "audience": "Buyers",
+        "name": "Coordination fee",
+        "price": "₹500",
+        "unit": "indicative, per successfully sourced lot",
+        "summary": "Pay only when a lot is delivered to you. Posting requirements and browsing supply cost nothing.",
+        "includes": {
+          "0": "Lots built to your specification",
+          "1": "Verified farmers and quantities",
+          "2": "Offers, counters and terms in one thread",
+          "3": "Delivery and quality records",
+          "4": "Settlement against accepted quantity"
+        },
+        "cta": "Start sourcing"
+      },
+      "logistics": {
+        "audience": "Logistics",
+        "name": "Coordination fee",
+        "price": "Per run",
+        "unit": "shown as its own line in every quote",
+        "summary": "A transparent fee for planning consolidated pickups — never folded into the transport price.",
+        "includes": {
+          "0": "Free for transporters to quote",
+          "1": "Route and pickup sequencing",
+          "2": "Capacity planning",
+          "3": "Pickup and delivery confirmations"
+        },
+        "cta": "Join as a transporter"
+      }
+    },
+    "fpo": {
+      "eyebrow": "FPOs & cooperatives",
+      "title": "A subscription for the <em>people who coordinate.</em>",
+      "lead": "Aggregation, buyer management, records and settlement tracking for your members — priced by the scale you run, not by the farmers you serve.",
+      "mostFpos": "Most FPOs",
+      "primary": "Join as a coordinator",
+      "secondary": "Discuss a federation plan",
+      "tiers": {
+        "pilot": {
+          "name": "Pilot",
+          "price": "₹0",
+          "unit": "during the pilot",
+          "body": "For the first FPO partners in our pilot cluster, while we learn together.",
+          "includes": {
+            "0": "Assisted onboarding",
+            "1": "Lot builder",
+            "2": "Settlement records"
+          }
+        },
+        "cluster": {
+          "name": "Cluster",
+          "price": "₹1,500",
+          "unit": "per month, indicative",
+          "body": "For an FPO coordinating one village cluster and a handful of buyers.",
+          "includes": {
+            "0": "Everything in Pilot",
+            "1": "Buyer management",
+            "2": "Season insights & exports"
+          }
+        },
+        "federation": {
+          "name": "Federation",
+          "price": "Custom",
+          "unit": "by arrangement",
+          "body": "For federations and cooperatives running many clusters and crops.",
+          "includes": {
+            "0": "Everything in Cluster",
+            "1": "Multi-cluster reporting",
+            "2": "Dispute & audit workflows"
+          }
+        }
+      }
+    },
+    "principles": {
+      "eyebrow": "Our pricing principles",
+      "title": "Every rupee, <em>in the open.</em>",
+      "lead": "A marketplace that asks farmers to trust its numbers has to be transparent about its own.",
+      "items": {
+        "farmersNeverPay": {
+          "title": "Farmers never pay",
+          "body": "No listing fee, no membership, no cut of the farmer’s price."
+        },
+        "feesShownFirst": {
+          "title": "Fees shown first",
+          "body": "Every fee and deduction appears before anyone consents."
+        },
+        "paidOnSuccess": {
+          "title": "Paid on success",
+          "body": "Buyer fees apply only to lots that are sourced and delivered."
+        },
+        "neverHidden": {
+          "title": "Never hidden in price",
+          "body": "Coordination is its own line, never buried in a per-kg rate."
+        }
+      }
+    },
+    "model": {
+      "eyebrow": "How the model adds up",
+      "title": "Small fees, <em>many good deals.</em>",
+      "lead": "We earn when farmers sell well and buyers get what they ordered. A hypothetical illustration — not a forecast:",
+      "consignments": "Consignments per month",
+      "feePerLot": "Coordination fee per lot",
+      "monthlyGross": "Monthly gross, before operating costs"
+    },
+    "faq": {
+      "title": "Pricing questions",
+      "items": {
+        "0": {
+          "question": "Why is MandiMate free for farmers?",
+          "answer": "Our mission is to raise what farmers take home. Charging them would work against that, so the business is paid for by buyers, FPO subscriptions and a transparent logistics coordination fee."
+        },
+        "1": {
+          "question": "Are these prices final?",
+          "answer": "No. This is pilot pricing, subject to validation with real transactions. We will change it if it does not work for farmers, buyers or partners — and we will say so publicly."
+        },
+        "2": {
+          "question": "Will fees reduce what a farmer earns?",
+          "answer": "Any cost that touches a farmer’s sale — transport, handling, a commission — appears as its own line in their net earnings before they agree. Nothing is hidden inside the price."
+        },
+        "3": {
+          "question": "Do buyers pay if a deal fails?",
+          "answer": "No. The buyer coordination fee applies only to lots that are successfully sourced and delivered."
+        }
+      }
+    },
+    "cta": {
+      "title": "Choose your <em>side of the deal.</em>",
+      "lead": "Sign up with your role and we will set up the right tools for you."
+    }
+  },
+  "ctaBand": {
+    "eyebrow": "Start with your next harvest",
+    "title": "Your harvest deserves a <em>stronger</em> deal.",
+    "lead": "List what is ready in a minute — by voice, photo or text. We will show you what you would take home before you decide anything.",
+    "primary": "Create a free account",
+    "secondary": "Calculate your net earnings",
+    "promises": {
+      "0": "Free for farmers",
+      "1": "No sale without your consent",
+      "2": "Every deduction shown"
+    }
+  },
+  "pageHero": {
+    "breadcrumb": "Breadcrumb",
+    "home": "Home"
+  },
+  "pageSeo": {
+    "home": {
+      "description": "MandiMate pools small harvests into buyer-ready lots, negotiates better offers, shares transport and shows every farmer their true net earnings."
+    },
+    "howItWorks": {
+      "title": "How MandiMate works",
+      "description": "From harvest listing to settlement in eight steps: pooling, offers, net-earnings comparison, consent, shared transport, delivery checks and payment."
+    },
+    "farmers": {
+      "title": "For farmers",
+      "description": "List a harvest by voice in Telugu, Hindi, Kannada, Urdu or English, join pooled sales and compare offers by what you actually take home before you say yes."
+    },
+    "buyers": {
+      "title": "For buyers",
+      "description": "Source consistent, graded produce from coordinated farmer groups. Post requirements, negotiate openly and track every delivery and payment."
+    },
+    "transporters": {
+      "title": "For transporters",
+      "description": "Quote on consolidated pickups with planned routes, known loads and confirmed stops. Fewer empty kilometres, fuller trucks, clear payment."
+    },
+    "fpos": {
+      "title": "For FPOs and field coordinators",
+      "description": "Run aggregation for your farmer producer organisation: assisted listing, quality checks, lot building, buyer management and settlement records."
+    },
+    "calculator": {
+      "title": "Net earnings calculator",
+      "description": "Work out what a crop sale really pays after transport, handling, commission, rejection and payment delay — the number a farmer takes home."
+    },
+    "pricing": {
+      "title": "Pricing",
+      "description": "MandiMate is free for farmers. Buyers pay a coordination fee per sourced lot, and FPOs can subscribe for aggregation and settlement tools."
+    },
+    "impact": {
+      "title": "Impact",
+      "description": "How we measure whether farmers earn more: net uplift per kg against the local mandi, sell-through, transport cost per kg and payment delays."
+    },
+    "about": {
+      "title": "About MandiMate",
+      "description": "We turn fragmented harvests into viable commercial deals and prove, with real transaction records, whether farmers actually earn more."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "description": "Answers about pooled sales, net earnings, fees, farmer consent, transport, quality checks, payments and how MandiMate uses AI."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Talk to the MandiMate team about a pilot in your village cluster, sourcing as a buyer, joining as a transporter or partnering as an FPO."
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "description": "How MandiMate collects, uses and protects personal and transaction data for farmers, buyers, transporters and coordinators."
+    },
+    "terms": {
+      "title": "Terms of service",
+      "description": "The terms that govern use of MandiMate by farmers, buyers, transporters and FPO coordinators, including consent, fees and disputes."
+    }
+  }
+}

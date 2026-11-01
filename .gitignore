@@ -1,0 +1,48 @@
+# ── Secrets & local environment ─────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python (backend) ────────────────────────────────────────────────────────────────────────
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# ── Node (frontend) ─────────────────────────────────────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+coverage/
+npm-debug.log*
+
+# ── Uploaded media (keep the directory itself) ──────────────────────────────────────────────
+backend/media/*
+!backend/media/.gitkeep
+
+# ── Logs & OS / editor files ────────────────────────────────────────────────────────────────
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+*.swo
+*~
+
+# ── ./dev.sh state (pids, ports, logs) ──────────────────────────────────────────────────────
+.dev/
+
+# ── AI assistant local config (keep out of the repo) ────────────────────────────────────────
+.claude/
+CLAUDE.md
+CLAUDE.local.md

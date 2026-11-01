@@ -1,0 +1,369 @@
+@import "tailwindcss";
+
+@import "@fontsource-variable/plus-jakarta-sans/index.css";
+@import "@fontsource-variable/noto-sans-devanagari/index.css";
+@import "@fontsource-variable/noto-sans-telugu/index.css";
+@import "@fontsource-variable/noto-sans-kannada/index.css";
+@import "@fontsource-variable/noto-naskh-arabic/index.css";
+
+@import "./theme.css";
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * Base
+ * ───────────────────────────────────────────────────────────────────────── */
+
+@layer base {
+  :root {
+    /* Contextual tokens. `surface-dark` re-points them for dark editorial surfaces. */
+    --focus-ring: var(--color-forest-500);
+    --fg-muted: var(--color-muted);
+    --eyebrow: var(--color-gold-700);
+    --hairline: var(--color-line);
+    --scrollbar-thumb: var(--color-sand);
+    color-scheme: light;
+  }
+
+  *,
+  ::before,
+  ::after {
+    border-color: var(--color-line);
+  }
+
+  html {
+    background-color: var(--color-ivory);
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    scroll-padding-top: 6rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    min-height: 100dvh;
+    overflow-x: clip;
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  h3,
+  h4 {
+    font-weight: 650;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  a {
+    text-underline-offset: 0.22em;
+    text-decoration-thickness: 1px;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  summary,
+  label[for] {
+    cursor: pointer;
+  }
+
+  ::placeholder {
+    color: color-mix(in oklab, var(--color-muted) 72%, transparent);
+    opacity: 1;
+  }
+
+  ::selection {
+    background-color: var(--color-gold-200);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 3px;
+  }
+
+  hr {
+    border-color: var(--hairline);
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border: 3px solid transparent;
+    border-radius: 9999px;
+    background-color: var(--scrollbar-thumb);
+    background-clip: padding-box;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * Components layer — numerals and SSR-safe reveal
+ * ───────────────────────────────────────────────────────────────────────── */
+
+@layer components {
+  /* Tailwind's `tabular-nums` sets font-variant-numeric; also force lining figures. */
+  .tabular-nums {
+    font-feature-settings: "tnum" 1, "lnum" 1;
+  }
+
+  /*
+   * Reveal on scroll. Prerendered HTML never contains hidden content: only once
+   * the inline script has swapped <html class="no-js"> → "js" do `.reveal`
+   * elements start hidden, and `useReveal()` adds `.is-visible` in view.
+   */
+  html.js .reveal {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+    transition:
+      opacity 0.9s var(--ease-luxe),
+      transform 0.9s var(--ease-luxe);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+
+  html.js .reveal.reveal-fade {
+    transform: none;
+  }
+
+  html.js .reveal.reveal-scale {
+    transform: scale(0.97);
+  }
+
+  html.js .reveal.is-visible {
+    opacity: 1;
+    transform: none;
+  }
+
+  /*
+   * Motion-driven stagger items (StaggerGroup/StaggerItem). Prerendered markup carries no inline
+   * opacity; with JS on, items start hidden here and motion's inline styles take over after hydration.
+   */
+  html.js [data-stagger] [data-stagger-item] {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * Utilities
+ * ───────────────────────────────────────────────────────────────────────── */
+
+/* Marks a subtree as sitting on a dark editorial surface (forest-950/900). */
+@utility surface-dark {
+  color: var(--color-ivory);
+  color-scheme: dark;
+  --focus-ring: var(--color-gold-300);
+  --fg-muted: rgba(245, 245, 242, 0.74);
+  --eyebrow: var(--color-gold-400);
+  --hairline: rgba(255, 255, 255, 0.12);
+  --scrollbar-thumb: rgba(255, 255, 255, 0.16);
+}
+
+@utility content-container {
+  width: 100%;
+  max-width: var(--container-content);
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @media (width >= 48rem) {
+    padding-inline: 2rem;
+  }
+}
+
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--eyebrow);
+}
+
+/* Section eyebrow with a leading leaf-dot: "●  WHAT WE DO". */
+@utility eyebrow-rule {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+
+  &::before {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 9999px 0;
+    background-color: var(--color-gold-500);
+  }
+}
+
+@utility hairline {
+  display: block;
+  height: 1px;
+  border: 0;
+  flex-shrink: 0;
+  background-color: var(--hairline);
+}
+
+@utility hairline-gold {
+  display: block;
+  height: 1px;
+  border: 0;
+  flex-shrink: 0;
+  background-color: color-mix(in oklab, var(--color-gold-500) 55%, transparent);
+}
+
+@utility grain {
+  position: relative;
+  isolation: isolate;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0.02;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");
+    background-size: 180px 180px;
+  }
+}
+
+@utility glass {
+  background-color: rgba(255, 255, 255, 0.92);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+@utility glass-dark {
+  background-color: rgba(255, 255, 255, 0.06);
+  box-shadow: none;
+}
+
+@utility link-luxe {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 1px;
+  transition: background-size 0.45s var(--ease-luxe);
+
+  &:hover,
+  &:focus-visible {
+    background-size: 100% 1px;
+  }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Sonner injects unlayered CSS with a system font stack; keep toasts on the brand face. */
+html [data-sonner-toaster] {
+  font-family: var(--font-sans);
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * Script-aware typography (unlayered so it wins over size utilities)
+ * Negative tracking and tight leading break Devanagari/Telugu conjuncts.
+ * ───────────────────────────────────────────────────────────────────────── */
+
+:is(:lang(hi), :lang(te)) :is(h1, h2, h3, h4, .font-display) {
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+
+:is(:lang(hi), :lang(te)) .eyebrow {
+  letter-spacing: 0.02em;
+}
+
+/* Tracked capitals are a Latin-script device: spaced-out letters split Devanagari/Telugu conjuncts. */
+:is(:lang(hi), :lang(te)) :is([class*="tracking-"], .uppercase) {
+  letter-spacing: 0.01em !important;
+  text-transform: none;
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * Reduced motion: content is shown immediately and decorative motion stops.
+ * Elements marked data-motion="essential" (spinners) keep animating.
+ * ───────────────────────────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  html.js .reveal,
+  html.js [data-stagger] [data-stagger-item] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  *:not([data-motion="essential"]),
+  *:not([data-motion="essential"])::before,
+  *:not([data-motion="essential"])::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+ * Right-to-left (Urdu): layout uses logical utilities (ms-, ps-, start-, text-start …);
+ * directional icons are mirrored here so "next" still points the way the text reads.
+ * ───────────────────────────────────────────────────────────────────────── */
+[dir="rtl"]
+  :is(
+    .lucide-arrow-right,
+    .lucide-arrow-left,
+    .lucide-arrow-up-right,
+    .lucide-chevron-right,
+    .lucide-chevron-left,
+    .lucide-chevrons-right,
+    .lucide-chevrons-left,
+    .lucide-move-right,
+    .lucide-log-out,
+    .lucide-log-in,
+    .lucide-panel-left,
+    .lucide-panel-left-close,
+    .lucide-panel-left-open
+  ) {
+  transform: scaleX(-1);
+}
+
+/* Naskh needs a little more room above and below than Latin text. */
+:lang(ur) {
+  line-height: 1.75;
+}

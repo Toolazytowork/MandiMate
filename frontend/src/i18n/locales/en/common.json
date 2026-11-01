@@ -1,0 +1,734 @@
+{
+  "brand": {
+    "name": "MandiMate",
+    "tagline": "Better deals. Shared logistics. More money for farmers.",
+    "shortTagline": "More money for farmers"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "mainNavigation": "Main navigation",
+    "footerNavigation": "Footer navigation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleSidebar": "Toggle sidebar",
+    "userMenu": "Account menu",
+    "notifications": "Notifications",
+    "unreadNotifications_one": "{{count}} unread notification",
+    "unreadNotifications_other": "{{count}} unread notifications",
+    "languageSwitcher": "Change language",
+    "close": "Close",
+    "loading": "Loading",
+    "required": "Required",
+    "optional": "Optional",
+    "opensInNewTab": "Opens in a new tab",
+    "breadcrumb": "Breadcrumb",
+    "pagination": "Pagination",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "sortAscending": "Sorted ascending",
+    "sortDescending": "Sorted descending"
+  },
+  "nav": {
+    "groups": {
+      "overview": "Overview",
+      "selling": "Selling",
+      "sourcing": "Sourcing",
+      "logistics": "Logistics",
+      "operations": "Operations",
+      "money": "Money",
+      "administration": "Administration",
+      "account": "Account",
+      "product": "Product",
+      "solutions": "Solutions",
+      "company": "Company",
+      "legal": "Legal"
+    },
+    "public": {
+      "home": "Home",
+      "howItWorks": "How it works",
+      "farmers": "For farmers",
+      "buyers": "For buyers",
+      "transporters": "For transporters",
+      "fpos": "For FPOs",
+      "calculator": "Earnings calculator",
+      "pricing": "Pricing",
+      "impact": "Impact",
+      "about": "About",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "login": "Sign in",
+      "signup": "Create account",
+      "getStarted": "Get started",
+      "openApp": "Open MandiMate"
+    },
+    "shared": {
+      "dashboard": "Dashboard",
+      "notifications": "Notifications",
+      "settings": "Settings",
+      "disputes": "Disputes",
+      "verification": "Verification",
+      "profile": "Profile",
+      "signOut": "Sign out"
+    },
+    "farmer": {
+      "home": "Home",
+      "harvests": "My harvests",
+      "newHarvest": "List a harvest",
+      "offers": "Offers",
+      "lots": "Pooled lots",
+      "sales": "Sales",
+      "earnings": "Earnings",
+      "demand": "Buyer demand",
+      "more": "More",
+      "voiceListing": "Speak to list"
+    },
+    "buyer": {
+      "home": "Overview",
+      "demands": "Requirements",
+      "newDemand": "Post a requirement",
+      "supply": "Available supply",
+      "offers": "Offers",
+      "newOffer": "Make an offer",
+      "orders": "Orders",
+      "payments": "Payments"
+    },
+    "transporter": {
+      "home": "Overview",
+      "requests": "Pickup requests",
+      "trips": "Trips",
+      "vehicles": "Vehicles"
+    },
+    "coordinator": {
+      "home": "Operations",
+      "farmers": "Farmers",
+      "registerFarmer": "Register a farmer",
+      "harvests": "Harvests",
+      "assistedListing": "Assisted listing",
+      "lotBuilder": "Lot builder",
+      "lots": "Lots",
+      "transport": "Transport",
+      "settlements": "Settlements",
+      "disputes": "Disputes",
+      "insights": "Insights",
+      "verifications": "Verifications"
+    },
+    "admin": {
+      "home": "Admin overview",
+      "users": "Users",
+      "audit": "Audit log"
+    }
+  },
+  "actions": {
+    "save": "Save",
+    "saveChanges": "Save changes",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "continue": "Continue",
+    "back": "Back",
+    "goBack": "Go back",
+    "next": "Next",
+    "submit": "Submit",
+    "edit": "Edit",
+    "delete": "Delete",
+    "remove": "Remove",
+    "add": "Add",
+    "create": "Create",
+    "search": "Search",
+    "filter": "Filter",
+    "clearFilters": "Clear filters",
+    "reset": "Reset",
+    "retry": "Retry",
+    "tryAgain": "Try again",
+    "reload": "Reload page",
+    "refresh": "Refresh",
+    "viewAll": "View all",
+    "viewDetails": "View details",
+    "showMore": "Show more",
+    "showLess": "Show less",
+    "download": "Download",
+    "upload": "Upload",
+    "uploadPhoto": "Upload photo",
+    "takePhoto": "Take photo",
+    "copy": "Copy",
+    "copied": "Copied",
+    "share": "Share",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signUp": "Create account",
+    "getStarted": "Get started",
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "backToHome": "Back to home",
+    "goToDashboard": "Go to dashboard",
+    "accept": "Accept",
+    "reject": "Reject",
+    "decline": "Decline",
+    "counter": "Counter",
+    "counterOffer": "Make a counter-offer",
+    "withdraw": "Withdraw",
+    "giveConsent": "Give consent",
+    "join": "Join",
+    "joinLot": "Join this lot",
+    "listHarvest": "List a harvest",
+    "makeOffer": "Make an offer",
+    "postRequirement": "Post a requirement",
+    "submitQuote": "Submit quote",
+    "acceptQuote": "Book this quote",
+    "confirmPickup": "Confirm pickup",
+    "completeTrip": "Complete trip",
+    "recordDelivery": "Record delivery",
+    "recordPayment": "Record payment",
+    "markPaid": "Mark as paid",
+    "raiseDispute": "Raise a dispute",
+    "resolve": "Resolve",
+    "verify": "Verify",
+    "approve": "Approve",
+    "openForOffers": "Open for offers",
+    "compare": "Compare",
+    "startSpeaking": "Start speaking",
+    "stopListening": "Stop listening",
+    "typeInstead": "Type instead",
+    "markAllRead": "Mark all as read",
+    "markRead": "Mark as read",
+    "apply": "Apply",
+    "done": "Done",
+    "select": "Select",
+    "change": "Change",
+    "view": "View"
+  },
+  "enums": {
+    "role": {
+      "farmer": "Farmer",
+      "buyer": "Buyer",
+      "transporter": "Transporter",
+      "coordinator": "Coordinator",
+      "admin": "Administrator"
+    },
+    "verificationStatus": {
+      "unverified": "Not verified",
+      "pending": "Verification pending",
+      "verified": "Verified",
+      "rejected": "Verification rejected"
+    },
+    "grade": {
+      "A": "Grade A",
+      "B": "Grade B",
+      "C": "Grade C",
+      "ungraded": "Ungraded"
+    },
+    "cropCategory": {
+      "vegetable": "Vegetable",
+      "fruit": "Fruit",
+      "grain": "Grain",
+      "pulse": "Pulse",
+      "spice": "Spice",
+      "oilseed": "Oilseed"
+    },
+    "certainty": {
+      "confirmed": "Confirmed",
+      "estimated": "Estimated",
+      "unresolved": "Unresolved"
+    },
+    "harvestStatus": {
+      "draft": "Draft",
+      "listed": "Listed",
+      "pooled": "In a pooled lot",
+      "committed": "Committed to a deal",
+      "picked_up": "Picked up",
+      "delivered": "Delivered",
+      "settled": "Settled",
+      "cancelled": "Cancelled",
+      "expired": "Expired"
+    },
+    "qualityStatus": {
+      "self_reported": "Self-reported",
+      "pending_inspection": "Inspection pending",
+      "inspected": "Inspected"
+    },
+    "listingSource": {
+      "manual": "Typed",
+      "voice": "Voice",
+      "assisted": "Assisted by coordinator"
+    },
+    "demandStatus": {
+      "open": "Open",
+      "matched": "Matched",
+      "fulfilled": "Fulfilled",
+      "cancelled": "Cancelled",
+      "expired": "Expired"
+    },
+    "lotStatus": {
+      "forming": "Forming",
+      "awaiting_consent": "Awaiting consent",
+      "open_for_offers": "Open for offers",
+      "offer_accepted": "Offer accepted",
+      "transport_booked": "Transport booked",
+      "in_transit": "In transit",
+      "delivered": "Delivered",
+      "settled": "Settled",
+      "cancelled": "Cancelled"
+    },
+    "consentDecision": {
+      "pending": "Awaiting decision",
+      "accepted": "Agreed",
+      "declined": "Declined"
+    },
+    "offerStatus": {
+      "pending": "New offer",
+      "countered": "Countered",
+      "proposed": "Awaiting farmer consent",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "withdrawn": "Withdrawn",
+      "expired": "Expired"
+    },
+    "offerTargetType": {
+      "lot": "Pooled lot",
+      "harvest": "Single harvest"
+    },
+    "awaiting": {
+      "buyer": "Waiting for the buyer",
+      "seller": "Waiting for the seller",
+      "farmers": "Waiting for farmers’ consent"
+    },
+    "pickupTerms": {
+      "buyer_pickup": "Buyer collects",
+      "mandimate_delivery": "MandiMate delivers"
+    },
+    "negotiationAction": {
+      "offer": "Made an offer",
+      "counter": "Countered",
+      "accept": "Accepted",
+      "reject": "Rejected",
+      "withdraw": "Withdrew",
+      "propose": "Proposed to farmers",
+      "consent": "Gave consent",
+      "note": "Note"
+    },
+    "vehicleType": {
+      "mini_truck": "Mini truck",
+      "pickup": "Pickup",
+      "light_truck": "Light truck",
+      "medium_truck": "Medium truck",
+      "reefer_truck": "Refrigerated truck"
+    },
+    "transportRequestStatus": {
+      "open": "Open for quotes",
+      "quoted": "Quotes received",
+      "booked": "Booked",
+      "in_progress": "In progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "quoteStatus": {
+      "submitted": "Submitted",
+      "accepted": "Booked",
+      "rejected": "Not selected",
+      "withdrawn": "Withdrawn"
+    },
+    "stopStatus": {
+      "pending": "Pending",
+      "picked_up": "Picked up",
+      "skipped": "Skipped"
+    },
+    "paymentStatus": {
+      "pending": "Payment pending",
+      "partially_paid": "Partly paid",
+      "paid": "Paid",
+      "overdue": "Overdue",
+      "disputed": "Disputed"
+    },
+    "payoutStatus": {
+      "pending": "Payout pending",
+      "paid": "Paid out"
+    },
+    "disputeCategory": {
+      "quantity": "Quantity",
+      "quality": "Quality",
+      "payment": "Payment",
+      "transport": "Transport",
+      "other": "Other"
+    },
+    "disputeStatus": {
+      "open": "Open",
+      "under_review": "Under review",
+      "resolved": "Resolved",
+      "rejected": "Rejected"
+    },
+    "notificationType": {
+      "offer": "Offer",
+      "consent": "Consent",
+      "lot": "Pooled lot",
+      "pickup": "Pickup",
+      "delivery": "Delivery",
+      "payment": "Payment",
+      "harvest_deadline": "Sell-by reminder",
+      "dispute": "Dispute",
+      "verification": "Verification",
+      "system": "MandiMate"
+    },
+    "journeyKey": {
+      "listed": "Listed",
+      "grouped": "Grouped",
+      "offers": "Offers received",
+      "compared": "Offers compared",
+      "consent": "Deal agreed",
+      "transport": "Pickup",
+      "delivered": "Delivered",
+      "settled": "Settled"
+    },
+    "journeyStepStatus": {
+      "complete": "Done",
+      "current": "In progress",
+      "upcoming": "Up next",
+      "skipped": "Not needed"
+    },
+    "aiSource": {
+      "ai": "AI",
+      "rules": "Rules"
+    },
+    "aiMode": {
+      "live": "AI · Live",
+      "mock": "AI · Demo mode"
+    },
+    "actionKind": {
+      "consent": "Consent needed",
+      "offer": "Offer",
+      "pickup": "Pickup",
+      "payment": "Payment",
+      "deadline": "Deadline",
+      "verification": "Verification",
+      "quote": "Quote",
+      "delivery": "Delivery",
+      "dispute": "Dispute",
+      "lot": "Lot"
+    },
+    "priority": {
+      "high": "Urgent",
+      "normal": "Normal"
+    },
+    "breakdownKey": {
+      "gross": "Sale value",
+      "rejection": "Expected rejection",
+      "transport": "Transport",
+      "handling": "Handling & loading",
+      "commission": "Commission",
+      "payment_wait": "Cost of waiting for payment",
+      "platform_fee": "MandiMate fee"
+    },
+    "sellingOptionSource": {
+      "direct_offer": "Direct offer",
+      "pooled_offer": "Pooled sale",
+      "baseline": "Sell alone at the mandi"
+    },
+    "marketSignal": {
+      "surplus": "Surplus",
+      "balanced": "Balanced",
+      "shortage": "Shortage"
+    }
+  },
+  "certainty": {
+    "legend": "How sure is this number?",
+    "confirmed": {
+      "label": "Confirmed",
+      "description": "Agreed in writing or recorded after delivery."
+    },
+    "estimated": {
+      "label": "Estimated",
+      "description": "Calculated from current rates; may change slightly."
+    },
+    "unresolved": {
+      "label": "Unresolved",
+      "description": "Still open — this can change the final amount."
+    }
+  },
+  "money": {
+    "net": "Net",
+    "gross": "Gross",
+    "netEarnings": "Net earnings",
+    "youTakeHome": "You take home",
+    "perKg": "per kg",
+    "netPerKg": "Net per kg",
+    "totalDeductions": "Total deductions",
+    "deductions": "Deductions",
+    "breakdown": "Breakdown",
+    "uplift": "More than selling alone",
+    "upliftValue": "{{value}} more per kg than the mandi",
+    "best": "Best option",
+    "meetsMinimum": "Meets your minimum price",
+    "belowMinimum": "Below your minimum price",
+    "minimumPrice": "Your minimum price",
+    "minimumPriceHint": "Private: only you and your coordinator see this.",
+    "paymentIn_one": "Paid in {{count}} day",
+    "paymentIn_other": "Paid in {{count}} days",
+    "illustrative": "Illustrative price"
+  },
+  "labels": {
+    "crop": "Crop",
+    "variety": "Variety",
+    "quantity": "Quantity",
+    "available": "Available",
+    "grade": "Grade",
+    "quality": "Quality",
+    "qualityNotes": "Quality notes",
+    "harvestDate": "Harvest date",
+    "availableFrom": "Ready from",
+    "sellBy": "Sell by",
+    "pickupDate": "Pickup date",
+    "neededBy": "Needed by",
+    "location": "Location",
+    "village": "Village",
+    "district": "District",
+    "state": "State",
+    "distance": "Distance",
+    "price": "Price",
+    "pricePerKg": "Price per kg",
+    "amount": "Amount",
+    "total": "Total",
+    "status": "Status",
+    "date": "Date",
+    "notes": "Notes",
+    "buyer": "Buyer",
+    "farmer": "Farmer",
+    "farmers": "Farmers",
+    "transporter": "Transporter",
+    "coordinator": "Coordinator",
+    "members": "Members",
+    "offers": "Offers",
+    "lot": "Lot",
+    "deliveryLocation": "Delivery location",
+    "paymentTerms": "Payment terms",
+    "validUntil": "Valid until",
+    "reference": "Reference",
+    "name": "Name",
+    "fullName": "Full name",
+    "phone": "Phone number",
+    "email": "Email",
+    "password": "Password",
+    "organisation": "Organisation",
+    "language": "Language",
+    "role": "Role",
+    "vehicle": "Vehicle",
+    "capacity": "Capacity",
+    "route": "Route",
+    "stops": "Stops",
+    "createdAt": "Created",
+    "updatedAt": "Updated"
+  },
+  "units": {
+    "kg": "kg",
+    "kgValue": "{{value}} kg",
+    "quintal": "quintal",
+    "tonne": "tonne",
+    "tonneShort": "t",
+    "perKg": "/kg",
+    "perKgValue": "{{value}}/kg",
+    "km": "km",
+    "kmValue": "{{value}} km",
+    "percent": "%",
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days",
+    "hours_one": "{{count}} hour",
+    "hours_other": "{{count}} hours",
+    "farmers_one": "{{count}} farmer",
+    "farmers_other": "{{count}} farmers",
+    "trips_one": "{{count}} trip",
+    "trips_other": "{{count}} trips",
+    "stops_one": "{{count}} stop",
+    "stops_other": "{{count}} stops"
+  },
+  "time": {
+    "now": "Now",
+    "justNow": "Just now",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "yesterday": "Yesterday",
+    "dayAfterTomorrow": "Day after tomorrow",
+    "thisWeek": "This week",
+    "thisMonth": "This month",
+    "thisSeason": "This season",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "ago": "{{time}} ago",
+    "in": "in {{time}}",
+    "dueIn": "Due {{time}}",
+    "dueToday": "Due today",
+    "overdue": "Overdue",
+    "expiresIn": "Expires in {{time}}",
+    "expired": "Expired",
+    "updated": "Updated {{time}}",
+    "minutes_one": "{{count}} minute",
+    "minutes_other": "{{count}} minutes",
+    "hours_one": "{{count}} hour",
+    "hours_other": "{{count}} hours",
+    "days_one": "{{count}} day",
+    "days_other": "{{count}} days",
+    "weeks_one": "{{count}} week",
+    "weeks_other": "{{count}} weeks",
+    "months_one": "{{count}} month",
+    "months_other": "{{count}} months"
+  },
+  "states": {
+    "loading": "Loading…",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "sending": "Sending…",
+    "processing": "Working on it…",
+    "listening": "Listening…",
+    "empty": {
+      "title": "Nothing here yet",
+      "body": "When there is something to show, it will appear here."
+    },
+    "noResults": {
+      "title": "No matches",
+      "body": "Try a different search or clear the filters."
+    },
+    "noNotifications": {
+      "title": "You are all caught up",
+      "body": "New offers, consents, pickups and payments will appear here."
+    },
+    "noDisputes": {
+      "title": "No disputes",
+      "body": "If something goes wrong with a delivery or payment, you can raise it here."
+    },
+    "offline": {
+      "title": "You are offline",
+      "body": "Check your internet connection. We will reload as soon as you are back."
+    }
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Could not reach MandiMate. Check your internet connection and try again.",
+    "server": "Something went wrong on our side. Please try again shortly.",
+    "notFound": "We could not find what you were looking for.",
+    "forbidden": "You do not have permission to do that.",
+    "unauthorized": "Please sign in to continue.",
+    "sessionExpired": "Your session has ended. Please sign in again.",
+    "conflict": "That action is no longer possible — the details have changed. Refresh and try again.",
+    "validation": "Please check the highlighted fields.",
+    "tooManyRequests": "Too many attempts. Please wait a few minutes and try again.",
+    "fileTooLarge": "The file is too large. Please choose one under 8 MB.",
+    "unsupportedFile": "Please choose a JPEG, PNG or WebP photo.",
+    "required": "This field is required.",
+    "invalidEmail": "Enter a valid email address.",
+    "invalidPhone": "Enter a valid 10-digit mobile number.",
+    "boundary": {
+      "eyebrow": "Unexpected error",
+      "title": "This page could not be displayed",
+      "body": "Something went wrong while showing this page. Your data is safe — try again, or head back home.",
+      "updatedEyebrow": "MandiMate has been updated",
+      "updatedTitle": "A newer version is ready",
+      "updatedBody": "We released an improvement while this page was open. Reload to continue with the latest version."
+    }
+  },
+  "speech": {
+    "tapToSpeak": "Tap and speak",
+    "listening": "Listening… speak naturally",
+    "heard": "We heard",
+    "notSupported": "Voice input is not available in this browser. You can type instead.",
+    "errors": {
+      "unsupported": "Voice input is not available in this browser. You can type instead.",
+      "not-allowed": "Microphone access is blocked. Allow it in your browser settings, or type instead.",
+      "service-not-allowed": "Voice input is turned off in this browser. You can type instead.",
+      "no-speech": "We did not hear anything. Try again and speak a little closer to the phone.",
+      "audio-capture": "No microphone was found on this device.",
+      "network": "Voice recognition needs an internet connection. Try again or type instead.",
+      "aborted": "Listening stopped.",
+      "language-not-supported": "This language is not supported for voice input on this device.",
+      "bad-grammar": "We could not understand that. Please try again."
+    }
+  },
+  "languages": {
+    "label": "Language",
+    "choose": "Choose your language",
+    "en": "English",
+    "hi": "Hindi",
+    "te": "Telugu",
+    "kn": "Kannada",
+    "ur": "Urdu"
+  },
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "Page not found",
+    "description": "The page you were looking for does not exist or has moved.",
+    "headingStart": "This path leads",
+    "headingEmphasis": "nowhere.",
+    "body": "The page you were looking for does not exist or has moved. Let us get you back to familiar fields.",
+    "suggestions": "Popular pages"
+  },
+  "layout": {
+    "site": {
+      "homeLink": "MandiMate home",
+      "calculator": "Calculator",
+      "calculatorEyebrow": "Net-return calculator",
+      "calculatorTitleStart": "What would your harvest",
+      "calculatorTitleEmphasis": "truly",
+      "calculatorTitleEnd": "earn?",
+      "calculatorCta": "Try the calculator"
+    },
+    "solutions": {
+      "farmers": "Pool your harvest, compare real net earnings and get paid on time.",
+      "buyers": "Consistent, inspected lots sourced from coordinated farmer groups.",
+      "transporters": "Fuller loads on planned pickup routes, priced by your own quotes.",
+      "fpos": "Run aggregation, consent, transport and settlement in one place."
+    },
+    "auth": {
+      "eyebrow": "A farmer-first marketplace",
+      "headlineStart": "Every harvest, priced for what it",
+      "headlineEmphasis": "truly earns.",
+      "promise": "Twenty small harvests can travel as one lot. MandiMate does the pooling, the paperwork and the arithmetic — you keep the say.",
+      "promiseCaption": "The MandiMate promise",
+      "proof": {
+        "net": {
+          "title": "Net earnings, not quoted prices",
+          "body": "Transport, commission, rejection and payment wait are shown before you agree."
+        },
+        "pool": {
+          "title": "Pool with your neighbours",
+          "body": "Small harvests become buyer-ready lots with one shared pickup."
+        },
+        "consent": {
+          "title": "Nothing sells without your yes",
+          "body": "Every deal waits for your consent — and every fee is written down."
+        }
+      }
+    },
+    "footer": {
+      "eyebrow": "Made for farmers of Bharat",
+      "statementStart": "Better deals. Shared logistics.",
+      "statementEmphasis": "More money",
+      "statementEnd": "for farmers.",
+      "summary": "MandiMate pools small harvests into buyer-ready lots, shares the trip to market and shows every farmer what they will truly take home — before they say yes.",
+      "about": "A farmer-first marketplace for pooled harvests, shared transport and honest net earnings.",
+      "languages": "Available in",
+      "and": "and",
+      "madeFor": "Made for farmers of Bharat"
+    },
+    "nav": {
+      "trust": "Trust & safety"
+    },
+    "tabs": {
+      "label": "Quick navigation",
+      "home": "Home",
+      "harvests": "Harvests",
+      "offers": "Offers",
+      "sales": "Sales"
+    },
+    "breadcrumb": {
+      "details": "Details"
+    },
+    "shell": {
+      "home": "MandiMate — workspace home"
+    },
+    "ai": {
+      "liveHint": "Explanations by {{model}}. Prices, costs and earnings always come from MandiMate’s calculations.",
+      "mockHint": "No AI key is configured, so explanations use MandiMate’s built-in rules. All numbers are unaffected."
+    }
+  }
+}

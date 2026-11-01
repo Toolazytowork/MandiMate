@@ -1,0 +1,734 @@
+{
+  "brand": {
+    "name": "MandiMate",
+    "tagline": "ಉತ್ತಮ ವ್ಯವಹಾರ. ಜಂಟಿ ಸಾಗಣೆ. ರೈತರಿಗೆ ಹೆಚ್ಚು ಹಣ.",
+    "shortTagline": "ರೈತರಿಗೆ ಹೆಚ್ಚು ಹಣ"
+  },
+  "a11y": {
+    "skipToContent": "ಮುಖ್ಯ ವಿಷಯಕ್ಕೆ ಹೋಗಿ",
+    "mainNavigation": "ಮುಖ್ಯ ಮೆನು",
+    "footerNavigation": "ಕೆಳಗಿನ ಲಿಂಕ್‌ಗಳು",
+    "openMenu": "ಮೆನು ತೆರೆಯಿರಿ",
+    "closeMenu": "ಮೆನು ಮುಚ್ಚಿ",
+    "toggleSidebar": "ಸೈಡ್‌ಬಾರ್ ತೋರಿಸಿ ಅಥವಾ ಮರೆಮಾಡಿ",
+    "userMenu": "ಖಾತೆ ಮೆನು",
+    "notifications": "ಸೂಚನೆಗಳು",
+    "unreadNotifications_one": "{{count}} ಹೊಸ ಸೂಚನೆ",
+    "unreadNotifications_other": "{{count}} ಹೊಸ ಸೂಚನೆಗಳು",
+    "languageSwitcher": "ಭಾಷೆ ಬದಲಿಸಿ",
+    "close": "ಮುಚ್ಚಿ",
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ",
+    "required": "ಕಡ್ಡಾಯ",
+    "optional": "ಐಚ್ಛಿಕ",
+    "opensInNewTab": "ಹೊಸ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ತೆರೆಯುತ್ತದೆ",
+    "breadcrumb": "ನೀವು ಇಲ್ಲಿದ್ದೀರಿ",
+    "pagination": "ಪುಟಗಳು",
+    "previousPage": "ಹಿಂದಿನ ಪುಟ",
+    "nextPage": "ಮುಂದಿನ ಪುಟ",
+    "showPassword": "ಪಾಸ್‌ವರ್ಡ್ ತೋರಿಸಿ",
+    "hidePassword": "ಪಾಸ್‌ವರ್ಡ್ ಮರೆಮಾಡಿ",
+    "sortAscending": "ಏರಿಕೆ ಕ್ರಮದಲ್ಲಿ",
+    "sortDescending": "ಇಳಿಕೆ ಕ್ರಮದಲ್ಲಿ"
+  },
+  "nav": {
+    "groups": {
+      "overview": "ಸಾರಾಂಶ",
+      "selling": "ಮಾರಾಟ",
+      "sourcing": "ಖರೀದಿ",
+      "logistics": "ಸಾಗಣೆ",
+      "operations": "ಕಾರ್ಯಾಚರಣೆ",
+      "money": "ಹಣ",
+      "administration": "ಆಡಳಿತ",
+      "account": "ಖಾತೆ",
+      "product": "ಉತ್ಪನ್ನ",
+      "solutions": "ಯಾರಿಗಾಗಿ",
+      "company": "ಸಂಸ್ಥೆ",
+      "legal": "ಕಾನೂನು"
+    },
+    "public": {
+      "home": "ಮುಖಪುಟ",
+      "howItWorks": "ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ",
+      "farmers": "ರೈತರಿಗಾಗಿ",
+      "buyers": "ಖರೀದಿದಾರರಿಗಾಗಿ",
+      "transporters": "ಸಾಗಣೆದಾರರಿಗಾಗಿ",
+      "fpos": "FPOಗಳಿಗಾಗಿ",
+      "calculator": "ಆದಾಯ ಕ್ಯಾಲ್ಕುಲೇಟರ್",
+      "pricing": "ಶುಲ್ಕಗಳು",
+      "impact": "ಪರಿಣಾಮ",
+      "about": "ನಮ್ಮ ಬಗ್ಗೆ",
+      "faq": "ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆಗಳು",
+      "contact": "ಸಂಪರ್ಕಿಸಿ",
+      "privacy": "ಗೌಪ್ಯತೆ",
+      "terms": "ನಿಯಮಗಳು",
+      "login": "ಲಾಗಿನ್",
+      "signup": "ಖಾತೆ ತೆರೆಯಿರಿ",
+      "getStarted": "ಶುರು ಮಾಡಿ",
+      "openApp": "MandiMate ತೆರೆಯಿರಿ"
+    },
+    "shared": {
+      "dashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್",
+      "notifications": "ಸೂಚನೆಗಳು",
+      "settings": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+      "disputes": "ತಕರಾರುಗಳು",
+      "verification": "ಪರಿಶೀಲನೆ",
+      "profile": "ಪ್ರೊಫೈಲ್",
+      "signOut": "ಲಾಗೌಟ್"
+    },
+    "farmer": {
+      "home": "ಮುಖಪುಟ",
+      "harvests": "ನನ್ನ ಫಸಲು",
+      "newHarvest": "ಫಸಲು ಮಾರಾಟಕ್ಕಿಡಿ",
+      "offers": "ಆಫರ್‌ಗಳು",
+      "lots": "ಜಂಟಿ ಲಾಟ್‌ಗಳು",
+      "sales": "ಮಾರಾಟ",
+      "earnings": "ಆದಾಯ",
+      "demand": "ಖರೀದಿದಾರರ ಬೇಡಿಕೆ",
+      "more": "ಇನ್ನಷ್ಟು",
+      "voiceListing": "ಮಾತಾಡಿ ಮಾರಾಟಕ್ಕಿಡಿ"
+    },
+    "buyer": {
+      "home": "ಸಾರಾಂಶ",
+      "demands": "ಬೇಡಿಕೆಗಳು",
+      "newDemand": "ಬೇಡಿಕೆ ಹಾಕಿ",
+      "supply": "ಲಭ್ಯವಿರುವ ಮಾಲು",
+      "offers": "ಆಫರ್‌ಗಳು",
+      "newOffer": "ಆಫರ್ ಕೊಡಿ",
+      "orders": "ಆರ್ಡರ್‌ಗಳು",
+      "payments": "ಪಾವತಿಗಳು"
+    },
+    "transporter": {
+      "home": "ಸಾರಾಂಶ",
+      "requests": "ಪಿಕಪ್ ವಿನಂತಿಗಳು",
+      "trips": "ಟ್ರಿಪ್‌ಗಳು",
+      "vehicles": "ವಾಹನಗಳು"
+    },
+    "coordinator": {
+      "home": "ಕಾರ್ಯಾಚರಣೆ",
+      "farmers": "ರೈತರು",
+      "registerFarmer": "ರೈತರನ್ನು ನೋಂದಾಯಿಸಿ",
+      "harvests": "ಫಸಲು",
+      "assistedListing": "ಸಹಾಯದಿಂದ ಮಾರಾಟಕ್ಕಿಡಿ",
+      "lotBuilder": "ಲಾಟ್ ರಚನೆ",
+      "lots": "ಲಾಟ್‌ಗಳು",
+      "transport": "ಸಾಗಣೆ",
+      "settlements": "ಹಣ ಚುಕ್ತಾ",
+      "disputes": "ತಕರಾರುಗಳು",
+      "insights": "ಒಳನೋಟಗಳು",
+      "verifications": "ಪರಿಶೀಲನೆಗಳು"
+    },
+    "admin": {
+      "home": "ಆಡಳಿತ ಸಾರಾಂಶ",
+      "users": "ಬಳಕೆದಾರರು",
+      "audit": "ಆಡಿಟ್ ದಾಖಲೆ"
+    }
+  },
+  "actions": {
+    "save": "ಉಳಿಸಿ",
+    "saveChanges": "ಬದಲಾವಣೆ ಉಳಿಸಿ",
+    "cancel": "ರದ್ದು ಮಾಡಿ",
+    "close": "ಮುಚ್ಚಿ",
+    "confirm": "ಖಚಿತಪಡಿಸಿ",
+    "continue": "ಮುಂದುವರಿಸಿ",
+    "back": "ಹಿಂದೆ",
+    "goBack": "ಹಿಂದೆ ಹೋಗಿ",
+    "next": "ಮುಂದೆ",
+    "submit": "ಸಲ್ಲಿಸಿ",
+    "edit": "ಬದಲಿಸಿ",
+    "delete": "ಅಳಿಸಿ",
+    "remove": "ತೆಗೆಯಿರಿ",
+    "add": "ಸೇರಿಸಿ",
+    "create": "ರಚಿಸಿ",
+    "search": "ಹುಡುಕಿ",
+    "filter": "ಫಿಲ್ಟರ್",
+    "clearFilters": "ಫಿಲ್ಟರ್ ತೆಗೆಯಿರಿ",
+    "reset": "ಮರುಹೊಂದಿಸಿ",
+    "retry": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+    "tryAgain": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+    "reload": "ಪುಟ ರಿಲೋಡ್ ಮಾಡಿ",
+    "refresh": "ರಿಫ್ರೆಶ್",
+    "viewAll": "ಎಲ್ಲಾ ನೋಡಿ",
+    "viewDetails": "ವಿವರ ನೋಡಿ",
+    "showMore": "ಇನ್ನಷ್ಟು ತೋರಿಸಿ",
+    "showLess": "ಕಡಿಮೆ ತೋರಿಸಿ",
+    "download": "ಡೌನ್‌ಲೋಡ್",
+    "upload": "ಅಪ್‌ಲೋಡ್",
+    "uploadPhoto": "ಫೋಟೋ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "takePhoto": "ಫೋಟೋ ತೆಗೆಯಿರಿ",
+    "copy": "ನಕಲಿಸಿ",
+    "copied": "ನಕಲಿಸಲಾಗಿದೆ",
+    "share": "ಹಂಚಿಕೊಳ್ಳಿ",
+    "signIn": "ಲಾಗಿನ್",
+    "signOut": "ಲಾಗೌಟ್",
+    "signUp": "ಖಾತೆ ತೆರೆಯಿರಿ",
+    "getStarted": "ಶುರು ಮಾಡಿ",
+    "learnMore": "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ",
+    "contactUs": "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
+    "backToHome": "ಮುಖಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ",
+    "goToDashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್‌ಗೆ ಹೋಗಿ",
+    "accept": "ಒಪ್ಪಿಕೊಳ್ಳಿ",
+    "reject": "ತಿರಸ್ಕರಿಸಿ",
+    "decline": "ಬೇಡ ಎನ್ನಿ",
+    "counter": "ಪ್ರತಿ ಆಫರ್",
+    "counterOffer": "ಪ್ರತಿ ಆಫರ್ ಕೊಡಿ",
+    "withdraw": "ಹಿಂಪಡೆಯಿರಿ",
+    "giveConsent": "ಒಪ್ಪಿಗೆ ಕೊಡಿ",
+    "join": "ಸೇರಿ",
+    "joinLot": "ಈ ಲಾಟ್‌ಗೆ ಸೇರಿ",
+    "listHarvest": "ಫಸಲು ಮಾರಾಟಕ್ಕಿಡಿ",
+    "makeOffer": "ಆಫರ್ ಕೊಡಿ",
+    "postRequirement": "ಬೇಡಿಕೆ ಹಾಕಿ",
+    "submitQuote": "ಕೊಟೇಶನ್ ಕಳುಹಿಸಿ",
+    "acceptQuote": "ಈ ಕೊಟೇಶನ್ ಬುಕ್ ಮಾಡಿ",
+    "confirmPickup": "ಪಿಕಪ್ ಖಚಿತಪಡಿಸಿ",
+    "completeTrip": "ಟ್ರಿಪ್ ಮುಗಿಸಿ",
+    "recordDelivery": "ಡೆಲಿವರಿ ದಾಖಲಿಸಿ",
+    "recordPayment": "ಪಾವತಿ ದಾಖಲಿಸಿ",
+    "markPaid": "ಪಾವತಿಯಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ",
+    "raiseDispute": "ತಕರಾರು ಸಲ್ಲಿಸಿ",
+    "resolve": "ಬಗೆಹರಿಸಿ",
+    "verify": "ಪರಿಶೀಲಿಸಿ",
+    "approve": "ಅನುಮೋದಿಸಿ",
+    "openForOffers": "ಆಫರ್‌ಗಳಿಗೆ ತೆರೆಯಿರಿ",
+    "compare": "ಹೋಲಿಸಿ",
+    "startSpeaking": "ಮಾತನಾಡಲು ಶುರು ಮಾಡಿ",
+    "stopListening": "ಕೇಳುವುದನ್ನು ನಿಲ್ಲಿಸಿ",
+    "typeInstead": "ಬದಲಿಗೆ ಟೈಪ್ ಮಾಡಿ",
+    "markAllRead": "ಎಲ್ಲಾ ಓದಿದೆ ಎಂದು ಗುರುತಿಸಿ",
+    "markRead": "ಓದಿದೆ ಎಂದು ಗುರುತಿಸಿ",
+    "apply": "ಅನ್ವಯಿಸಿ",
+    "done": "ಆಯಿತು",
+    "select": "ಆರಿಸಿ",
+    "change": "ಬದಲಿಸಿ",
+    "view": "ನೋಡಿ"
+  },
+  "enums": {
+    "role": {
+      "farmer": "ರೈತ",
+      "buyer": "ಖರೀದಿದಾರ",
+      "transporter": "ಸಾಗಣೆದಾರ",
+      "coordinator": "ಸಂಯೋಜಕ",
+      "admin": "ನಿರ್ವಾಹಕ"
+    },
+    "verificationStatus": {
+      "unverified": "ಪರಿಶೀಲಿಸಿಲ್ಲ",
+      "pending": "ಪರಿಶೀಲನೆ ಬಾಕಿ",
+      "verified": "ಪರಿಶೀಲಿಸಲಾಗಿದೆ",
+      "rejected": "ಪರಿಶೀಲನೆ ತಿರಸ್ಕೃತ"
+    },
+    "grade": {
+      "A": "ಗ್ರೇಡ್ A",
+      "B": "ಗ್ರೇಡ್ B",
+      "C": "ಗ್ರೇಡ್ C",
+      "ungraded": "ಗ್ರೇಡ್ ಆಗಿಲ್ಲ"
+    },
+    "cropCategory": {
+      "vegetable": "ತರಕಾರಿ",
+      "fruit": "ಹಣ್ಣು",
+      "grain": "ಧಾನ್ಯ",
+      "pulse": "ಬೇಳೆಕಾಳು",
+      "spice": "ಮಸಾಲೆ ಬೆಳೆ",
+      "oilseed": "ಎಣ್ಣೆಕಾಳು"
+    },
+    "certainty": {
+      "confirmed": "ಖಚಿತ",
+      "estimated": "ಅಂದಾಜು",
+      "unresolved": "ಇನ್ನೂ ತೀರ್ಮಾನವಾಗಿಲ್ಲ"
+    },
+    "harvestStatus": {
+      "draft": "ಡ್ರಾಫ್ಟ್",
+      "listed": "ಮಾರಾಟಕ್ಕಿಟ್ಟಿದೆ",
+      "pooled": "ಜಂಟಿ ಲಾಟ್‌ನಲ್ಲಿದೆ",
+      "committed": "ವ್ಯವಹಾರ ಪಕ್ಕಾ",
+      "picked_up": "ಪಿಕಪ್ ಆಗಿದೆ",
+      "delivered": "ತಲುಪಿದೆ",
+      "settled": "ಹಣ ಚುಕ್ತಾ",
+      "cancelled": "ರದ್ದಾಗಿದೆ",
+      "expired": "ಅವಧಿ ಮುಗಿದಿದೆ"
+    },
+    "qualityStatus": {
+      "self_reported": "ನೀವೇ ಹೇಳಿದ್ದು",
+      "pending_inspection": "ತಪಾಸಣೆ ಬಾಕಿ",
+      "inspected": "ತಪಾಸಣೆ ಆಗಿದೆ"
+    },
+    "listingSource": {
+      "manual": "ಟೈಪ್ ಮಾಡಿದ್ದು",
+      "voice": "ಧ್ವನಿ",
+      "assisted": "ಸಂಯೋಜಕರ ಸಹಾಯದಿಂದ"
+    },
+    "demandStatus": {
+      "open": "ತೆರೆದಿದೆ",
+      "matched": "ಹೊಂದಾಣಿಕೆ ಆಗಿದೆ",
+      "fulfilled": "ಪೂರೈಸಲಾಗಿದೆ",
+      "cancelled": "ರದ್ದಾಗಿದೆ",
+      "expired": "ಅವಧಿ ಮುಗಿದಿದೆ"
+    },
+    "lotStatus": {
+      "forming": "ರಚನೆಯಾಗುತ್ತಿದೆ",
+      "awaiting_consent": "ಒಪ್ಪಿಗೆಗಾಗಿ ಕಾಯುತ್ತಿದೆ",
+      "open_for_offers": "ಆಫರ್‌ಗಳಿಗೆ ತೆರೆದಿದೆ",
+      "offer_accepted": "ಆಫರ್ ಒಪ್ಪಲಾಗಿದೆ",
+      "transport_booked": "ಸಾಗಣೆ ಬುಕ್ ಆಗಿದೆ",
+      "in_transit": "ದಾರಿಯಲ್ಲಿದೆ",
+      "delivered": "ತಲುಪಿದೆ",
+      "settled": "ಹಣ ಚುಕ್ತಾ",
+      "cancelled": "ರದ್ದಾಗಿದೆ"
+    },
+    "consentDecision": {
+      "pending": "ನಿರ್ಧಾರ ಬಾಕಿ",
+      "accepted": "ಒಪ್ಪಿದ್ದಾರೆ",
+      "declined": "ಬೇಡ ಎಂದಿದ್ದಾರೆ"
+    },
+    "offerStatus": {
+      "pending": "ಹೊಸ ಆಫರ್",
+      "countered": "ಪ್ರತಿ ಆಫರ್ ಕೊಡಲಾಗಿದೆ",
+      "proposed": "ರೈತರ ಒಪ್ಪಿಗೆ ಬಾಕಿ",
+      "accepted": "ಒಪ್ಪಲಾಗಿದೆ",
+      "rejected": "ತಿರಸ್ಕರಿಸಲಾಗಿದೆ",
+      "withdrawn": "ಹಿಂಪಡೆಯಲಾಗಿದೆ",
+      "expired": "ಅವಧಿ ಮುಗಿದಿದೆ"
+    },
+    "offerTargetType": {
+      "lot": "ಜಂಟಿ ಲಾಟ್",
+      "harvest": "ಒಂದೇ ಫಸಲು"
+    },
+    "awaiting": {
+      "buyer": "ಖರೀದಿದಾರರಿಗಾಗಿ ಕಾಯುತ್ತಿದೆ",
+      "seller": "ಮಾರಾಟಗಾರರಿಗಾಗಿ ಕಾಯುತ್ತಿದೆ",
+      "farmers": "ರೈತರ ಒಪ್ಪಿಗೆಗಾಗಿ ಕಾಯುತ್ತಿದೆ"
+    },
+    "pickupTerms": {
+      "buyer_pickup": "ಖರೀದಿದಾರರೇ ಒಯ್ಯುತ್ತಾರೆ",
+      "mandimate_delivery": "MandiMate ತಲುಪಿಸುತ್ತದೆ"
+    },
+    "negotiationAction": {
+      "offer": "ಆಫರ್ ಕೊಟ್ಟರು",
+      "counter": "ಪ್ರತಿ ಆಫರ್ ಕೊಟ್ಟರು",
+      "accept": "ಒಪ್ಪಿಕೊಂಡರು",
+      "reject": "ತಿರಸ್ಕರಿಸಿದರು",
+      "withdraw": "ಹಿಂಪಡೆದರು",
+      "propose": "ರೈತರ ಮುಂದೆ ಇಟ್ಟರು",
+      "consent": "ಒಪ್ಪಿಗೆ ಕೊಟ್ಟರು",
+      "note": "ಟಿಪ್ಪಣಿ"
+    },
+    "vehicleType": {
+      "mini_truck": "ಮಿನಿ ಲಾರಿ",
+      "pickup": "ಪಿಕಪ್ ವಾಹನ",
+      "light_truck": "ಸಣ್ಣ ಲಾರಿ",
+      "medium_truck": "ಮಧ್ಯಮ ಲಾರಿ",
+      "reefer_truck": "ರೆಫ್ರಿಜರೇಟೆಡ್ ಲಾರಿ"
+    },
+    "transportRequestStatus": {
+      "open": "ಕೊಟೇಶನ್‌ಗೆ ತೆರೆದಿದೆ",
+      "quoted": "ಕೊಟೇಶನ್ ಬಂದಿವೆ",
+      "booked": "ಬುಕ್ ಆಗಿದೆ",
+      "in_progress": "ನಡೆಯುತ್ತಿದೆ",
+      "completed": "ಮುಗಿದಿದೆ",
+      "cancelled": "ರದ್ದಾಗಿದೆ"
+    },
+    "quoteStatus": {
+      "submitted": "ಕಳುಹಿಸಲಾಗಿದೆ",
+      "accepted": "ಬುಕ್ ಆಗಿದೆ",
+      "rejected": "ಆಯ್ಕೆಯಾಗಿಲ್ಲ",
+      "withdrawn": "ಹಿಂಪಡೆಯಲಾಗಿದೆ"
+    },
+    "stopStatus": {
+      "pending": "ಬಾಕಿ",
+      "picked_up": "ಪಿಕಪ್ ಆಗಿದೆ",
+      "skipped": "ಬಿಡಲಾಗಿದೆ"
+    },
+    "paymentStatus": {
+      "pending": "ಪಾವತಿ ಬಾಕಿ",
+      "partially_paid": "ಭಾಗಶಃ ಪಾವತಿ",
+      "paid": "ಪಾವತಿಯಾಗಿದೆ",
+      "overdue": "ಗಡುವು ಮೀರಿದೆ",
+      "disputed": "ತಕರಾರಿನಲ್ಲಿದೆ"
+    },
+    "payoutStatus": {
+      "pending": "ಹಣ ಜಮೆ ಬಾಕಿ",
+      "paid": "ಹಣ ಜಮೆಯಾಗಿದೆ"
+    },
+    "disputeCategory": {
+      "quantity": "ಪ್ರಮಾಣ",
+      "quality": "ಗುಣಮಟ್ಟ",
+      "payment": "ಪಾವತಿ",
+      "transport": "ಸಾಗಣೆ",
+      "other": "ಇತರೆ"
+    },
+    "disputeStatus": {
+      "open": "ತೆರೆದಿದೆ",
+      "under_review": "ಪರಿಶೀಲನೆಯಲ್ಲಿದೆ",
+      "resolved": "ಬಗೆಹರಿದಿದೆ",
+      "rejected": "ತಿರಸ್ಕರಿಸಲಾಗಿದೆ"
+    },
+    "notificationType": {
+      "offer": "ಆಫರ್",
+      "consent": "ಒಪ್ಪಿಗೆ",
+      "lot": "ಜಂಟಿ ಲಾಟ್",
+      "pickup": "ಪಿಕಪ್",
+      "delivery": "ಡೆಲಿವರಿ",
+      "payment": "ಪಾವತಿ",
+      "harvest_deadline": "ಮಾರಾಟ ಗಡುವಿನ ನೆನಪು",
+      "dispute": "ತಕರಾರು",
+      "verification": "ಪರಿಶೀಲನೆ",
+      "system": "MandiMate"
+    },
+    "journeyKey": {
+      "listed": "ಮಾರಾಟಕ್ಕಿಟ್ಟಿದೆ",
+      "grouped": "ಗುಂಪಾಗಿದೆ",
+      "offers": "ಆಫರ್ ಬಂದಿವೆ",
+      "compared": "ಆಫರ್ ಹೋಲಿಸಲಾಗಿದೆ",
+      "consent": "ವ್ಯವಹಾರ ಒಪ್ಪಿಗೆ",
+      "transport": "ಪಿಕಪ್",
+      "delivered": "ತಲುಪಿದೆ",
+      "settled": "ಹಣ ಚುಕ್ತಾ"
+    },
+    "journeyStepStatus": {
+      "complete": "ಮುಗಿದಿದೆ",
+      "current": "ನಡೆಯುತ್ತಿದೆ",
+      "upcoming": "ಮುಂದಿನದು",
+      "skipped": "ಬೇಕಾಗಿಲ್ಲ"
+    },
+    "aiSource": {
+      "ai": "AI",
+      "rules": "ನಿಯಮಗಳು"
+    },
+    "aiMode": {
+      "live": "AI · ಲೈವ್",
+      "mock": "AI · ಡೆಮೊ ಮೋಡ್"
+    },
+    "actionKind": {
+      "consent": "ಒಪ್ಪಿಗೆ ಬೇಕು",
+      "offer": "ಆಫರ್",
+      "pickup": "ಪಿಕಪ್",
+      "payment": "ಪಾವತಿ",
+      "deadline": "ಗಡುವು",
+      "verification": "ಪರಿಶೀಲನೆ",
+      "quote": "ಕೊಟೇಶನ್",
+      "delivery": "ಡೆಲಿವರಿ",
+      "dispute": "ತಕರಾರು",
+      "lot": "ಲಾಟ್"
+    },
+    "priority": {
+      "high": "ತುರ್ತು",
+      "normal": "ಸಾಮಾನ್ಯ"
+    },
+    "breakdownKey": {
+      "gross": "ಮಾರಾಟ ಮೊತ್ತ",
+      "rejection": "ಅಂದಾಜು ತಿರಸ್ಕಾರ",
+      "transport": "ಸಾಗಣೆ",
+      "handling": "ಹಮಾಲಿ ಮತ್ತು ಲೋಡಿಂಗ್",
+      "commission": "ಕಮಿಷನ್",
+      "payment_wait": "ಪಾವತಿಗಾಗಿ ಕಾಯುವ ನಷ್ಟ",
+      "platform_fee": "MandiMate ಶುಲ್ಕ"
+    },
+    "sellingOptionSource": {
+      "direct_offer": "ನೇರ ಆಫರ್",
+      "pooled_offer": "ಜಂಟಿ ಮಾರಾಟ",
+      "baseline": "ಮಂಡಿಯಲ್ಲಿ ಒಬ್ಬರೇ ಮಾರುವುದು"
+    },
+    "marketSignal": {
+      "surplus": "ಹೆಚ್ಚು ಸರಬರಾಜು",
+      "balanced": "ಸಮತೋಲನ",
+      "shortage": "ಕೊರತೆ"
+    }
+  },
+  "certainty": {
+    "legend": "ಈ ಸಂಖ್ಯೆ ಎಷ್ಟು ಖಚಿತ?",
+    "confirmed": {
+      "label": "ಖಚಿತ",
+      "description": "ಬರವಣಿಗೆಯಲ್ಲಿ ಒಪ್ಪಿದ್ದು ಅಥವಾ ಡೆಲಿವರಿ ನಂತರ ದಾಖಲಿಸಿದ್ದು."
+    },
+    "estimated": {
+      "label": "ಅಂದಾಜು",
+      "description": "ಈಗಿನ ದರಗಳಿಂದ ಲೆಕ್ಕ ಹಾಕಿದ್ದು; ಸ್ವಲ್ಪ ಬದಲಾಗಬಹುದು."
+    },
+    "unresolved": {
+      "label": "ಇನ್ನೂ ತೀರ್ಮಾನವಾಗಿಲ್ಲ",
+      "description": "ಇನ್ನೂ ಬಾಕಿ ಇದೆ — ಇದರಿಂದ ಅಂತಿಮ ಮೊತ್ತ ಬದಲಾಗಬಹುದು."
+    }
+  },
+  "money": {
+    "net": "ನಿವ್ವಳ",
+    "gross": "ಒಟ್ಟು",
+    "netEarnings": "ನಿವ್ವಳ ಆದಾಯ",
+    "youTakeHome": "ನಿಮ್ಮ ಕೈಗೆ ಸಿಗುವುದು",
+    "perKg": "ಪ್ರತಿ ಕೆಜಿಗೆ",
+    "netPerKg": "ಕೆಜಿಗೆ ನಿವ್ವಳ",
+    "totalDeductions": "ಒಟ್ಟು ಕಡಿತ",
+    "deductions": "ಕಡಿತಗಳು",
+    "breakdown": "ಪೂರ್ಣ ಲೆಕ್ಕ",
+    "uplift": "ಒಬ್ಬರೇ ಮಾರುವುದಕ್ಕಿಂತ ಹೆಚ್ಚು",
+    "upliftValue": "ಮಂಡಿಗಿಂತ ಕೆಜಿಗೆ {{value}} ಹೆಚ್ಚು",
+    "best": "ಉತ್ತಮ ಆಯ್ಕೆ",
+    "meetsMinimum": "ನಿಮ್ಮ ಕನಿಷ್ಠ ಬೆಲೆಗಿಂತ ಹೆಚ್ಚು",
+    "belowMinimum": "ನಿಮ್ಮ ಕನಿಷ್ಠ ಬೆಲೆಗಿಂತ ಕಡಿಮೆ",
+    "minimumPrice": "ನಿಮ್ಮ ಕನಿಷ್ಠ ಬೆಲೆ",
+    "minimumPriceHint": "ಖಾಸಗಿ: ಇದನ್ನು ನೀವು ಮತ್ತು ನಿಮ್ಮ ಸಂಯೋಜಕರು ಮಾತ್ರ ನೋಡಬಹುದು.",
+    "paymentIn_one": "{{count}} ದಿನದಲ್ಲಿ ಪಾವತಿ",
+    "paymentIn_other": "{{count}} ದಿನಗಳಲ್ಲಿ ಪಾವತಿ",
+    "illustrative": "ಉದಾಹರಣೆ ಬೆಲೆ"
+  },
+  "labels": {
+    "crop": "ಬೆಳೆ",
+    "variety": "ತಳಿ",
+    "quantity": "ಪ್ರಮಾಣ",
+    "available": "ಲಭ್ಯ",
+    "grade": "ಗ್ರೇಡ್",
+    "quality": "ಗುಣಮಟ್ಟ",
+    "qualityNotes": "ಗುಣಮಟ್ಟದ ಟಿಪ್ಪಣಿ",
+    "harvestDate": "ಕೊಯ್ಲಿನ ದಿನಾಂಕ",
+    "availableFrom": "ಸಿದ್ಧವಾಗುವ ದಿನ",
+    "sellBy": "ಮಾರಾಟದ ಕೊನೆಯ ದಿನ",
+    "pickupDate": "ಪಿಕಪ್ ದಿನಾಂಕ",
+    "neededBy": "ಬೇಕಾದ ದಿನ",
+    "location": "ಸ್ಥಳ",
+    "village": "ಗ್ರಾಮ",
+    "district": "ಜಿಲ್ಲೆ",
+    "state": "ರಾಜ್ಯ",
+    "distance": "ದೂರ",
+    "price": "ಬೆಲೆ",
+    "pricePerKg": "ಕೆಜಿಗೆ ಬೆಲೆ",
+    "amount": "ಮೊತ್ತ",
+    "total": "ಒಟ್ಟು",
+    "status": "ಸ್ಥಿತಿ",
+    "date": "ದಿನಾಂಕ",
+    "notes": "ಟಿಪ್ಪಣಿ",
+    "buyer": "ಖರೀದಿದಾರ",
+    "farmer": "ರೈತ",
+    "farmers": "ರೈತರು",
+    "transporter": "ಸಾಗಣೆದಾರ",
+    "coordinator": "ಸಂಯೋಜಕ",
+    "members": "ಸದಸ್ಯರು",
+    "offers": "ಆಫರ್‌ಗಳು",
+    "lot": "ಲಾಟ್",
+    "deliveryLocation": "ಡೆಲಿವರಿ ಸ್ಥಳ",
+    "paymentTerms": "ಪಾವತಿ ಷರತ್ತು",
+    "validUntil": "ಕೊನೆಯ ದಿನ",
+    "reference": "ಉಲ್ಲೇಖ ಸಂಖ್ಯೆ",
+    "name": "ಹೆಸರು",
+    "fullName": "ಪೂರ್ಣ ಹೆಸರು",
+    "phone": "ಫೋನ್ ಸಂಖ್ಯೆ",
+    "email": "ಇಮೇಲ್",
+    "password": "ಪಾಸ್‌ವರ್ಡ್",
+    "organisation": "ಸಂಸ್ಥೆ",
+    "language": "ಭಾಷೆ",
+    "role": "ಪಾತ್ರ",
+    "vehicle": "ವಾಹನ",
+    "capacity": "ಸಾಮರ್ಥ್ಯ",
+    "route": "ಮಾರ್ಗ",
+    "stops": "ನಿಲುಗಡೆಗಳು",
+    "createdAt": "ರಚಿಸಿದ್ದು",
+    "updatedAt": "ಅಪ್‌ಡೇಟ್"
+  },
+  "units": {
+    "kg": "ಕೆಜಿ",
+    "kgValue": "{{value}} ಕೆಜಿ",
+    "quintal": "ಕ್ವಿಂಟಾಲ್",
+    "tonne": "ಟನ್",
+    "tonneShort": "ಟನ್",
+    "perKg": "/ಕೆಜಿ",
+    "perKgValue": "{{value}}/ಕೆಜಿ",
+    "km": "ಕಿಮೀ",
+    "kmValue": "{{value}} ಕಿಮೀ",
+    "percent": "%",
+    "days_one": "{{count}} ದಿನ",
+    "days_other": "{{count}} ದಿನ",
+    "hours_one": "{{count}} ಗಂಟೆ",
+    "hours_other": "{{count}} ಗಂಟೆ",
+    "farmers_one": "{{count}} ರೈತ",
+    "farmers_other": "{{count}} ರೈತರು",
+    "trips_one": "{{count}} ಟ್ರಿಪ್",
+    "trips_other": "{{count}} ಟ್ರಿಪ್",
+    "stops_one": "{{count}} ನಿಲುಗಡೆ",
+    "stops_other": "{{count}} ನಿಲುಗಡೆ"
+  },
+  "time": {
+    "now": "ಈಗ",
+    "justNow": "ಈಗಷ್ಟೇ",
+    "today": "ಇಂದು",
+    "tomorrow": "ನಾಳೆ",
+    "yesterday": "ನಿನ್ನೆ",
+    "dayAfterTomorrow": "ನಾಡಿದ್ದು",
+    "thisWeek": "ಈ ವಾರ",
+    "thisMonth": "ಈ ತಿಂಗಳು",
+    "thisSeason": "ಈ ಸೀಸನ್",
+    "morning": "ಬೆಳಿಗ್ಗೆ",
+    "afternoon": "ಮಧ್ಯಾಹ್ನ",
+    "evening": "ಸಂಜೆ",
+    "ago": "{{time}} ಹಿಂದೆ",
+    "in": "{{time}} ನಂತರ",
+    "dueIn": "{{time}} ಒಳಗೆ ಮಾಡಬೇಕು",
+    "dueToday": "ಇಂದೇ ಮಾಡಬೇಕು",
+    "overdue": "ಗಡುವು ಮೀರಿದೆ",
+    "expiresIn": "ಇನ್ನು {{time}} ಮಾತ್ರ",
+    "expired": "ಅವಧಿ ಮುಗಿದಿದೆ",
+    "updated": "ಅಪ್‌ಡೇಟ್: {{time}}",
+    "minutes_one": "{{count}} ನಿಮಿಷ",
+    "minutes_other": "{{count}} ನಿಮಿಷ",
+    "hours_one": "{{count}} ಗಂಟೆ",
+    "hours_other": "{{count}} ಗಂಟೆ",
+    "days_one": "{{count}} ದಿನ",
+    "days_other": "{{count}} ದಿನ",
+    "weeks_one": "{{count}} ವಾರ",
+    "weeks_other": "{{count}} ವಾರ",
+    "months_one": "{{count}} ತಿಂಗಳು",
+    "months_other": "{{count}} ತಿಂಗಳು"
+  },
+  "states": {
+    "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ…",
+    "saving": "ಉಳಿಸಲಾಗುತ್ತಿದೆ…",
+    "saved": "ಉಳಿಸಲಾಗಿದೆ",
+    "sending": "ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ…",
+    "processing": "ಕೆಲಸ ನಡೆಯುತ್ತಿದೆ…",
+    "listening": "ಕೇಳಿಸಿಕೊಳ್ಳುತ್ತಿದ್ದೇವೆ…",
+    "empty": {
+      "title": "ಇಲ್ಲಿ ಇನ್ನೂ ಏನೂ ಇಲ್ಲ",
+      "body": "ತೋರಿಸಲು ಏನಾದರೂ ಇದ್ದಾಗ, ಅದು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ."
+    },
+    "noResults": {
+      "title": "ಏನೂ ಸಿಗಲಿಲ್ಲ",
+      "body": "ಬೇರೆ ಪದದಿಂದ ಹುಡುಕಿ ಅಥವಾ ಫಿಲ್ಟರ್ ತೆಗೆಯಿರಿ."
+    },
+    "noNotifications": {
+      "title": "ಎಲ್ಲವನ್ನೂ ನೋಡಿದ್ದೀರಿ",
+      "body": "ಹೊಸ ಆಫರ್, ಒಪ್ಪಿಗೆ, ಪಿಕಪ್ ಮತ್ತು ಪಾವತಿಗಳು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ."
+    },
+    "noDisputes": {
+      "title": "ತಕರಾರುಗಳಿಲ್ಲ",
+      "body": "ಡೆಲಿವರಿ ಅಥವಾ ಪಾವತಿಯಲ್ಲಿ ಏನಾದರೂ ತಪ್ಪಾದರೆ, ಇಲ್ಲಿ ತಕರಾರು ಸಲ್ಲಿಸಬಹುದು."
+    },
+    "offline": {
+      "title": "ನೀವು ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿದ್ದೀರಿ",
+      "body": "ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ ಪರಿಶೀಲಿಸಿ. ಸಂಪರ್ಕ ಬಂದ ತಕ್ಷಣ ನಾವು ಮತ್ತೆ ಲೋಡ್ ಮಾಡುತ್ತೇವೆ."
+    }
+  },
+  "errors": {
+    "generic": "ಏನೋ ತಪ್ಪಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "network": "MandiMate ಸಂಪರ್ಕ ಸಿಗಲಿಲ್ಲ. ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ ಪರಿಶೀಲಿಸಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "server": "ನಮ್ಮ ಕಡೆ ಏನೋ ತಪ್ಪಾಗಿದೆ. ಸ್ವಲ್ಪ ಸಮಯದ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "notFound": "ನೀವು ಹುಡುಕುತ್ತಿರುವುದು ನಮಗೆ ಸಿಗಲಿಲ್ಲ.",
+    "forbidden": "ಇದನ್ನು ಮಾಡಲು ನಿಮಗೆ ಅನುಮತಿ ಇಲ್ಲ.",
+    "unauthorized": "ಮುಂದುವರಿಯಲು ದಯವಿಟ್ಟು ಲಾಗಿನ್ ಮಾಡಿ.",
+    "sessionExpired": "ನಿಮ್ಮ ಸೆಷನ್ ಮುಗಿದಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಲಾಗಿನ್ ಮಾಡಿ.",
+    "conflict": "ಈ ಕೆಲಸ ಈಗ ಸಾಧ್ಯವಿಲ್ಲ — ವಿವರಗಳು ಬದಲಾಗಿವೆ. ರಿಫ್ರೆಶ್ ಮಾಡಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "validation": "ಗುರುತಿಸಿದ ಜಾಗಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
+    "tooManyRequests": "ತುಂಬಾ ಸಲ ಪ್ರಯತ್ನಿಸಿದ್ದೀರಿ. ಕೆಲವು ನಿಮಿಷ ಕಾದು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "fileTooLarge": "ಫೈಲ್ ತುಂಬಾ ದೊಡ್ಡದಿದೆ. 8 MB ಗಿಂತ ಚಿಕ್ಕ ಫೈಲ್ ಆರಿಸಿ.",
+    "unsupportedFile": "JPEG, PNG ಅಥವಾ WebP ಫೋಟೋ ಆರಿಸಿ.",
+    "required": "ಈ ಜಾಗ ಕಡ್ಡಾಯ.",
+    "invalidEmail": "ಸರಿಯಾದ ಇಮೇಲ್ ವಿಳಾಸ ನಮೂದಿಸಿ.",
+    "invalidPhone": "ಸರಿಯಾದ 10 ಅಂಕಿಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ನಮೂದಿಸಿ.",
+    "boundary": {
+      "eyebrow": "ಅನಿರೀಕ್ಷಿತ ದೋಷ",
+      "title": "ಈ ಪುಟ ತೋರಿಸಲು ಆಗಲಿಲ್ಲ",
+      "body": "ಈ ಪುಟ ತೋರಿಸುವಾಗ ಏನೋ ತಪ್ಪಾಗಿದೆ. ನಿಮ್ಮ ಮಾಹಿತಿ ಸುರಕ್ಷಿತವಾಗಿದೆ — ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ, ಅಥವಾ ಮುಖಪುಟಕ್ಕೆ ಹಿಂತಿರುಗಿ.",
+      "updatedEyebrow": "MandiMate ಅಪ್‌ಡೇಟ್ ಆಗಿದೆ",
+      "updatedTitle": "ಹೊಸ ಆವೃತ್ತಿ ಸಿದ್ಧವಾಗಿದೆ",
+      "updatedBody": "ಈ ಪುಟ ತೆರೆದಿದ್ದಾಗ ನಾವು ಒಂದು ಸುಧಾರಣೆ ಬಿಡುಗಡೆ ಮಾಡಿದ್ದೇವೆ. ಹೊಸ ಆವೃತ್ತಿಯಲ್ಲಿ ಮುಂದುವರಿಯಲು ರಿಲೋಡ್ ಮಾಡಿ."
+    }
+  },
+  "speech": {
+    "tapToSpeak": "ಒತ್ತಿ ಮಾತನಾಡಿ",
+    "listening": "ಕೇಳಿಸಿಕೊಳ್ಳುತ್ತಿದ್ದೇವೆ… ಸಹಜವಾಗಿ ಮಾತನಾಡಿ",
+    "heard": "ನಮಗೆ ಕೇಳಿಸಿದ್ದು",
+    "notSupported": "ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಧ್ವನಿ ಇನ್‌ಪುಟ್ ಲಭ್ಯವಿಲ್ಲ. ಬದಲಿಗೆ ಟೈಪ್ ಮಾಡಬಹುದು.",
+    "errors": {
+      "unsupported": "ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಧ್ವನಿ ಇನ್‌ಪುಟ್ ಲಭ್ಯವಿಲ್ಲ. ಬದಲಿಗೆ ಟೈಪ್ ಮಾಡಬಹುದು.",
+      "not-allowed": "ಮೈಕ್ರೊಫೋನ್ ಬಳಕೆಯನ್ನು ತಡೆಯಲಾಗಿದೆ. ಬ್ರೌಸರ್ ಸೆಟ್ಟಿಂಗ್‌ನಲ್ಲಿ ಅನುಮತಿ ಕೊಡಿ, ಅಥವಾ ಟೈಪ್ ಮಾಡಿ.",
+      "service-not-allowed": "ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಧ್ವನಿ ಇನ್‌ಪುಟ್ ಆಫ್ ಆಗಿದೆ. ಬದಲಿಗೆ ಟೈಪ್ ಮಾಡಬಹುದು.",
+      "no-speech": "ನಮಗೆ ಏನೂ ಕೇಳಿಸಲಿಲ್ಲ. ಫೋನ್‌ಗೆ ಸ್ವಲ್ಪ ಹತ್ತಿರದಿಂದ ಮತ್ತೆ ಮಾತನಾಡಿ.",
+      "audio-capture": "ಈ ಸಾಧನದಲ್ಲಿ ಮೈಕ್ರೊಫೋನ್ ಸಿಗಲಿಲ್ಲ.",
+      "network": "ಧ್ವನಿ ಗುರುತಿಸಲು ಇಂಟರ್ನೆಟ್ ಬೇಕು. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ಟೈಪ್ ಮಾಡಿ.",
+      "aborted": "ಕೇಳಿಸಿಕೊಳ್ಳುವುದು ನಿಂತಿದೆ.",
+      "language-not-supported": "ಈ ಸಾಧನದಲ್ಲಿ ಈ ಭಾಷೆಗೆ ಧ್ವನಿ ಇನ್‌ಪುಟ್ ಸೌಲಭ್ಯವಿಲ್ಲ.",
+      "bad-grammar": "ನಮಗೆ ಅರ್ಥವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."
+    }
+  },
+  "languages": {
+    "label": "ಭಾಷೆ",
+    "choose": "ನಿಮ್ಮ ಭಾಷೆ ಆರಿಸಿ",
+    "en": "ಇಂಗ್ಲಿಷ್",
+    "hi": "ಹಿಂದಿ",
+    "te": "ತೆಲುಗು",
+    "kn": "ಕನ್ನಡ",
+    "ur": "ಉರ್ದು"
+  },
+  "notFound": {
+    "eyebrow": "ದೋಷ 404",
+    "title": "ಪುಟ ಸಿಗಲಿಲ್ಲ",
+    "description": "ನೀವು ಹುಡುಕುತ್ತಿರುವ ಪುಟ ಇಲ್ಲ ಅಥವಾ ಬೇರೆ ಕಡೆಗೆ ಸರಿದಿದೆ.",
+    "headingStart": "ಈ ದಾರಿ ಎಲ್ಲಿಗೂ",
+    "headingEmphasis": "ಹೋಗುವುದಿಲ್ಲ.",
+    "body": "ನೀವು ಹುಡುಕುತ್ತಿರುವ ಪುಟ ಇಲ್ಲ ಅಥವಾ ಬೇರೆ ಕಡೆಗೆ ಸರಿದಿದೆ. ಬನ್ನಿ, ನಿಮಗೆ ಗೊತ್ತಿರುವ ದಾರಿಗೆ ಕರೆದೊಯ್ಯುತ್ತೇವೆ.",
+    "suggestions": "ಜನಪ್ರಿಯ ಪುಟಗಳು"
+  },
+  "layout": {
+    "site": {
+      "homeLink": "MandiMate ಮುಖಪುಟ",
+      "calculator": "ಕ್ಯಾಲ್ಕುಲೇಟರ್",
+      "calculatorEyebrow": "ನಿವ್ವಳ ಆದಾಯ ಕ್ಯಾಲ್ಕುಲೇಟರ್",
+      "calculatorTitleStart": "ನಿಮ್ಮ ಫಸಲಿಗೆ",
+      "calculatorTitleEmphasis": "ನಿಜವಾಗಿ",
+      "calculatorTitleEnd": "ಎಷ್ಟು ಸಿಗುತ್ತದೆ?",
+      "calculatorCta": "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ಬಳಸಿ ನೋಡಿ"
+    },
+    "solutions": {
+      "farmers": "ನಿಮ್ಮ ಫಸಲನ್ನು ಜಂಟಿ ಲಾಟ್‌ಗೆ ಸೇರಿಸಿ, ಕೈಗೆ ಸಿಗುವ ನಿಜವಾದ ಹಣ ಹೋಲಿಸಿ, ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ಹಣ ಪಡೆಯಿರಿ.",
+      "buyers": "ಸಂಘಟಿತ ರೈತ ಗುಂಪುಗಳಿಂದ ಬರುವ, ತಪಾಸಣೆ ಮಾಡಿದ, ಒಂದೇ ಗುಣಮಟ್ಟದ ಲಾಟ್‌ಗಳು.",
+      "transporters": "ಯೋಜಿತ ಪಿಕಪ್ ಮಾರ್ಗಗಳಲ್ಲಿ ತುಂಬಿದ ಲೋಡ್, ನಿಮ್ಮದೇ ಕೊಟೇಶನ್ ಬೆಲೆಯಲ್ಲಿ.",
+      "fpos": "ಸಂಗ್ರಹಣೆ, ಒಪ್ಪಿಗೆ, ಸಾಗಣೆ ಮತ್ತು ಹಣ ಚುಕ್ತಾ — ಎಲ್ಲವನ್ನೂ ಒಂದೇ ಕಡೆ ನಡೆಸಿ."
+    },
+    "auth": {
+      "eyebrow": "ರೈತರಿಗೆ ಮೊದಲ ಆದ್ಯತೆಯ ಮಾರುಕಟ್ಟೆ",
+      "headlineStart": "ಪ್ರತಿ ಫಸಲಿಗೂ ಬೆಲೆ, ಅದು",
+      "headlineEmphasis": "ನಿಜವಾಗಿ ಗಳಿಸುವಷ್ಟು.",
+      "promise": "ಇಪ್ಪತ್ತು ಸಣ್ಣ ಫಸಲುಗಳು ಒಂದೇ ಲಾಟ್ ಆಗಿ ಹೋಗಬಹುದು. ಒಟ್ಟುಗೂಡಿಸುವುದು, ದಾಖಲೆ ಕೆಲಸ ಮತ್ತು ಲೆಕ್ಕಾಚಾರ MandiMate ಮಾಡುತ್ತದೆ — ಕೊನೆಯ ಮಾತು ನಿಮ್ಮದೇ.",
+      "promiseCaption": "MandiMate ಭರವಸೆ",
+      "proof": {
+        "net": {
+          "title": "ಹೇಳಿದ ಬೆಲೆಯಲ್ಲ, ಕೈಗೆ ಸಿಗುವ ನಿವ್ವಳ ಆದಾಯ",
+          "body": "ಸಾಗಣೆ, ಕಮಿಷನ್, ತಿರಸ್ಕಾರ ಮತ್ತು ಪಾವತಿಗಾಗಿ ಕಾಯುವಿಕೆ — ನೀವು ಒಪ್ಪುವ ಮೊದಲೇ ತೋರಿಸಲಾಗುತ್ತದೆ."
+        },
+        "pool": {
+          "title": "ನೆರೆಹೊರೆಯವರ ಜೊತೆ ಸೇರಿ ಮಾರಿ",
+          "body": "ಸಣ್ಣ ಫಸಲುಗಳು ಒಂದೇ ಜಂಟಿ ಪಿಕಪ್‌ನಲ್ಲಿ ಖರೀದಿದಾರರಿಗೆ ಸಿದ್ಧವಾದ ಲಾಟ್‌ಗಳಾಗುತ್ತವೆ."
+        },
+        "consent": {
+          "title": "ನಿಮ್ಮ ಒಪ್ಪಿಗೆ ಇಲ್ಲದೆ ಏನೂ ಮಾರಾಟವಾಗುವುದಿಲ್ಲ",
+          "body": "ಪ್ರತಿ ವ್ಯವಹಾರವೂ ನಿಮ್ಮ ಒಪ್ಪಿಗೆಗಾಗಿ ಕಾಯುತ್ತದೆ — ಪ್ರತಿ ಶುಲ್ಕವನ್ನೂ ಬರೆದಿಡಲಾಗುತ್ತದೆ."
+        }
+      }
+    },
+    "footer": {
+      "eyebrow": "ಭಾರತದ ರೈತರಿಗಾಗಿ",
+      "statementStart": "ಉತ್ತಮ ವ್ಯವಹಾರ. ಜಂಟಿ ಸಾಗಣೆ.",
+      "statementEmphasis": "ರೈತರಿಗೆ",
+      "statementEnd": "ಹೆಚ್ಚು ಹಣ.",
+      "summary": "MandiMate ಸಣ್ಣ ಫಸಲುಗಳನ್ನು ಖರೀದಿದಾರರಿಗೆ ಸಿದ್ಧವಾದ ಲಾಟ್‌ಗಳಾಗಿ ಒಟ್ಟುಗೂಡಿಸುತ್ತದೆ, ಮಾರುಕಟ್ಟೆಗೆ ಸಾಗಣೆಯನ್ನು ಹಂಚುತ್ತದೆ ಮತ್ತು ಪ್ರತಿ ರೈತರಿಗೂ ಒಪ್ಪುವ ಮೊದಲೇ ನಿಜವಾಗಿ ಕೈಗೆ ಎಷ್ಟು ಸಿಗುತ್ತದೆ ಎಂದು ತೋರಿಸುತ್ತದೆ.",
+      "about": "ಜಂಟಿ ಫಸಲು, ಜಂಟಿ ಸಾಗಣೆ ಮತ್ತು ಪ್ರಾಮಾಣಿಕ ನಿವ್ವಳ ಆದಾಯಕ್ಕಾಗಿ ರೈತರಿಗೆ ಮೊದಲ ಆದ್ಯತೆಯ ಮಾರುಕಟ್ಟೆ.",
+      "languages": "ಲಭ್ಯವಿರುವ ಭಾಷೆಗಳು:",
+      "and": "ಮತ್ತು",
+      "madeFor": "ಭಾರತದ ರೈತರಿಗಾಗಿ ತಯಾರಿಸಲಾಗಿದೆ"
+    },
+    "nav": {
+      "trust": "ನಂಬಿಕೆ ಮತ್ತು ಸುರಕ್ಷತೆ"
+    },
+    "tabs": {
+      "label": "ತ್ವರಿತ ಮೆನು",
+      "home": "ಮುಖಪುಟ",
+      "harvests": "ಫಸಲು",
+      "offers": "ಆಫರ್‌ಗಳು",
+      "sales": "ಮಾರಾಟ"
+    },
+    "breadcrumb": {
+      "details": "ವಿವರ"
+    },
+    "shell": {
+      "home": "MandiMate — ಕೆಲಸದ ಮುಖಪುಟ"
+    },
+    "ai": {
+      "liveHint": "ವಿವರಣೆ: {{model}}. ಬೆಲೆ, ವೆಚ್ಚ ಮತ್ತು ಆದಾಯ ಯಾವಾಗಲೂ MandiMateನ ಲೆಕ್ಕಾಚಾರದಿಂದಲೇ ಬರುತ್ತವೆ.",
+      "mockHint": "AI ಕೀ ಹೊಂದಿಸಿಲ್ಲ, ಆದ್ದರಿಂದ ವಿವರಣೆಗಳು MandiMateನ ಒಳಗಿನ ನಿಯಮಗಳನ್ನು ಬಳಸುತ್ತವೆ. ಯಾವ ಸಂಖ್ಯೆಯೂ ಬದಲಾಗುವುದಿಲ್ಲ."
+    }
+  }
+}

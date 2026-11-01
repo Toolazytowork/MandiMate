@@ -1,0 +1,762 @@
+{
+  "farmers": {
+    "consent": {
+      "eyebrow": "Consent",
+      "features": {
+        "decline": {
+          "body": "Say no to any deal without penalty, and keep listing next season.",
+          "title": "Free to decline"
+        },
+        "language": {
+          "body": "Trade-offs in plain words: “pays ₹2 more, but three days later.”",
+          "title": "Explained in your language"
+        },
+        "recorded": {
+          "body": "Your consent is logged with time and terms, so no one can change them later.",
+          "title": "Recorded, not assumed"
+        },
+        "share": {
+          "body": "How many kilos you contribute, and what that share earns after costs.",
+          "title": "Your share, clearly"
+        }
+      },
+      "lead": "Pooling makes you stronger, never smaller. You see the whole deal — buyer, price, every cost, when you will be paid — and you decide. Decline, and your harvest is still yours to sell anywhere.",
+      "title": "Nothing is sold <em>without your yes.</em>"
+    },
+    "cta": {
+      "lead": "Sign up in a minute, or ask a field coordinator to list with you. It is free, and nothing is sold without your yes.",
+      "primary": "Join as a farmer",
+      "secondary": "See how it works",
+      "title": "Your next harvest deserves a <em>better deal.</em>"
+    },
+    "facts": {
+      "consent": "of sales need your explicit yes",
+      "free": "to list, pool and compare offers",
+      "languages": "languages by voice — Telugu, Hindi, Kannada, Urdu, English",
+      "oneView": "from listing to the money in your bank",
+      "oneViewValue": "1 view"
+    },
+    "faq": {
+      "consent": {
+        "answer": "Never. Every sale needs your explicit consent. You can decline any offer, and declining a pooled deal does not stop you from selling elsewhere.",
+        "question": "Can MandiMate sell my produce without asking me?"
+      },
+      "cost": {
+        "answer": "No. Farmers never pay to list, to join a pooled sale or to compare offers. Any cost that touches your sale — transport, handling, a market commission — is shown as its own line before you agree.",
+        "question": "Does it cost anything to list a harvest?"
+      },
+      "floor": {
+        "answer": "Only you, and a field coordinator if you choose to list with one. Buyers never see it. We use it to tell you which offers clear your floor once every cost is taken out.",
+        "question": "Who sees my minimum price?"
+      },
+      "rejection": {
+        "answer": "The quantity and reason are recorded at delivery with the inspector’s notes and photos. Rejections are traced to your own produce, not shared across the lot, and you can raise a dispute from the same screen.",
+        "question": "What if some of my produce is rejected at delivery?"
+      },
+      "smartphone": {
+        "answer": "Yes. A field coordinator from your FPO or village cluster can list, explain offers and record your consent with you, in your language.",
+        "question": "I do not use a smartphone much. Can I still sell?"
+      },
+      "title": "What farmers ask first"
+    },
+    "floor": {
+      "card": {
+        "below": "Below your floor",
+        "clears": "Clears your floor",
+        "hidden": "Hidden from buyers and other farmers",
+        "label": "Minimum acceptable · net",
+        "net": "{{amount}} net",
+        "offerA": "Offer A · local trader",
+        "offerB": "Offer B · pooled sale",
+        "offerC": "Offer C · processor"
+      },
+      "eyebrow": "Your private minimum",
+      "lead": "Tell MandiMate the least you would accept per kilo after every cost. Buyers never see it. It quietly sorts offers into those that clear your floor and those that do not — and helps you counter with numbers, not guesses.",
+      "points": {
+        "change": "Change it any time before you consent",
+        "counter": "Counter-offer suggestions use your floor and verified market prices only",
+        "net": "Set it as a net figure, so transport and commission cannot hide inside it"
+      },
+      "title": "A floor price only <em>you</em> can see."
+    },
+    "hero": {
+      "crumb": "For farmers",
+      "eyebrow": "For farmers",
+      "footnote": "Free for farmers. No sale without your consent. Every fee shown first.",
+      "lead": "Speak your harvest in your own language. MandiMate pools it with your neighbours’ into a lot buyers compete for — and shows every offer as money in your hand, after transport, commission, rejection and the wait for payment.",
+      "primary": "List your harvest — free",
+      "secondary": "Work out a net price",
+      "title": "Know what you <em>take home</em> before you say yes."
+    },
+    "journey": {
+      "eyebrow": "Your journey",
+      "lead": "You stop chasing buyers, trucks and payments separately. MandiMate keeps the whole sale together, from the field to the final rupee.",
+      "title": "Six steps, <em>one place.</em>"
+    },
+    "net": {
+      "eyebrow": "Net, not quoted",
+      "features": {
+        "commission": {
+          "body": "Market fees, loading and crating — itemised, never folded into the price.",
+          "title": "Commission & handling"
+        },
+        "delay": {
+          "body": "When the money actually reaches you, and how reliable the buyer has been.",
+          "title": "Payment delay"
+        },
+        "rejection": {
+          "body": "Expected losses at inspection, based on the grade and the buyer’s standards.",
+          "title": "Rejection risk"
+        },
+        "transport": {
+          "body": "Your share of a shared truck, against what it would cost to haul alone.",
+          "title": "Transport"
+        }
+      },
+      "lead": "A trader’s ₹16 can pay less than a pooled ₹15 once you count the truck, the commission, the produce sent back and the weeks you wait for money. MandiMate counts all of it, and tells you how sure each number is.",
+      "note": "Each figure carries a marker: confirmed (agreed in writing), estimated (calculated from known costs) or unresolved (still to be settled, such as the final grade).",
+      "title": "The highest price is not always the <em>best deal.</em>"
+    },
+    "payment": {
+      "eyebrow": "Payment tracking",
+      "lead": "After pickup, nothing disappears into a ledger you cannot read. Weights, quality checks, deductions and payment status are recorded at every step, and your earnings history shows how each sale compared with selling alone.",
+      "points": {
+        "alerts": "Alerts when payment is due, received and paid to you",
+        "rejections": "Rejections recorded with reason, photos and inspector",
+        "weighed": "Weighed at pickup and again at delivery"
+      },
+      "title": "Follow your money all the way <em>to your bank.</em>"
+    },
+    "steps": {
+      "compare": {
+        "body": "Every offer is shown as net earnings beside the mandi, with each cost marked confirmed, estimated or unresolved.",
+        "title": "Compare by take-home"
+      },
+      "decide": {
+        "body": "Nothing is sold without your consent. Decline freely; your harvest stays yours.",
+        "title": "Say yes — or no"
+      },
+      "floor": {
+        "body": "Tell us the least you would accept after costs. Buyers never see it; we use it to flag offers worth your time.",
+        "title": "Set your private floor"
+      },
+      "pool": {
+        "body": "Compatible harvests — same crop, grade and timing — become one lot a serious buyer will bid on.",
+        "title": "Get pooled with neighbours"
+      },
+      "ready": {
+        "body": "Speak your harvest in Telugu, Hindi, Kannada, Urdu or English, or add a photo. MandiMate drafts the listing and asks for anything it is unsure of.",
+        "title": "Say what is ready"
+      },
+      "track": {
+        "body": "Pickup, weighing, quality, deductions and payment, recorded as they happen and explained in plain words.",
+        "title": "Track until you are paid"
+      }
+    },
+    "voice": {
+      "eyebrow": "Listing, by voice",
+      "lead": "No forms to fight with. Say what is ready in Telugu, Hindi, Kannada, Urdu or English and MandiMate turns it into a draft listing. It asks about what it did not hear — grade, a pickup point — instead of guessing, and you confirm every field.",
+      "points": {
+        "phone": "Works on a basic smartphone, or with a field coordinator beside you",
+        "photo": "Add a photo for a first description; final grade is always set by inspection",
+        "reminders": "Harvest deadlines and pickup times arrive as reminders you can hear"
+      },
+      "title": "Speak it the way you would <em>tell a neighbour.</em>"
+    }
+  },
+  "buyers": {
+    "cta": {
+      "lead": "Post a requirement today. We will tell you honestly what supply exists in our pilot cluster — and what does not yet.",
+      "primary": "Create a buyer account",
+      "secondary": "See pricing",
+      "title": "Source your next lot <em>with confidence.</em>"
+    },
+    "facts": {
+      "checks": "at collection and at your dock",
+      "checksValue": "2 checks",
+      "record": "of delivery, quality and settlement",
+      "recordValue": "1 record",
+      "spec": "agreed before any produce is pooled",
+      "specValue": "1 spec",
+      "thread": "for offers, counters and terms",
+      "threadValue": "1 thread"
+    },
+    "faq": {
+      "fees": {
+        "answer": "A coordination fee per successfully sourced lot, shown in your offer before you commit. There is no fee for posting requirements or browsing supply. Pilot pricing is subject to validation.",
+        "question": "What does MandiMate charge buyers?"
+      },
+      "negotiate": {
+        "answer": "Yes. You can offer, counter and agree terms — price, quantity, quality standards, pickup and payment conditions — in one thread. Farmers in the lot consent before a deal is confirmed.",
+        "question": "Can I negotiate?"
+      },
+      "quality": {
+        "answer": "Lots are pooled only from produce that meets the specification you agreed — size, colour, defect tolerance. Produce is inspected at collection and again at delivery, and the results are recorded against each farmer’s share.",
+        "question": "How do you keep quality consistent across many small farms?"
+      },
+      "title": "Questions from buyers",
+      "verification": {
+        "answer": "Field coordinators and FPO partners confirm farmers, quantities and readiness before a lot is offered. Supply is never invented or silently combined to fill an order.",
+        "question": "Who verifies the supply?"
+      }
+    },
+    "hero": {
+      "crumb": "For buyers",
+      "eyebrow": "For buyers",
+      "footnote": "No fee to post requirements. Pay a coordination fee only on lots you actually source.",
+      "lead": "Retailers, wholesalers, processors and kitchens source graded produce from coordinated farmer groups — one specification, one delivery, one record of what arrived and what you paid.",
+      "primary": "Start sourcing",
+      "secondary": "Talk to our team",
+      "title": "Farm-gate supply, <em>buyer-ready</em> quality."
+    },
+    "lots": {
+      "card": {
+        "crop": "Crop",
+        "cropValue": "Tomato, hybrid",
+        "defects": "Defects",
+        "defectsValue": "≤ 3% tolerance",
+        "deliverTo": "Deliver to",
+        "deliverToValue": "Vijayawada DC",
+        "footer": "Matched against verified harvests near your delivery point.",
+        "grade": "Grade",
+        "gradeValue": "A · 55–65 mm",
+        "label": "Your requirement · posted",
+        "match": "{{harvests}} compatible harvests found · {{kg}} · ready Tue. Two details still to confirm at collection.",
+        "quantity": "Quantity",
+        "quantityValue": "{{kg}} weekly",
+        "window": "Window",
+        "windowValue": "Tue & Fri, 8–10 am"
+      },
+      "eyebrow": "Consistent-quality lots",
+      "lead": "Describe what you need — crop, grade, size, defect tolerance, quantity, delivery window. MandiMate finds compatible harvests across nearby farmers and builds a lot to your specification, with a clear explanation of why each harvest fits.",
+      "points": {
+        "repeat": "Repeat requirements remembered for the next season",
+        "rules": "Quantity checks follow explicit rules — no padding, no guesswork",
+        "spec": "Pooled only from produce that meets the agreed specification"
+      },
+      "title": "Many small farms. <em>One standard.</em>"
+    },
+    "records": {
+      "eyebrow": "Delivery & quality records",
+      "lead": "Weights at pickup and at your dock. Inspection results with photos and timestamps. Shortages and rejections traced to individual farmers. When there is a question, the record answers it.",
+      "points": {
+        "disputes": "A clear dispute process with an audit trail",
+        "quality": "Quality checks recorded against the agreed specification",
+        "weights": "Pickup and delivery confirmations with weights"
+      },
+      "title": "What was sent, what arrived, <em>what you accepted.</em>"
+    },
+    "sourcing": {
+      "eyebrow": "How sourcing works",
+      "lead": "One workflow replaces the phone calls, the separate trucks and the spreadsheet reconciliation.",
+      "steps": {
+        "consent": {
+          "body": "Every farmer in the lot accepts before the deal is confirmed.",
+          "title": "Farmers consent"
+        },
+        "delivery": {
+          "body": "Consolidated pickup, planned route, confirmed arrival at your dock.",
+          "title": "Receive one delivery"
+        },
+        "negotiate": {
+          "body": "Submit an offer, counter in the same thread, agree terms openly.",
+          "title": "Offer and negotiate"
+        },
+        "post": {
+          "body": "Crop, grade, quantity, delivery window and payment terms you can offer.",
+          "title": "Post a requirement"
+        },
+        "review": {
+          "body": "See pooled lots with their specification, origin and certainty of each detail.",
+          "title": "Review matched supply"
+        },
+        "settle": {
+          "body": "Record quality, accept quantities and pay against the record.",
+          "title": "Inspect and settle"
+        }
+      },
+      "title": "From requirement to <em>receipt.</em>",
+      "tools": {
+        "negotiation": "Negotiation",
+        "quality": "Quality records",
+        "requirements": "Requirements",
+        "settlements": "Settlements"
+      }
+    },
+    "terms": {
+      "card": {
+        "accepted": "Accepted quantity",
+        "due": "Due",
+        "dueValue": "Tue, 4 Nov",
+        "footer": "Coordination fee shown in the offer before you commit.",
+        "label": "Settlement · Lot {{code}}",
+        "price": "Agreed price",
+        "terms": "Terms",
+        "termsValue": "Net 7 days",
+        "value": "Produce value"
+      },
+      "eyebrow": "Payment terms",
+      "lead": "Agree payment terms in the offer — advance, on delivery or net days — and settle against accepted quantities. Farmers see when payment is due; you see exactly what you are paying for.",
+      "title": "Terms written down, <em>settled on record.</em>"
+    },
+    "verified": {
+      "eyebrow": "Verified supply",
+      "features": {
+        "farmers": {
+          "body": "Farmers are onboarded and verified by field coordinators and FPO partners, not anonymous listings.",
+          "title": "Known farmers"
+        },
+        "quantities": {
+          "body": "Readiness and volume are confirmed close to harvest, so the lot you agree is the lot that arrives.",
+          "title": "Real quantities"
+        },
+        "status": {
+          "body": "Each lot shows what is confirmed, what is estimated and what is still unresolved — before you commit.",
+          "title": "Honest status"
+        }
+      },
+      "lead": "Every lot is backed by people on the ground: coordinators who know the farmers, confirm quantities and check readiness before you see an offer.",
+      "title": "Supply you can <em>plan around.</em>"
+    },
+    "why": {
+      "eyebrow": "Why it lasts",
+      "features": {
+        "terms": {
+          "body": "Every fee and deduction shown to every party, every time.",
+          "title": "Fair, visible terms"
+        },
+        "verified": {
+          "body": "Buyers and transporters are verified too, so farmers say yes faster.",
+          "title": "Verified counterparties"
+        },
+        "windows": {
+          "body": "Pickup sequencing and timing planned before the truck leaves.",
+          "title": "Predictable windows"
+        }
+      },
+      "lead": "When farmers trust the deal, they come back with the next harvest. Reliable counterparties, recorded terms and fair settlement build supply you can rely on season after season.",
+      "title": "Better for farmers is <em>better for you.</em>"
+    }
+  },
+  "transporters": {
+    "consolidated": {
+      "eyebrow": "Consolidated pickups",
+      "features": {
+        "capacity": {
+          "body": "Loads matched to vehicle capacity, so you are neither overloaded nor half-empty.",
+          "title": "Capacity planning"
+        },
+        "deadRunning": {
+          "body": "Clustered stops and one destination cut the kilometres that earn nothing.",
+          "title": "Less dead running"
+        },
+        "loads": {
+          "body": "Total weight, crop and packaging per stop, confirmed close to harvest.",
+          "title": "Known loads"
+        }
+      },
+      "lead": "MandiMate pools harvests from neighbouring farms into a single consignment, so a pickup is worth the diesel. You see the full load, the stops and the destination before you quote.",
+      "title": "One run, many farms, <em>one drop.</em>"
+    },
+    "cta": {
+      "lead": "Join our pilot transport partners. Quote on consolidated pickups with known loads and planned routes.",
+      "primary": "Join as a transporter",
+      "secondary": "Contact us",
+      "title": "Put your truck on <em>better runs.</em>"
+    },
+    "faq": {
+      "cost": {
+        "answer": "No. Transporters see pickup requests and quote for free. Any logistics coordination fee is shown as its own line to every party.",
+        "question": "Does it cost anything to quote?"
+      },
+      "loads": {
+        "answer": "Quantities are confirmed by farmers and field coordinators close to harvest, and the pickup sequence is fixed before you accept. If something changes, you are told before the truck leaves.",
+        "question": "How are loads and stops confirmed?"
+      },
+      "payment": {
+        "answer": "Payment terms are agreed with your quote and released against pickup and delivery confirmations recorded in MandiMate.",
+        "question": "When do I get paid?"
+      },
+      "title": "Questions from transporters"
+    },
+    "hero": {
+      "crumb": "For transporters",
+      "eyebrow": "For transporters",
+      "footnote": "Free to quote. Paid against recorded pickup and delivery.",
+      "lead": "Quote on consolidated pickups with known loads, confirmed stops and a planned route — instead of a dozen phone calls for a dozen half-loads.",
+      "primary": "Join as a transporter",
+      "secondary": "How a run is planned",
+      "title": "Fuller trucks. <em>Fewer empty kilometres.</em>"
+    },
+    "quotes": {
+      "card": {
+        "distance": "Distance",
+        "label": "Your quote · Tue run",
+        "load": "Load",
+        "loadValue": "{{kg}} · {{stops}} stops",
+        "paid": "Paid",
+        "paidValue": "On delivery confirmation",
+        "perKg": "Per kg to farmers",
+        "price": "Your price",
+        "priceValue": "{{amount}} per run"
+      },
+      "eyebrow": "Quotes",
+      "lead": "Price the run as a whole. Your quote becomes a transparent line in every farmer’s net earnings — so a fair quote wins work, and the cheapest is not the only one that does.",
+      "points": {
+        "perRun": "Quote per run, shown per kilo to farmers",
+        "settlement": "Recorded confirmations make settlement simple",
+        "terms": "Payment terms agreed with the quote"
+      },
+      "title": "Quote once, <em>clearly.</em>"
+    },
+    "routes": {
+      "card": {
+        "footer": "Three collection points, one buyer dock, delivered inside the window.",
+        "label": "Planned route · {{km}} km"
+      },
+      "eyebrow": "Route sequencing",
+      "lead": "Collection points, pickup order and timing are planned around harvest readiness and the buyer’s delivery window. Every stop is confirmed; every change reaches you first.",
+      "points": {
+        "confirmed": "Pickup and delivery confirmed in the app, with weights",
+        "order": "Pickup order and time windows per stop",
+        "points": "Collection points agreed with farmers in advance"
+      },
+      "title": "A route that makes sense <em>before you start the engine.</em>"
+    },
+    "trust": {
+      "eyebrow": "Trust",
+      "features": {
+        "agreements": {
+          "body": "Load, route, timing and price agreed in writing before the run.",
+          "title": "Clear agreements"
+        },
+        "payment": {
+          "body": "Settlement tied to confirmations, with a clear dispute process.",
+          "title": "Reliable payment"
+        },
+        "repeat": {
+          "body": "Seasonal lanes and repeat buyers bring predictable runs.",
+          "title": "Repeat work"
+        }
+      },
+      "lead": "Transporters are verified before they quote, and every pickup, delivery and payment is on record. Good work builds a history buyers and farmers can see.",
+      "title": "Verified partners, <em>recorded terms.</em>"
+    },
+    "workflow": {
+      "eyebrow": "Your workflow",
+      "lead": "Everything a run needs, in the order you need it.",
+      "steps": {
+        "paid": {
+          "body": "Record pickup and delivery weights; payment follows the record.",
+          "title": "Confirm and get paid"
+        },
+        "quote": {
+          "body": "Price it once; terms and timing travel with your quote.",
+          "title": "Quote the run"
+        },
+        "requests": {
+          "body": "Consolidated loads near your base, with crop, weight and delivery window.",
+          "title": "See pickup requests"
+        },
+        "sheet": {
+          "body": "Sequenced stops, collection points and contact for each farmer group.",
+          "title": "Get the route sheet"
+        }
+      },
+      "title": "From request to <em>receipt.</em>",
+      "tools": {
+        "confirmations": "Confirmations",
+        "points": "Collection points",
+        "stops": "Sequenced stops",
+        "windows": "Time windows"
+      }
+    }
+  },
+  "fpos": {
+    "cta": {
+      "lead": "We are piloting with one village cluster and one crop. If your FPO wants to be part of it, start here.",
+      "primary": "Join as a coordinator",
+      "secondary": "Talk to us",
+      "title": "Bring your cluster to a <em>single ledger.</em>"
+    },
+    "faq": {
+      "assisted": {
+        "answer": "Yes. Assisted onboarding is built in: a coordinator can register farmers, record harvests by voice, explain offers and capture consent — while each farmer keeps the final say on every sale.",
+        "question": "Can coordinators list on behalf of farmers?"
+      },
+      "buyers": {
+        "answer": "No. Bring your own buyers and use MandiMate to run aggregation, records and settlement. Verified buyers on the platform are an addition, not a replacement.",
+        "question": "Does MandiMate replace our FPO’s buyer relationships?"
+      },
+      "subscription": {
+        "answer": "Aggregation tools, buyer management, records and settlement tracking for your members. See the pricing page for pilot tiers, which are subject to validation.",
+        "question": "What does an FPO subscription include?"
+      },
+      "title": "Questions from FPOs"
+    },
+    "hero": {
+      "crumb": "For FPOs",
+      "eyebrow": "For FPOs & field coordinators",
+      "footnote": "Built for assisted use. Farmers keep the final say on every sale.",
+      "lead": "Onboard members, verify harvests, build lots to buyer specifications and settle every rupee on record — with the people your farmers already trust at the centre.",
+      "primary": "Set up your cluster",
+      "secondary": "FPO plans",
+      "title": "Run aggregation like a <em>well-kept ledger.</em>"
+    },
+    "lotBuilder": {
+      "eyebrow": "Lot builder",
+      "lead": "MandiMate suggests compatible harvests by crop, grade, location, quantity and timing, and explains why they fit. You check, adjust and confirm — rules decide compatibility, people decide trust.",
+      "note": "AI explains a match and flags what is missing. It never silently combines incompatible produce or invents supply.",
+      "title": "Small harvests, <em>serious lots.</em>"
+    },
+    "onboarding": {
+      "card": {
+        "label": "Assisted listing · field visit",
+        "registered": {
+          "meta": "Kothapalli · 1.5 acres · tomato",
+          "title": "Lakshmi R. registered"
+        },
+        "verified": {
+          "meta": "Field visit · photos attached",
+          "title": "Readiness verified"
+        },
+        "voice": {
+          "meta": "350 kg · ready Thu · Telugu",
+          "title": "Harvest recorded by voice"
+        }
+      },
+      "eyebrow": "Assisted onboarding",
+      "lead": "Register members in the field, record harvests by voice in Telugu, Hindi, Kannada or Urdu, and explain each offer in plain words. Consent is captured from the farmer, with you beside them.",
+      "points": {
+        "consent": "Consent recorded with time and terms, never assumed",
+        "register": "Register farmers and their plots in minutes",
+        "voice": "Voice and photo-assisted harvest listing on their behalf"
+      },
+      "title": "Meet farmers where they are — <em>in their language.</em>"
+    },
+    "settlements": {
+      "eyebrow": "Settlements & insights",
+      "features": {
+        "buyers": {
+          "body": "Your buyers and verified platform buyers, with terms and payment history.",
+          "title": "Buyer management"
+        },
+        "collection": {
+          "body": "Collection points, pickup sequence and vehicle capacity planned with transporters.",
+          "title": "Collection planning"
+        },
+        "disputes": {
+          "body": "Rejections, shortages and payment issues resolved on record.",
+          "title": "Disputes & audit trail"
+        },
+        "insights": {
+          "body": "Net uplift per kg against the local mandi, sell-through and payment delays, by crop and season.",
+          "title": "Earnings insights"
+        },
+        "memory": {
+          "body": "Recurring buyer requirements and surplus periods, so you plan the next harvest earlier.",
+          "title": "Season memory"
+        },
+        "records": {
+          "body": "Per-farmer shares, deductions and payouts reconciled against accepted quantities.",
+          "title": "Settlement records"
+        }
+      },
+      "lead": "Settle buyer payments across many members without a spreadsheet, and learn from each season what actually raised their earnings.",
+      "title": "Every member paid, <em>every rupee explained.</em>"
+    },
+    "week": {
+      "eyebrow": "A coordinator’s week",
+      "lead": "The work you already do, in one place, with a record that holds up.",
+      "steps": {
+        "build": {
+          "body": "Group compatible harvests to a buyer’s specification.",
+          "title": "Build lots"
+        },
+        "consent": {
+          "body": "Walk each farmer through their net outcome; capture their yes or no.",
+          "title": "Explain and consent"
+        },
+        "dispatch": {
+          "body": "Quality checks at collection, then a planned, consolidated pickup.",
+          "title": "Inspect and dispatch"
+        },
+        "learn": {
+          "body": "See which deals beat the mandi, and by how much, after every cost.",
+          "title": "Learn"
+        },
+        "onboard": {
+          "body": "Register farmers, confirm plots and record harvests with them.",
+          "title": "Onboard and verify"
+        },
+        "settle": {
+          "body": "Reconcile payment against accepted quantities and pay each member.",
+          "title": "Settle"
+        }
+      },
+      "title": "One desk for the <em>whole cluster.</em>"
+    }
+  },
+  "visuals": {
+    "deal": {
+      "context": "Quality pending inspection · Kothapalli cluster",
+      "gross": "Gross · {{price}}",
+      "higherNet": "Higher net",
+      "label": "400 kg tomatoes · ready tomorrow",
+      "lines": {
+        "commission": "Commission 6%",
+        "handling": "Handling",
+        "ownTransport": "Own transport to mandi",
+        "rejection": "Expected rejection 3%",
+        "sharedTransport": "Shared transport"
+      },
+      "netLine": "{{perKg}} net · {{payment}}",
+      "options": {
+        "a": {
+          "buyer": "Local trader · sell alone",
+          "name": "Offer A",
+          "payment": "Cash, same day"
+        },
+        "b": {
+          "buyer": "Pooled sale · Grade A lot",
+          "name": "Offer B",
+          "payment": "Bank transfer in 3 days"
+        }
+      },
+      "privateMinimum": "Your minimum of {{price}} net is private — buyers never see it.",
+      "takeHome": "You take home",
+      "tradeoff": "Offer B pays {{more}} more, costs {{moveCost}} more to move, and pays three days later. You decide."
+    },
+    "illustrative": "Illustrative",
+    "ledger": {
+      "assisted": "assisted listings",
+      "farmers": "farmers on board",
+      "label": "Cluster desk · this week",
+      "lots": "lots in progress",
+      "settlements": "Settlements",
+      "states": {
+        "awaiting": "Awaiting buyer · due 30 Oct",
+        "delivered": "Delivered · quality recorded",
+        "paid": "Paid to farmers"
+      }
+    },
+    "lotSpec": {
+      "colour": "Colour",
+      "colourValue": "≥ 80% red",
+      "compositionLabel": "Lot made of {{parts}}",
+      "defects": "Defects",
+      "footer": "Pooled only from produce that meets the agreed specification. Nothing is combined silently.",
+      "label": "Lot {{code}} · Tomato · Grade A",
+      "origin": "from {{farmers}} farmers · one collection point",
+      "size": "Size",
+      "tag": "Verified supply",
+      "terms": "Payment terms",
+      "termsValue": "Net 7 days",
+      "window": "Delivery window",
+      "windowValue": "Tue, 8–10 am"
+    },
+    "quality": {
+      "accepted": "Accepted after inspection",
+      "dispatched": "Dispatched (weighed at pickup)",
+      "label": "Delivery & quality record",
+      "note": "Inspector, photos and timestamps attached. Each farmer’s share of any rejection is traced to their own produce.",
+      "received": "Received at your dock",
+      "rejected": "Rejected · bruising",
+      "shortage": "Transit shortage"
+    },
+    "route": {
+      "arrival": "9:30 am",
+      "capacityLabel": "Vehicle capacity used",
+      "crated": "{{load}} · crated",
+      "distance": "{{km}} km total · one drop",
+      "dock": "Buyer dock · Vijayawada",
+      "footer": "Quote {{quote}} for the run · {{perKg}} · paid on delivery confirmation",
+      "label": "Pickup run · Tue",
+      "stops": {
+        "kothapalli": {
+          "place": "Kothapalli",
+          "time": "6:10 am"
+        },
+        "peddaCheruvu": {
+          "place": "Pedda Cheruvu",
+          "time": "7:20 am"
+        },
+        "rayavaram": {
+          "place": "Rayavaram",
+          "time": "6:45 am"
+        }
+      },
+      "tag": "Stops confirmed",
+      "vehicle": "{{tonnes}} t pickup"
+    },
+    "settlement": {
+      "doneSr": "Done: ",
+      "footer": "Every deduction is itemised against what you agreed. Disputes open from the same screen.",
+      "gross": "Gross",
+      "label": "Sale {{code}} · settlement",
+      "netToYou": "Net to you",
+      "pendingSr": "Pending: ",
+      "steps": {
+        "buyerPaid": {
+          "detail": "Expected Fri",
+          "label": "Buyer payment received"
+        },
+        "consent": {
+          "detail": "Mon, 6:40 pm",
+          "label": "Consent given"
+        },
+        "delivered": {
+          "detail": "Tue, 9:50 am",
+          "label": "Delivered · 388 kg accepted, 12 kg rejected"
+        },
+        "paidToYou": {
+          "detail": "Expected Fri",
+          "label": "Paid to your bank"
+        },
+        "pickedUp": {
+          "detail": "Tue, 6:15 am",
+          "label": "Picked up · 400 kg weighed"
+        }
+      }
+    },
+    "voice": {
+      "fields": {
+        "crop": "Crop",
+        "cropValue": "Tomato",
+        "grade": "Grade",
+        "gradeValue": "Asked, not guessed",
+        "quantity": "Quantity",
+        "ready": "Ready",
+        "readyValue": "Tomorrow, 6 am"
+      },
+      "label": "Voice listing · draft",
+      "tag": "You confirm every field"
+    }
+  },
+  "sections": {
+    "cta": {
+      "eyebrow": "Begin"
+    },
+    "faq": {
+      "eyebrow": "Questions"
+    },
+    "roleChooser": {
+      "buyer": {
+        "label": "I buy produce",
+        "note": "Fee per sourced lot"
+      },
+      "coordinator": {
+        "label": "I run an FPO",
+        "note": "Pilot plans"
+      },
+      "farmer": {
+        "label": "I grow produce",
+        "note": "Free, always"
+      },
+      "transporter": {
+        "label": "I move produce",
+        "note": "Free to quote"
+      }
+    }
+  }
+}

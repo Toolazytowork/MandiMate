@@ -1,0 +1,231 @@
+{
+  "hero": {
+    "eyebrow": "Farmer-first marketplace · Madanapalle",
+    "title": "Small harvests.<br/><em>Stronger deals.</em>",
+    "lead": "MandiMate pools harvests from neighbouring farms into lots buyers want, then shows every farmer what they would <strong>actually take home</strong> — after transport, handling, commission, rejection and the wait for payment — before they agree to anything.",
+    "ctaPrimary": "List your harvest",
+    "ctaSecondary": "See how it works",
+    "promises": {
+      "free": "Free for farmers",
+      "consent": "No sale without your consent",
+      "fees": "Every fee and deduction shown"
+    }
+  },
+  "dealCard": {
+    "ariaLabel": "Illustrative deal: {{kg}} kg of tomatoes, two offers compared on net earnings",
+    "eyebrow": "Lot · Tomatoes",
+    "harvest": "{{kg}} kg Tomatoes",
+    "status": "Ready tomorrow · Quality pending inspection",
+    "illustrative": "Illustrative",
+    "offer": "Offer {{letter}}",
+    "higherNet": "Higher net",
+    "quoted": "Quoted",
+    "takeHome": "You take home",
+    "offerA": {
+      "title": "Local trader at the mandi",
+      "terms": "Your own vehicle · 8% commission · paid next day"
+    },
+    "offerB": {
+      "title": "Pooled sale with 2 neighbours",
+      "terms": "Shared truck · no commission · paid in {{days}} days"
+    },
+    "summary": "Offer B quotes {{gap}} more and saves {{transport}} on transport. After every deduction you keep <strong>{{uplift}} more</strong> — about <money/> on this harvest.",
+    "note": "Illustrative inputs, real formula: the same net-proceeds engine farmers see in the app."
+  },
+  "pooling": {
+    "eyebrow": "Why pooling works",
+    "title": "Three harvests. <em>One</em> buyer-ready lot.",
+    "lead": "A retailer wants 1,000 kg of consistent tomatoes. No single farm in the village has it. Three neighbours together do — and one truck can collect all of it on a single route.",
+    "aloneLabel": "Transport alone",
+    "aloneDetail": "400 kg, own vehicle",
+    "pooledLabel": "Transport pooled",
+    "pooledDetail": "Shared by weight",
+    "note": "Estimated with MandiMate’s published vehicle rates for the worked example. Real lots use transporter quotes.",
+    "figureLabel": "Farmer A {{a}} kg, Farmer B {{b}} kg and Farmer C {{c}} kg pooled into one {{lot}} lot that fills a {{order}} order",
+    "farmer": "Farmer {{letter}}",
+    "oneTruck": "One truck, one route",
+    "oneLot": "One pooled lot",
+    "buyerOrder": "Buyer’s order · {{kg}}",
+    "caption": "Each farmer keeps their own share, their own price and their own decision. MandiMate records who contributed what, so payment, grading and any rejection are settled farmer by farmer."
+  },
+  "netNotGross": {
+    "eyebrow": "Net, not gross",
+    "title": "The best price is not always the best <em>deal</em>.",
+    "lead": "A farmer is paid the quoted price minus everything that happens on the way: produce rejected at the gate, the truck, loading and hamali, the agent’s commission, and the weeks of waiting for money. MandiMate puts every one of those on the screen, per kilogram, before the farmer decides.",
+    "certainty": {
+      "confirmed": "Written into the buyer’s offer or recorded at delivery. It will not change.",
+      "estimated": "Calculated from published rates and local averages. Shown, but clearly marked.",
+      "unresolved": "Still open — a transport quote, an inspection, a consent. Never hidden in the total."
+    },
+    "tableTitle": "400 kg of tomatoes, per kilogram",
+    "tableSubtitle": "Worked example · illustrative inputs, published formula",
+    "colPerKg": "Per kg",
+    "colAlone": "Alone",
+    "colPooled": "Pooled",
+    "quotedPrice": "Quoted price",
+    "takeHome": "You take home",
+    "feeNote": "MandiMate charges buyers, not farmers: the MandiMate fee line is ₹0 for every farmer.",
+    "calculatorLink": "Try your own numbers"
+  },
+  "roles": {
+    "eyebrow": "Built for everyone in the deal",
+    "title": "One workflow. <em>Four</em> people who need it to work.",
+    "lead": "A pooled sale only works when farmers, buyers, transporters and coordinators see the same facts. MandiMate gives each of them the view they need — and the farmer the final say.",
+    "items": {
+      "farmers": {
+        "name": "Farmers",
+        "pitch": "Sell a small harvest on the terms of a big one.",
+        "points": [
+          "List by voice, photo or text",
+          "See net earnings before you agree",
+          "Free — and nothing sells without your yes"
+        ],
+        "link": "MandiMate for farmers"
+      },
+      "buyers": {
+        "name": "Buyers",
+        "pitch": "Source consistent volume from verified farm groups.",
+        "points": [
+          "Post a requirement once",
+          "Offer on graded, pooled lots",
+          "Record delivery and quality in one place"
+        ],
+        "link": "MandiMate for buyers"
+      },
+      "transporters": {
+        "name": "Transporters",
+        "pitch": "Fuller trucks on planned routes.",
+        "points": [
+          "Pickup requests with weights and stops",
+          "Quote on consolidated loads",
+          "Confirm pickup and delivery in the app"
+        ],
+        "link": "MandiMate for transporters"
+      },
+      "fpos": {
+        "name": "FPOs & coordinators",
+        "pitch": "Run aggregation with records farmers can trust.",
+        "points": [
+          "Register and assist farmers",
+          "Verify harvests and organise collections",
+          "Track settlements and resolve disputes"
+        ],
+        "link": "MandiMate for FPOs & coordinators"
+      }
+    }
+  },
+  "difference": {
+    "eyebrow": "Not another listing app",
+    "title": "A marketplace finds a buyer. MandiMate finishes the <em>deal</em>.",
+    "lead": "Discovery is the easy part. The money is won or lost in what comes after — pooling, transport, quality and getting paid.",
+    "caption": "How MandiMate differs from a typical agricultural marketplace",
+    "colTypical": "Typical marketplace",
+    "rows": [
+      {
+        "typical": "Shows buyers and sellers",
+        "mandimate": "Coordinates a complete transaction"
+      },
+      {
+        "typical": "Lists prices",
+        "mandimate": "Calculates estimated net proceeds for each farmer"
+      },
+      {
+        "typical": "Treats each listing separately",
+        "mandimate": "Finds compatible lots across farmers"
+      },
+      {
+        "typical": "Leaves transport to the user",
+        "mandimate": "Coordinates consolidated pickup on one route"
+      },
+      {
+        "typical": "Stops at buyer discovery",
+        "mandimate": "Tracks delivery, deductions and settlement"
+      },
+      {
+        "typical": "Generic recommendations",
+        "mandimate": "Explains why a particular deal is better or worse"
+      }
+    ]
+  },
+  "ai": {
+    "eyebrow": "How we use AI",
+    "title": "AI to understand. Rules to decide. People to <em>trust</em>.",
+    "lead": "MandiMate is not “an AI platform for farmers”. AI listens and explains; arithmetic and explicit rules make the decisions; people verify, inspect and consent.",
+    "pillars": {
+      "understanding": {
+        "label": "AI for understanding",
+        "title": "Voice, languages, photos, messy details",
+        "does": [
+          "“I have 400 kilos of tomatoes ready tomorrow” becomes a draft listing",
+          "Explains trade-offs between offers in plain words",
+          "Asks for what is missing instead of guessing"
+        ],
+        "never": "Never sets a price, a cost or a grade."
+      },
+      "rules": {
+        "label": "Rules for decisions",
+        "title": "Compatibility, costs, net returns",
+        "does": [
+          "Explicit rules decide which harvests can be pooled",
+          "Transport priced from vehicle rates and real quotes",
+          "One published formula for every net-earnings figure"
+        ],
+        "never": "Never a black box — every line can be checked."
+      },
+      "people": {
+        "label": "People for trust",
+        "title": "Verification, inspection, consent",
+        "does": [
+          "Coordinators verify buyers, transporters and harvests",
+          "Quality is accepted on inspection, not from a photo",
+          "Each farmer accepts or declines; disputes have an owner"
+        ],
+        "never": "Never a sale without the farmer’s explicit yes."
+      }
+    }
+  },
+  "prove": {
+    "eyebrow": "What we will prove",
+    "title": "We will publish the <em>results</em>, not the promises.",
+    "lead": "MandiMate starts small on purpose: one location, one crop, one buyer segment and one complete workflow. Success means one thing — farmers measurably earning more. These are the numbers we will track and share.",
+    "pilotTitle": "First pilot",
+    "pilotTag": "Targets, not claims",
+    "pilot": {
+      "cluster": "village cluster",
+      "crop": "crop",
+      "farmers": "farmers",
+      "transport": "transport partners"
+    },
+    "impactLink": "How we measure impact",
+    "metrics": [
+      {
+        "title": "Additional net income per kg",
+        "detail": "Against a credible alternative — what the same farmer would have netted selling alone that week."
+      },
+      {
+        "title": "Share of listed produce sold",
+        "detail": "How much of what farmers list actually finds a buyer before its sell-by date."
+      },
+      {
+        "title": "Time to a confirmed buyer",
+        "detail": "From the moment a harvest is listed to a deal every farmer has accepted."
+      },
+      {
+        "title": "Transport cost per kg",
+        "detail": "What consolidated pickup really costs, from quotes and delivered weights."
+      },
+      {
+        "title": "Delays, rejections, failures",
+        "detail": "Late payments, rejected produce and transactions that fell through — recorded, not hidden."
+      },
+      {
+        "title": "Repeat usage",
+        "detail": "Whether farmers and buyers come back for the next harvest."
+      }
+    ],
+    "toBeMeasured": "To be measured"
+  },
+  "cta": {
+    "title": "Small harvests deserve <em>stronger</em> deals."
+  }
+}

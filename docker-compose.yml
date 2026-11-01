@@ -1,0 +1,97 @@
+# MandiMate — local infrastructure
+#
+#   docker compose up -d --wait db           # database only (the everyday development setup)
+#   docker compose --profile full up -d      # database + API + web, production-like on :8080
+#   docker compose --profile tools up -d     # adds the Adminer database browser on :8081
+#
+# The Makefile wraps all of these (`make db`, `make up`, `make adminer`). PostgreSQL is the
+# single stateful service; everything else can run on the host during development.
+#
+# Host ports are overridable without editing this file (shell variables or a root .env):
+#   MANDIMATE_DB_PORT (5432) · MANDIMATE_WEB_PORT (8080) · MANDIMATE_ADMINER_PORT (8081)
+
+name: mandimate
+
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: mandimate-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-mandimate}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-mandimate}
+      POSTGRES_DB: ${POSTGRES_DB:-mandimate}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "${MANDIMATE_DB_PORT:-5432}:5432"
+    volumes:
+      - mandimate-db-data:/var/lib/postgresql/data
+      # Runs once, on an empty volume: creates the mandimate_test database for pytest.
+      - ./infra/db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-mandimate} -d ${POSTGRES_DB:-mandimate}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    profiles: ["full"]
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: mandimate-api:local
+    container_name: mandimate-api
+    restart: unless-stopped
+    init: true
+    env_file:
+      # Same settings file as host development (AI_MODE, DEEPSEEK_API_KEY, JWT_SECRET, ...).
+      - path: ./backend/.env
+        required: false
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-mandimate}:${POSTGRES_PASSWORD:-mandimate}@db:5432/${POSTGRES_DB:-mandimate}
+      SITE_URL: ${MANDIMATE_SITE_URL:-http://localhost:8080}
+      # The API has no published port: clients reach it only through nginx (web), which
+      # overwrites X-Forwarded-For, so uvicorn may trust forwarding headers on this network.
+      FORWARDED_ALLOW_IPS: "*"
+    depends_on:
+      db:
+        condition: service_healthy
+    # No host port: the API is served through nginx at http://localhost:8080/api.
+    expose:
+      - "8000"
+    volumes:
+      - mandimate-media:/app/media
+
+  web:
+    profiles: ["full"]
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      additional_contexts:
+        nginx-config: ./infra/nginx
+      args:
+        VITE_SITE_URL: ${MANDIMATE_SITE_URL:-http://localhost:8080}
+    image: mandimate-web:local
+    container_name: mandimate-web
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "${MANDIMATE_WEB_PORT:-8080}:80"
+
+  adminer:
+    profiles: ["tools"]
+    image: adminer:4
+    container_name: mandimate-adminer
+    environment:
+      ADMINER_DEFAULT_SERVER: db
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "${MANDIMATE_ADMINER_PORT:-8081}:8080"
+
+volumes:
+  mandimate-db-data:
+  mandimate-media:
